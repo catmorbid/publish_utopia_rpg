@@ -19,6 +19,6 @@ Hahmonluonnin eri vaiheet lyhyesti. Voit poiketa järjestyksestä, mutta muista,
    2. Kykyjen kehittämiseen
    3. Erikoistumisiin
 11. Laske hahmon Varallisuusluokka ja osta **[Varusteet](Varusteet ja Varallisuus.md)** (älä unohda luotiliivejä!)
-12. Käytä **Kyberpisteet**, tai osta  **[Kybernetiikkaa](../4.%20Varusteet/Kybernetiikka.md)**
+12. Käytä **Kyberpisteet**, tai osta  **[Kybernetiikkaa](../Varusteet/Kybernetiikka.md)**
 13. Laske  **[Statistiikka](./Hahmot-Statistiikka.md)** ja merkitse **[Sisupisteet](./Hahmot-Sisu.md)**
 14. Valmis! Nyt voit aloittaa pelaamaan.
