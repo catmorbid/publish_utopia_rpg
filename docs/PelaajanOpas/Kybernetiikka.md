@@ -1,5 +1,5 @@
 ---
-title: 5. Kybernetiikka
+title: 5-Kybernetiikka
 share: true
 ---
 # Kybernetiikka
