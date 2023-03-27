@@ -1,5 +1,5 @@
 ---
-title: 3. Hahmot
+title: 3-Hahmot
 share: true
 ---
 # Hahmot

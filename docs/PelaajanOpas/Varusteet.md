@@ -1,5 +1,5 @@
 ---
-title: 4. Varusteet
+title: 4-Varusteet
 share: true
 ---
 # Varusteet ja Varallisuus

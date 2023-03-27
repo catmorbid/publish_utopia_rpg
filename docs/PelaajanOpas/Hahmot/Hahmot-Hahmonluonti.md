@@ -5,7 +5,7 @@ share: true
 
 Hahmonluonnin eri vaiheet lyhyesti. Voit poiketa järjestyksestä, mutta muista, että järjestyksellä tässä muodossa on syynsä, joten kannattaa ainakin kokeilla sitä niin kuin se on suunniteltu.
 
-1. Valitse **[Alkuperä](./Hahmot-Alkuperä.md)**
+1. Valitse **[Alkuperä](./Alkuperä/index.md)**
 2. Valitse  **[Erityispiirteet](./Hahmot-Erityispiirteet.md)**
 3. Generoi  **[Vika](./Hahmot-Viat.md)** (vapaaehtoista)
 4. Generoi **[Luontaiset Kyvyt](./Hahmot-Kyvyt.md)**
