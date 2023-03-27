@@ -1,5 +1,5 @@
 ---
-title: 1. Alustus
+title: 1-Alustus
 share: true
 ---
 # Mikä ihmeen Utopia?
