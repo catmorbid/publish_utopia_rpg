@@ -14,13 +14,13 @@ Tervetuloa lukemaan Utopia-roolipelin Pelaajan Opasta. Pelaajan opas on käsikir
 
 [Alustus](./Alustus.md)
 
-[Pelimekaniikka-Ydinmekaniikka](./Pelimekaniikka-Ydinmekaniikka.md)
+[Pelimekaniikka-Ydinmekaniikka](./Pelimekaniikka/Pelimekaniikka-Ydinmekaniikka.md)
 
-[Pelimekaniikka-Taistelut](./Pelimekaniikka-Taistelut.md)
+[Pelimekaniikka-Taistelut](./Pelimekaniikka/Pelimekaniikka-Taistelut.md)
 
-[Hahmot](./Hahmot.md)
+[Hahmot](./Hahmot/index.md)
 
-[Varusteet ja Varallisuus](./Varusteet%20ja%20Varallisuus.md)
+[[./Varusteet|Varusteet]]
 
 [Kybernetiikka](./Kybernetiikka.md)
 
