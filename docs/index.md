@@ -7,8 +7,8 @@ Utopia on roolipeli. Peliin kuuluu kolme kirjaa:
 - **Pelinjohtajan Opas**: Työkaluja pelinjohtamiseen
 - **Utopaedia**: Maailmakuvaus ja tietosanakirja.
 
-[[./Utopia-PelaajanOpas|Utopia-PelaajanOpas]]
+[[./PelaajanOpas/index|PelaajanOpas]]
 
-[[./Utopia-PelinjohtajanOpas|Utopia-PelinjohtajanOpas]]
+[[./PelinjohtajanOpas/index|PelinjohtajanOpas]]
 
-[[./Utopaedia|Utopaedia]]
+[[./Utopaedia/index|Utopaedia]]
