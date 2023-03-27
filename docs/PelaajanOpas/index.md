@@ -24,4 +24,4 @@ Tervetuloa lukemaan Utopia-roolipelin Pelaajan Opasta. Pelaajan opas on käsikir
 
 [Kybernetiikka](./Kybernetiikka.md)
 
-[Biomodifikaatio](Biomodifikaatio.md)
+[Biomodifikaatio](./Biomodifikaatio.md)
