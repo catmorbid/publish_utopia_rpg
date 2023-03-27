@@ -3,7 +3,7 @@ share: true
 ---
 # Taistelut
 
-Utopia sijoittuu äärimmäisen väkivaltaiseen maailmaan, jossa kaikki turhat lait on korvattu itsevaltiaiden mielivaltaisilla säännöillä, tai täydellisellä anarkialla. Pelaajien on syytä jo tässä vaiheessa ymmärtää, että taistelut tulevat olemaan merkittävä osa peliä, ja on oleellista on ymmärtää miten helppoa pelissä on kuolla, joten eiköhän aloiteta siitä! Jos haluat ensin tietää miten hahmoja luodaan, tai lukea muita sääntöjä, niin voit lukea eteenpäin [[../Hahmot/index|index]] osiosta, ja palata tänne, kun ei enää pelota. Mutta tulet kyllä tutustumaan tähän osioon, tavalla tai toisella.
+Utopia sijoittuu äärimmäisen väkivaltaiseen maailmaan, jossa kaikki turhat lait on korvattu itsevaltiaiden mielivaltaisilla säännöillä, tai täydellisellä anarkialla. Pelaajien on syytä jo tässä vaiheessa ymmärtää, että taistelut tulevat olemaan merkittävä osa peliä, ja on oleellista on ymmärtää miten helppoa pelissä on kuolla, joten eiköhän aloiteta siitä! Jos haluat ensin tietää miten hahmoja luodaan, tai lukea muita sääntöjä, niin voit lukea eteenpäin [[Hahmot]] osiosta, ja palata tänne, kun ei enää pelota. Mutta tulet kyllä tutustumaan tähän osioon, tavalla tai toisella.
 
 ## Vahinko ja vammautuminen
 
@@ -47,7 +47,7 @@ Vahinkoluokan perusteella saadaan Vahinkonoppa (ks. taulukko). Pelaajat voivat s
 | 11            | d12+d10      | 2    | 12        | 22   |
 | 12            | 2d12         | 2    | 13        | 24   |
 
-Pelaaja heittää yhden **vahinkonopan** per [[Pelimekaniikka-Taistelut#Osumat|Osumat]] ja laskee luvut yhteen. Jos vahinkonoppaan pätee **vahinkomuuttujia**, lisätään muuttujat kerrottuna osumien määrällä noppien summaan.
+Pelaaja heittää yhden **vahinkonopan** per [[#Osumat]] ja laskee luvut yhteen. Jos vahinkonoppaan pätee **vahinkomuuttujia**, lisätään muuttujat kerrottuna osumien määrällä noppien summaan.
 
 Vahinkoluokat seitsemästä (7) ylöspäin antavat toisen nopan. Tällöin heitetään kumpaakin noppaa osumien verran.
 
@@ -69,7 +69,7 @@ Jos vahinkoluokka on 0 tai pienempi, niin ase tekee minimivahinkoa. Minimivahink
 
 Kun hahmo ottaa vahinkoa, merkitään vahinko ylös **Haavapisteinä**. Jos haavapisteet on vähintään yhtä paljon kuin hahmon **Kuntopisteet (KP)**, niin hahmo menettää tajuntansa, mutta tokenee kunhan haavapisteitä on vähemmän kuin hahmon *Kuntopisteitä*.
 
-Jos hahmo ottaa kerralla tarpeeksi paljon vahinkoa, voi hän saada **Vammoja**. Vammarajat lasketaan hahmon muun [[../Hahmot/Hahmot-Statistiikka|Statistiikan]] mukana, ja niihin vaikuttaa hahmon [[../Hahmot/Hahmot-Statistiikka#Kestävyys|Kestävyys]].
+Jos hahmo ottaa kerralla tarpeeksi paljon vahinkoa, voi hän saada **Vammoja**. Vammarajat lasketaan hahmon muun [[Hahmot-Statistiikka|Statistiikan]] mukana, ja niihin vaikuttaa hahmon [[Hahmot-Statistiikka#Kestävyys|Kestävyys]].
 
 **Lievät Vammat** hankaloittavat elämää, mutta ovat yleensä helposti parannettavissa. Lievästä vammasta tulee aina -1 haitta toimiin kivusta.
 
@@ -77,7 +77,7 @@ Jos hahmo ottaa kerralla tarpeeksi paljon vahinkoa, voi hän saada **Vammoja**. 
 
 **Kuollettavat Vammat** aiheuttavat aina äkillisen kuoleman. Peli on ohi, eikun rollaamaan uutta hahmoa!
 
-Vammojen lisäksi hahmon kuntoa mitataan [[../Hahmot/Hahmot-Statistiikka#Kuntopisteet|Kuntopisteillä]], jotka määrittelevät kuinka pitkään hahmo pysyy toimintakykyisenä. Jos haavapisteitä on yhtä paljon tai enemmän kuin kuntopisteitä, niin hahmo menettää toimintakykynsä, eli useimmiten vaipuu tajuttomuuden tilaan.
+Vammojen lisäksi hahmon kuntoa mitataan [[Hahmot-Statistiikka#Kuntopisteet|Kuntopisteillä]], jotka määrittelevät kuinka pitkään hahmo pysyy toimintakykyisenä. Jos haavapisteitä on yhtä paljon tai enemmän kuin kuntopisteitä, niin hahmo menettää toimintakykynsä, eli useimmiten vaipuu tajuttomuuden tilaan.
 
 On PJ:n ja pelaajien välinen asia, mitä he tekevät tajuttomilla hahmoilla, mutta yleensä siitä voi toipua helpohkosti.
 
@@ -234,7 +234,7 @@ Hyökkäysheitot ratkaistaan testaamalla `Ampumataitoa`. Vaikeusasteena on hyök
 
 - **Ylimääräinen osuma**: +1 osuma per Rekyyli OM.
 - **Ylimääräinen kohde**: Saat jakaa osumia myös toiseen kohteeseen. Huom. vaatii vähintään 2 osumaa.
-- **Yliläpäisyn kohde:** 2 OM. Mikäli käytetään [[Pelimekaniikka-Taistelut#Yliläpäisy|Yliläpäisy]]-sääntöä, toissijainen kohde saa puolet ensisijaisen kohteen osumista.
+- **Yliläpäisyn kohde:** 2 OM. Mikäli käytetään [[#Yliläpäisy]]-sääntöä, toissijainen kohde saa puolet ensisijaisen kohteen osumista.
 - **Tarkka osuma**: +/- 1 vammaheiton tulokseen per 4 OM.
 
 > **Pahan Pekan tarina...**
@@ -409,7 +409,7 @@ Hahmo voi käyttää 1-5 toimintopistettä tähtäykseen, jolloin hän saa +1 pe
 Kannattaa käyttää vaikka noppa (D6 toimii tähän hyvin) merkitsemään muistiin paljonko toimintopisteitä olit jo käyttänyt tähtäykseen. Jos hahmo haluaa ampua ennen kuin on käyttäny kaikki aikomansa pisteet, tulee hänen tehdä Vaikea **Taisteluvalmius**-testi, jossa onnistuessaan hän saa muuttaa suunnitelmiaan.
 
 ### Kriittinen Tähtäys
-Hahmo voi yrittää tähdätä heikkoihin kohtiin kohteessa. Tämä on mahdollista vain, jos hahmo ampuu kertatulta, eli käyttää tulinopeutta 1, mutta myös jos hän ampuu [[Pelimekaniikka-Taistelut#Purskeet|Purskeita]]. Tähdätessään heikkoihin kohtiin, Pelinjohtaja määrää muutoksen vaikeusasteeseen, riippuen siitä kuinka vaikea kyseiseen kohtaan on tähdätä.
+Hahmo voi yrittää tähdätä heikkoihin kohtiin kohteessa. Tämä on mahdollista vain, jos hahmo ampuu kertatulta, eli käyttää tulinopeutta 1, mutta myös jos hän ampuu [[#Purskeet|Purskeita]]. Tähdätessään heikkoihin kohtiin, Pelinjohtaja määrää muutoksen vaikeusasteeseen, riippuen siitä kuinka vaikea kyseiseen kohtaan on tähdätä.
 
 Oletuksena vaikeusaste riippuu siitä millainen panssari kohteella on yllään.
 
@@ -425,7 +425,7 @@ Onnistuessaan heikkoon kohtaan tähdätty hyökkäys tekee automaattisesti kriit
 ### Yliläpäisy
 Jos oleellista, niin taistelussa voidaan huomioida **Yliläpäisy**, jolloin projektiilit voivat läpäistä yhden kohteen, ja osua toiseen kohteeseen sen takana. Yliläpäisy tapahtuu automaattisesti, mikäli aseessa on vähintään 1 piste läpäisyä jäljellä sen jälkeen kun läpäisy on vähentänyt panssarin nolliin. Tällöin ammus jatkaa matkaansa kohteen läpi, ja sen *efektiivinen läpäisy* on jäljellä oleva läpäisy.
 
-Osumat toissijaisiin kohteisiin voidaan ratkaista esim. *harhaluodeilla*, tai mikäli se on haluttu efekti, niin hyökkääjä voi käyttää [[Pelimekaniikka-Taistelut#Hyökkääminen|Hyökkäyksen]] **onnistumismarginaalia** ottaakseen ylimääräisen yliläpäisykohteen. Yliläpäisy voi jatkua myös toissijaisen kohteen jälkeen, mikäli vain läpäisyä riittää, mutta jokainen läpäisty kohde vähentää Läpäisyarvoa yhdellä.
+Osumat toissijaisiin kohteisiin voidaan ratkaista esim. *harhaluodeilla*, tai mikäli se on haluttu efekti, niin hyökkääjä voi käyttää [[#Hyökkääminen|Hyökkäyksen]] **onnistumismarginaalia** ottaakseen ylimääräisen yliläpäisykohteen. Yliläpäisy voi jatkua myös toissijaisen kohteen jälkeen, mikäli vain läpäisyä riittää, mutta jokainen läpäisty kohde vähentää Läpäisyarvoa yhdellä.
 
 > [!Example]
 > **Driver** on karaistunut NWFL Troggi, joka joutuu puolustamaan ryhmäänsä hyökkäävältä laumalta mutanttisusipetoja keskellä erämaata. Driver on ladannut automaattihaulikkoonsa APN Panssarineula-ammuksia, ja lataa sarjan kohti hyökkäävää laumaa. Koirat tulevat kivassa letkassa kahdessa rivissä, joten Driver pyrkii osumaan kahteen letkan ensimmäiseen. Hyökkäysheitosta tulee 15 ja kohteet ovat optimaalisella kantamalla, joten Driver osuu OM 7. Hän käyttää 4 OM saadakseen kumpaankin kohteeseen toissijaisen Yliläpäisykohteen. Jäljelle jäävällä OM 3 hän saa toisen osuman. Kohteilla on PL 1 ja ammuksissa on LL 3, joten yliläpäisyyn jää (3 - 1 (PL) - 1 (yliläpäisy)) LL 1. Ammuksissa on x6 osuma-kerroin joten kumpikin ensisijainen kohde ottaa 6d4 vahinkoa. Ensimmäinen peto ottaa 16 vahinkoa ja toinen 15 vahinkoa. kumpikin pedoista kuolee osumiin. Yliläpäisyn kohteet ottavat kumpikin 3 osumaa LL 1, mikä riittää läpäisemään panssarin PL 1, joten kumpikin ottaa 3d4 vahinkoa: 9 ja 6 mikä riittää vakvaan ja toinen lievään vammaan. Vamma-heitoista tulee 6, 9. Kaksi koirista kuolee, kolmas tipahtaa ja vuotaa kuiviin, mutta neljäs jatkaa matkaansa, vaikkakin haavoittuneena.
@@ -437,7 +437,7 @@ Lähitaistelussa hyökkäys ratkaistaan testaamalla **Taistelulajit**, tai **Nyr
 
 **Nyrkkitappo**-taidolla voi ainoastaan hyökätä, mutta hahmo voi toki yrittää **Väistää** hyökkäystä tekemällä **Väistäminen**-testin. Väistön tulos on tällöin hahmon uusi puolustus-arvo.
 
-**Taistelulajit**-taidolla voi pyrkiä myös tekemään **vastahyökkäyksen**, jolloin tehdäänkin [[./Pelimekaniikka-Ydinmekaniikka#Vastakkaistesti|vastakkaistesti]], jonka voittaja onnistuu hyökkäyksessä, oli hän sitten alunperin hyökkääjä, tai puolustaja.
+**Taistelulajit**-taidolla voi pyrkiä myös tekemään **vastahyökkäyksen**, jolloin tehdäänkin [[Pelimekaniikka-Ydinmekaniikka#Vastakkaistesti|vastakkaistesti]], jonka voittaja onnistuu hyökkäyksessä, oli hän sitten alunperin hyökkääjä, tai puolustaja.
 
 Hyvä onnistuminen mahdollistaa paremman lopputuloksen, ja hahmo voikin käyttää **Onnistumismarginaaliaan** seuraaviin efekteihin:
 
