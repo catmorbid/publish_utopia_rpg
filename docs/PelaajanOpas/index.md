@@ -12,10 +12,10 @@ Tervetuloa lukemaan Utopia-roolipelin Pelaajan Opasta. Pelaajan opas on käsikir
 
 ## Sisältö
 
-1. [[PelaajanOpas/Alustus/index|Alustus]]
+1. [[1. Alustus|Alustus]]
 
-2. [[Pelimekaniikka|Pelimekaniikka]]
+2. [[2. Pelimekaniikka|Pelimekaniikka]]
 
-3. [[Hahmot|Hahmot]]
+3. [[3. Hahmot|Hahmot]]
 
-4. [[Varusteet|Varusteet]]
+4. [[4. Varusteet|Varusteet]]
