@@ -12,16 +12,10 @@ Tervetuloa lukemaan Utopia-roolipelin Pelaajan Opasta. Pelaajan opas on käsikir
 
 ## Sisältö
 
-[Alustus](./Alustus.md)
+1. [[./Alustus|Alustus]]
 
-[Pelimekaniikka-Ydinmekaniikka](./Pelimekaniikka/Pelimekaniikka-Ydinmekaniikka.md)
+2. [[./Pelimekaniikka/index|Pelimekaniikka]]
 
-[Pelimekaniikka-Taistelut](./Pelimekaniikka/Pelimekaniikka-Taistelut.md)
+3. [Hahmot](./Hahmot/index.md)
 
-[Hahmot](./Hahmot/index.md)
-
-[[./Varusteet|Varusteet]]
-
-[Kybernetiikka](./Kybernetiikka.md)
-
-[Biomodifikaatio](./Biomodifikaatio.md)
+4. [[./Varusteet/index|Varusteet]]
