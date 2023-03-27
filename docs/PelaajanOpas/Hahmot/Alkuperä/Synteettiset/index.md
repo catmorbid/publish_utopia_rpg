@@ -8,3 +8,9 @@ Synteettiset alkuperät ovat keinotekoisia. Kenties olet joskus ollut ihminen, j
 > **!! HUOM !!**
 >
 > Synteettiset alkuperät tekevät hahmoista todella helposti ylivertaisia orgaanisiin alkuperiin nähden, joten jos haluat ns. reilua peliä, ei kannata sekoittaa synteettisiä ja orgaanisia alkuperiä. Synteettiset alkuperät ovat kuitenkin hyvä tapa aloittaa, jos porukassa on jo valmiiksi kokeneita hahmoja, tai mikäli epätasapaino ei pelaajaporukkaa haittaa.
+
+[[Alkuperä-Synteettiset-Kyborgi]]
+
+[[Alkuperä-Synteettiset-Androidi]]
+
+[[Alkuperä-Synteettiset-Eliitti]]
