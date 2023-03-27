@@ -1,5 +1,4 @@
 ---
-title: 2-Pelimekaniikka
 share: true
 ---
 
