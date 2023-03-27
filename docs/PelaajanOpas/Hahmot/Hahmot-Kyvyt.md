@@ -67,7 +67,7 @@ Oletuksena kyvyt määritellään käyttäen **Satunnaismenetelmää**, jossa m�
 1. Heitä 3D6 jokaisen kyvyn kohdalla. Noppien summa on kyvyn **lukema**. Lukemaa ei tarvita enää hahmonluonnin jälkeen, joten sen voi kirjata vaikka suttupaperille.
 2. Jos lukemien summa on vähemmän kuin 88, saat heittää kaikki uudestaan.
 3. Lisää lukemaan kykyyn tulleet muutokset **taustasta**. Lukema ei voi olla pienempi kuin 3, tai suurempi kuin 18.
-4. Katso **kykyarvo** lukeman perusteella taulukosta. Valitse oikea sarake hahmon **lahjakkuuden** mukaan, mihin vaikuttaa [[./Hahmot-Alkuperä|Alkuperä]] ja [[./Hahmot-Erityispiirteet|Erityispiirteet]]. Ellei mitään ole mainittu, käytä **Normaali**-saraketta.
+4. Katso **kykyarvo** lukeman perusteella taulukosta. Valitse oikea sarake hahmon **lahjakkuuden** mukaan, mihin vaikuttaa [[./Alkuperä/index|Alkuperä]] ja [[./Hahmot-Erityispiirteet|Erityispiirteet]]. Ellei mitään ole mainittu, käytä **Normaali**-saraketta.
 
 | 3D6 | ● Surkea | ●● Heikko | ●●● Normaali | ●●●● Vahva | ●●●●● Ylivertainen |
 | --- |:--------:|:---------:|:------------:|:----------:|:------------------:|
