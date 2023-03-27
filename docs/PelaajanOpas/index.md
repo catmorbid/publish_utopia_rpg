@@ -16,6 +16,6 @@ Tervetuloa lukemaan Utopia-roolipelin Pelaajan Opasta. Pelaajan opas on käsikir
 
 2. [[./Pelimekaniikka/index|Pelimekaniikka]]
 
-3. [Hahmot](./Hahmot/index.md)
+3. [[./Hahmot/index|Hahmot]]
 
 4. [[./Varusteet/index|Varusteet]]
