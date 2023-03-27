@@ -1,5 +1,5 @@
 ---
-title: 2. Pelimekaniikka
+title: 2-Pelimekaniikka
 share: true
 ---
 
