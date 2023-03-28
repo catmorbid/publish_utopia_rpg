@@ -1,7 +1,7 @@
 ---
 share: true
 ---
-## Ryhmittymä
+# Ryhmittymä
 
 Utopian maailma on täynnä erilaisia ryhmittymiä, joihin hahmo voi halutessaan kuulua, mikäli täyttää niiden asettamat **Vaatimukset**.
 

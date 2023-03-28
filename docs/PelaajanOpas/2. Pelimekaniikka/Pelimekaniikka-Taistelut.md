@@ -364,9 +364,9 @@ Jokainen kohde, joka on harhaluotien määrittämällä osuma-alueella on riskin
 | 21-30            | 3               |
 | 31-40 jne.       | 4               |
 
-Sen jälkeen heitä harhaluotinoppien verran D10 jokaista kohdetta vastaan, joka on osuma-alueella. Mikäli noppa näyttää harhaluodin **Osumalukua**, tai enemmän, niin hahmo saa yhden osuman. Osumaluku riippuu etäisyydestä. Ihan läheltä ammuttuna osumaluku on erittäin pieni, kun taas pitkän matkan päästä se on erittäin suuri.
+Sen jälkeen heitä harhaluotinopat (D10) jokaista kohdetta vastaan, joka on osuma-alueella. Mikäli noppa näyttää harhaluodin **kohdelukua**, tai enemmän, niin hahmo saa yhden osuman. Osumaluku riippuu etäisyydestä. Ihan läheltä ammuttuna osumaluku on melko pieni, kun taas pitkän matkan päästä se on erittäin suuri.
 
-| Harhaluodit / etäisyys | Osumaluku | 
+| Harhaluodit / etäisyys | Kohdeluku | 
 | ---------------------- | --------- |
 | 2 m tai alle           | 4         |
 | 3-4m                   | 5         |
@@ -378,16 +378,17 @@ Sen jälkeen heitä harhaluotinoppien verran D10 jokaista kohdetta vastaan, joka
 
 Heitä vahinko normaalisti per osuma. Saman kaliiperin aseiden harhaluodit kannattaa niputtaa yhteen, mutta eri kaliiperin aseet taas kannattaa heittää erikseen, koska niillä on ihan eri vahinko.
 
-Hahmo altistuu harhaluodeille mikäli liikkuu alueelle, jossa on juuri räiskitty paljon luoteja. Jos sillä on merkitystä, niin yleisesti ottaen voidaan ajatella, että alue on turvallinen ampujan seuraavaan toimintoon asti. Jos hahmo liikkuu usean harhaluotialueen läpi, niin hahmo voi ottaa yhden harhaluotihyökkäyksen per 5 metriä, jonka hän on alueella liikkunut.
+Hahmo altistuu harhaluodeille mikäli liikkuu alueelle, jossa on juuri räiskitty paljon luoteja. Jos sillä on merkitystä, niin yleisesti ottaen voidaan ajatella, että alue on **vaarallinen** ampujan seuraavaan toimintoon asti. Jos hahmo liikkuu usean harhaluotialueen läpi, niin hahmo voi ottaa joka alueella harhaluoteja.
 
 Hahmot, jotka ovat **suojassa** ovat automaattisesti turvassa harhaluodeilta.
 
 > **Esimerkki**
 > 
-> Neo on joutunut keskelle kahden katujengin tulitaistelua, ja piileskelee auton takana, kun huomaa, että Sinijäänarkkari ryntää häntä kohti suu sinisen vaahdon peitossa kirves kourassaan. Neo menee paniikkin, ja ryntää pakoon. Harmi vaan, että hän juoksee suoraan jengiläisten tulituksen keskelle.
+> Neo on joutunut keskelle kahden katujengin tulitaistelua, ja piileskelee auton takana, kun huomaa, että sivukujalta ilmestyvä sinijää-narkkari ryntää häntä kohti suu sinisen vaahdon peitossa kirves kourassaan. Neo menee paniikkin, ja ryntää pakoon. Harmi vaan, että hän juoksee suoraan jengiläisten tulituksen keskelle.
 > 
-> PJ toteaa, että alueella on juuri vaihdettu erittäin suuri määrä luoteja, ja päättää harhaluotein määräksi n. 50, josta tulee 5 harhaluotinoppaa. PJ heittä 5D10: 3, 7, 5, 9, 8. Ampujat ovat noin 15m päässä Neosta, jotan harhaluodin osumaluku on 7, eli Neo ottaa 3 osumaa! Osumien VL on 3, ja Neolla on PL 2 luotiliivit, joten hän saa 3D2 vahinkoa, josta tulee yhteensä 4 pistettä. Siitähän tulee lievä haava: 
+> PJ toteaa, että alueella on juuri vaihdettu erittäin suuri määrä luoteja, ja päättää harhaluotien määräksi n. 50, josta tulee 5 harhaluotinoppaa. PJ heittä 5D10: 3, 7, 5, 9, 8. Ampujat ovat noin 15m päässä Neosta, joten harhaluodin osumaluku on 7, eli Neo ottaa 3 osumaa! Osumien VL on 3, ja Neolla on PL 2 luotiliivit, joten hän saa 3D2 vahinkoa, josta tulee yhteensä 4 pistettä. Siitähän tulee lievä haava!
 > 
+> Koska sinijäänarkkari juokse Neon perään, niin tämäkin ottaa samanmoiset osumat: 10, 10, 6, 7, 1 - eli neljä (4) osumaa. Ilman panssaria tästä tulee 4D6 vahinkoa: PJ heittää 14 vahinkoa, mikä riittää vakavaan vammaan (Sinijää nostaa kestävyyttä melkoisesti). Narkkari ottaa osumaa polvilumpioon, ja tipahtaa, mutta jatkaa silti suu vaahdossa ryömien eteenpäin.
 
 ### Rekyyli
 

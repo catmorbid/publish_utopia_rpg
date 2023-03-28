@@ -1,7 +1,7 @@
 ---
 share: true
 ---
-## Kokoluokka
+# Kokoluokka
 
 Hahmolla voi olla Alkuperän tai muun tekijän ansiosta normaalista poikkeava kokoluokka. Fyysinen koko vaikuttaa siihen kuinka paljon Haavapisteitä hahmolla on, ja vaikuttaa myös hahmon kykyyn välttää osumia taistelussa.
 
