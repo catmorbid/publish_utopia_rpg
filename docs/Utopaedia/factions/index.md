@@ -38,6 +38,6 @@ share: true
 
 Ryhmittymä antaa +1 jokaiseen listattuun taitoon.
 
-[[Lahkot]]
+[[religious-orders]]
 
-[[Järjestöt]]
+[[organizations]]
