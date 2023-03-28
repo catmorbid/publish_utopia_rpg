@@ -1,7 +1,7 @@
 ---
 share: true
 ---
-# {Utopaedia}{Maantieto}
+# Maantieto
 
 ## Pohjois-Amerikka
 
