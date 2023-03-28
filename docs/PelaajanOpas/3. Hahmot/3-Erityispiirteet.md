@@ -63,7 +63,7 @@ Olet alkanut ymmärtää haltioiden todellisen tehtävän maan päällä, mikä 
 Sinulle on opetetty mystisen taistelulajin **Doi-K'han**:in salat, ja saat **Erikoistumisen** siihen. Erikoistumista ei voi normaalisti ostaa kokemuspisteillä.
 
 > [!info]
-> Huomaa, että jos kuulut lahkoon **[[Utopaedia-Ryhmittymät.md|E'Shara'n e'An-K'han]]**, saat tämän erikoistumisen lahkon etuna.
+> Huomaa, että jos kuulut lahkoon **[[Ryhmittymät|E'Shara'n e'An-K'han]]**, saat tämän erikoistumisen lahkon etuna.
 
 
 
