@@ -1,7 +1,7 @@
 ---
 share: true
 ---
-## Sisu
+# Sisu
 
 Hahmolla voi olla 0-5 sisupistettä, jotka kuvastavat hahmon tahdonvoimaa ja epätavannomaista kyvykkyyttä, mikä ilmenee epätoivoisissa tilanteissa. Sisupisteitä voi käyttää monin eri tavoin, ja PJ voi keksiä niille ihan omia käyttötarkoituksia vapaasti, silloin kun siltä tuntuu. Tässä kuitenkin eroteltuna joitain tyypillisiä käyttötapoja:
 
