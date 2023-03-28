@@ -13,4 +13,4 @@ Ryhmittymät jaetaan karkeasti kahteen eri kategoriaan: **Lahkoihin** ja **Järj
 
 **Järjestöillä** ei ole vakaumuksen kaltaista velvoitetta, mutta jokaisella niistä on **Agenda**, joka kertoo järjestön tavoitteista. Jos hahmon teot sotivat järjestön agendaa vastaan, voidaan häneen kohdistaa rangaistustoimenpiteitä, jotka lahkojen tavoin, saattavat olla melko brutaaleita. Järjestöt tapaavat olla vähän virallisempia kuin lahkot ja niihin kuuluminen voi usein edellyttää esimerkiksi jäsenmaksua.
 
-Lue lisää eri ryhmittymistä [[Utopaedia-Ryhmittymät|Utopaediasta]].
+Lue lisää eri ryhmittymistä [[Ryhmittymät|Utopaediasta]].
