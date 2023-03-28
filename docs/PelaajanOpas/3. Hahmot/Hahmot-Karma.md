@@ -1,7 +1,7 @@
 ---
 share: true
 ---
-## Karma
+# Karma
 
 Karma on yhdistelmä onnea, kohtaloa ja sitä mitä tuli tilattua. Karma kuvaa siis hahmon asemaa universumissa ja sen pyrkimyksessä kohti eräänlaista tasapainossa. Karma muuttuu hahmon tekojen mukaan: Kun hahmo tekee vittumaisia asioita, karma laskee, ja kun hän tekee nk. ”hyviä tekoja”, tai ennemminkin epäitsekkäitä ja henkiä säästäviä tekoja, karma nousee.
 
