@@ -68,11 +68,13 @@ Jos hahmolla ei ole taitoa, niin hän ei voi onnistua Kriittisesti, vaikka saisi
 | 4          | 0.01%   | 0.05% | 0.1%  | 0.3%  | 0.5% | 1%   | 1%   | 2%   | 2,5% | 3,5% |
 | 5          | 0.00%   | 0.01% | 0.02% | 0.04% | 0.1% | 0.2% | 0.3% | 0,4% | 0,6% | 1%   |
 
-## Vaikeusaste
+## Kohdeluku
 
-Lopullista lukemaa verrataan Pelinjohtajan asettamaan **Vaikeusasteeseen**. Jos lopputulos yltää vaikeusasteen lukemaan, toiminto onnistuu, muuten se epäonnistuu.
+Lopullista lukemaa verrataan toiminnon **kohdelukuun**. Jos lopputulos on vähintään yhtä paljon kuin *kohdeluku*, toiminto onnistuu.
 
-Taulukosta voit lukea yleisimmät vaikeusasteet, ja niihin liittyvän *kohdeluvun*, eli luvun, joka pitää saada noppaluvun ja kykymuuttujien summasta, sekä onnistumistodennäköisyyden taidolla 1-4. Huomaa, että jos kohdeluku menee yli 10, niin ilman etuja onnistumisen todennäköisyys on hyvin pieni, koska ainoa tapa onnistua on saada **kriittinen onnistuminen**.
+Kohdeluku voi määräytyä pelinjohtajan asettaman **vaikeusasteen** perusteella, tai esim. jonkun toisen hahmon, NPC:n, tai vihollisen toiminnon tuloksesta.
+
+Taulukosta voit lukea yleisimmät *vaikeusasteet*, ja niihin liittyvän *kohdeluvun*, sekä onnistumistodennäköisyyden taidolla 1-4.
 
 | Vaikeusaste     | Kohdeluku | Taito 0 | Taito 1 | Taito 2 | Taito 3 | Taito 4 | Taito 5 |
 | --------------- | --------- | ------- | ------- | ------- | ------- | ------- | ------- |
@@ -91,14 +93,16 @@ Taulukosta voit lukea yleisimmät vaikeusasteet, ja niihin liittyvän *kohdeluvu
 
 ## Onnistumisen Marginaali
 
-Joskus täytyy tietää kuinka hyvin toiminto onnistui. Tällöin voidaan laskea toiminnolle **Onnistumisen Marginaali**, eli **OM**. OM on yksinkertaisuudessaan: `[Toiminnon lopullinen Lukema]-[Vaikeusaste]`. OM 0 vastaa siis täpärää onnistumista, eli hahmo ylsi juuri ja juuri vaikeusasteeseen. Useimmiten meille kuitenkin riittään tietää ihan yksinkertaisesti onnistuiko vai ei.
+Joskus täytyy tietää kuinka hyvin toiminto onnistui. Tällöin voidaan laskea toiminnolle **Onnistumisen Marginaali**, eli **OM**. OM on yksinkertaisuudessaan: `[Toiminnon lopputulos]-[Kohdeluku]`. OM 0 vastaa siis täpärää onnistumista, eli hahmo yltää juuri ja juuri kohdelukuun. Useimmiten meille kuitenkin riittää tietää ihan yksinkertaisesti onnistuiko vai ei, jolloin täpäräkin onnistuminen on onnistuminen.
 
 ## Vastakkaistesti
 
-Kiinteän vaikeusasteen sijaan kaksi hahmoa voivat mitellä toisiaan vastaan, jolloin etsitään korkeampaa lopputulosta. Tällaista toimintoa kutsutaan **Vastakkaistestiksi**. Kumpikin osapuoli tekee oman testin, mutta testin vaikeusaste on tällöin vastustajan testin lopputulos, kummin päin tahansa tilannetta tutkailee, ja ainoastaan jompi kumpi voi voittaa. Kumpikin osapuoli lisää omat olosuhdemuuttujansa omaan testiinsä.
+Kiinteän vaikeusasteen sijaan kaksi hahmoa voivat mitellä toisiaan vastaan, jolloin etsitään korkeampaa lopputulosta. Tällaista toimintoa kutsutaan **Vastakkaistestiksi**. Kumpikin osapuoli tekee oman testin, mutta testin vaikeusaste on tällöin vastustajan testin lopputulos, kummin päin tahansa tilannetta tutkailee, ja ainoastaan paras tulos voittaa. Kumpikin osapuoli lisää omat olosuhdemuuttujansa omaan testiinsä.
 
-Jos kolme tai useampi hahmo mittelee keskenään, voidaan hahmot sijoittaa lopputuloksensa perusteella eri sijoituksille. Tällaisten tilanteiden ratkaisu voi olla hankalaa, joten soveltakaa omalla vastuulla!
+Tasatuloksella etu lasketaan yleensä *puolustajan* hyväksi, mutta myös *pattitilanne* on ihan mahdollinen lopputulos. Pelinjohtaja voi päättää, mikä tuntuu uskottavimmalta, tai hauskimmalta siinä tilanteessa.
+
+Jos kolme tai useampi hahmoa mittelee keskenään, voidaan hahmot sijoittaa lopputuloksensa perusteella eri sijoituksille. Tällaisten tilanteiden ratkaisu voi olla hankalaa, joten soveltakaa omalla vastuulla!
 
 ## Kykytesti
 
-Kykytestit ratkaistaan heittämällä **Kolmea** D10, ja pudottamalla **huonoimman** ja **parhaimman**, jolloin jäljelle jää keskinkertaisin noppa, ja lisäämällä tämän tulokseen kyvyn arvon. Kykytestiä voidaan käyttää ratkaisemaan yksinkertaisia toimintoja, joihin ei löydy järkevää taitoa.
+Kykytestit ratkaistaan heittämällä **Kolmea** D10, ja pudottamalla **huonoimman** ja **parhaimman**, jolloin jäljelle jää keskinkertaisin noppa, ja lisäämällä tämän tulokseen kyvyn arvon. Kykytestiä voidaan käyttää ratkaisemaan testejä, joihin ei löydy järkevää taitoa.
