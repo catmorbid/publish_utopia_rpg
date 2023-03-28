@@ -69,7 +69,7 @@ Jos vahinkoluokka on 0 tai pienempi, niin ase tekee minimivahinkoa. Minimivahink
 
 Kun hahmo ottaa vahinkoa, merkitään vahinko ylös **Haavapisteinä**. Jos haavapisteet on vähintään yhtä paljon kuin hahmon **Kuntopisteet (KP)**, niin hahmo menettää tajuntansa, mutta tokenee kunhan haavapisteitä on vähemmän kuin hahmon *Kuntopisteitä*.
 
-Jos hahmo ottaa kerralla tarpeeksi paljon vahinkoa, voi hän saada **Vammoja**. Vammarajat lasketaan hahmon muun [[Hahmot-Statistiikka|Statistiikan]] mukana, ja niihin vaikuttaa hahmon [[Hahmot-Statistiikka#Kestävyys|Kestävyys]].
+Jos hahmo ottaa kerralla tarpeeksi paljon vahinkoa, voi hän saada **Vammoja**. Vammarajat lasketaan hahmon muun [[13-Statistiikka|Statistiikan]] mukana, ja niihin vaikuttaa hahmon [[13-Statistiikka#Kestävyys|Kestävyys]].
 
 **Lievät Vammat** hankaloittavat elämää, mutta ovat yleensä helposti parannettavissa. Lievästä vammasta tulee aina -1 haitta toimiin kivusta.
 
@@ -77,7 +77,7 @@ Jos hahmo ottaa kerralla tarpeeksi paljon vahinkoa, voi hän saada **Vammoja**. 
 
 **Kuollettavat Vammat** aiheuttavat aina äkillisen kuoleman. Peli on ohi, eikun rollaamaan uutta hahmoa!
 
-Vammojen lisäksi hahmon kuntoa mitataan [[Hahmot-Statistiikka#Kuntopisteet|Kuntopisteillä]], jotka määrittelevät kuinka pitkään hahmo pysyy toimintakykyisenä. Jos haavapisteitä on yhtä paljon tai enemmän kuin kuntopisteitä, niin hahmo menettää toimintakykynsä, eli useimmiten vaipuu tajuttomuuden tilaan.
+Vammojen lisäksi hahmon kuntoa mitataan [[13-Statistiikka#Kuntopisteet|Kuntopisteillä]], jotka määrittelevät kuinka pitkään hahmo pysyy toimintakykyisenä. Jos haavapisteitä on yhtä paljon tai enemmän kuin kuntopisteitä, niin hahmo menettää toimintakykynsä, eli useimmiten vaipuu tajuttomuuden tilaan.
 
 On PJ:n ja pelaajien välinen asia, mitä he tekevät tajuttomilla hahmoilla, mutta yleensä siitä voi toipua helpohkosti.
 

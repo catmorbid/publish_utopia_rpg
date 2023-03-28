@@ -37,7 +37,7 @@ Vahva kyky = `+`, Ylivertainen kyky = `++`.
 
 ## Rajoite
 
-Androideilla on jokin rajoittava tekijä elämässään, tavallisten [[Hahmot-Ongelma|ongelmien]] sijaan.
+Androideilla on jokin rajoittava tekijä elämässään, tavallisten [[7-Ongelma|ongelmien]] sijaan.
 
 | d8   | Rajoite                    | Kuvaus                                                       |
 | ---- | -------------------------- | ------------------------------------------------------------ |

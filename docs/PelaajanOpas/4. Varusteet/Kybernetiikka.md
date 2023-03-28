@@ -122,7 +122,7 @@ Hahmo, jolla ei ole kyberneettisiä aivoja, tai kyberneettistä silmää, joutuu
 
 Implanteilla on aina **väliaikainen vaikutus**, lukuunottamatta Datasiruja, jotka nyt lähinnä varastoivat dataa. Mutta muut implantit, jotka antavat jonkin edun hahmolle vaativat aktiivista käyttöä, ja vaikutus kestää karkeasti ottaen yhden toiminnon ajan. Hahmo voi kuitenkin koska tahansa päättää, että hän käyttää implanttia, jopa juuri ennen toiminnon heittämistä.
 
-Joka kerta kun hahmo käyttää implanttia, hän saa yhden [[Hahmot-Kuormitus|Kuormituspisteen]], mikä kuvaa aivojen ylikuormittumista intensiivisen implanttien käytön seurauksena. 
+Joka kerta kun hahmo käyttää implanttia, hän saa yhden [[Kuormitus|Kuormituspisteen]], mikä kuvaa aivojen ylikuormittumista intensiivisen implanttien käytön seurauksena. 
 
 Implanttien suomat bonukset **eivät ole kasautuvia**, eli mikäli hahmolla on useampi implantti, joka vaikuttaa samaan piirteeseen, lasketaan ainoastaan **suurin** vaikuttava bonus. Ne ovat kuitenkin kasautuvia proteesien ja muiden tekijöihin vaikutuksiin nähden.
 
