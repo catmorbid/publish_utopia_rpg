@@ -1,7 +1,7 @@
 ---
 share: true
 ---
-# Luontaiset Kyvyt
+# Kyvyt
 
 Kyvyt kuvaavat luontaista lahjakkutta ja taipumusta eri osa-alueissa. Jotkuvat vain syntyvät erilaisiksi, joten kyvyt ovat vahvasti geneettiikkaan sidottuja, mutta voivat kuitenkin muuttua pelin aikana.
 
