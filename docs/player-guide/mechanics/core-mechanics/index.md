@@ -1,4 +1,5 @@
 ---
+category: player-guide/mechanics/core-mechanics
 share: true
 ---
 # Ydinmekaniikka

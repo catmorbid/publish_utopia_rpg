@@ -1,4 +1,5 @@
 ---
+category: player-guide/mechanics/combat
 share: true
 ---
 # Taistelut
