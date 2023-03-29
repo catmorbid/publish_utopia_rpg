@@ -13,49 +13,40 @@ Kuhunkin kykyyn vaikuttaa kaksi (2) muuttujaa:
 
 **Kykyarvo** kertoo kuinka hyvä hahmo on. Nolla on keskivertoihmisen kyvykkyys. Arvoa käytetään mm. **taitotesteissä** ja sillä on suurin merkitys siihen kuinka hyvä hahmo on jossakin asiassa. Arvo voi vaihdella -8 ja +10 välillä, mutta tyypillisellä ihmisellä vaihteluväli on -3 ja +3.
 
-## Fyysiset Kyvyt
+## Ruho
+Fyysinen voimakkuus ja urheilullisuus, Ruumiinrakenne ja kestävyys. Isompi ruho voi vihjata isompikokoiseen kaveriin, kun taas pieni ruho yleensä tarkoittaa suhteessa pienikokoisempaa yksilöä. Ruho on tärkeä ominaisuus lähitaistelussa, koska se antaa lisää vahinkoa iskuihin, mutta toisaalta se on kyllä hyvä ihan kaikille, koska se määrittää [[Statistiikka#Kestävyys|Kestävyyden]], joka parantaa henkiinjäämisen mahdollisuuksia.
 
-### Ruho
-Fyysinen voimakkuus ja urheilullisuus, Ruumiinrakenne ja kestävyys. Isompi ruho voi vihjata isompikokoiseen kaveriin, kun taas pieni ruho yleensä tarkoittaa suhteessa pienikokoisempaa yksilöä. Ruho on tärkeä ominaisuus lähitaistelussa, koska se antaa lisää vahinkoa iskuihin, mutta toisaalta se on kyllä hyvä ihan kaikille, koska se määrittää [[13-Statistiikka#Kestävyys|Kestävyyden]], joka parantaa henkiinjäämisen mahdollisuuksia.
+Ruhoon liittyvät taidot ovat: Nyrkkitappo, Urheilu, Karaistuminen ja Katu-uskottavuus.
 
-Ruhoon liittyvät taidot ovat: Nyrkkitappo, Karaistuminen ja Uhkailu.
+## Notku
+Notku kuvaa ketteryyttä, nopeutta ja liikkeen sulavuutta. Notku vaikuttaa [[Statistiikka#Liikenopeus|Liikenopeuteen]] ja korkea notku voi myös antaa lisää [[Statistiikka#Toimintopisteet|Toimintopisteitä]]. Se on tärkeä kyky urheilijoille ja akrobaateille, ja se tekee hahmosta paremman lähitaistelijan.
 
-### Notku
-Notku kuvaa ketteryyttä, nopeutta ja liikkeen sulavuutta. Notku vaikuttaa [[13-Statistiikka#Liikenopeus|Liikenopeuteen]] ja korkea notku voi myös antaa lisää [[13-Statistiikka#Toimintopisteet|Toimintopisteitä]]. Se on tärkeä kyky urheilijoille ja akrobaateille, ja se tekee hahmosta paremman lähitaistelijan.
+Notkuun liittyvät taidot ovat: Taistelulajit, Hiiviskely, Pako ja Seksi
 
-Notkuun liittyvät taidot ovat: Hiiviskely, Taistelulajit ja Urheilu.
+## Spiidi
+Spiidi kuvaa reaktioaikaa ja hoksottimia, kuinka nopeasti hahmo pystyy ajattelemaan ja reagoimaan yllättäviin tilanteisiin. Spiidiä käytetään kun hahmo haluaa reagoida äkillisiin tilanteisiin, tai kun pitää nopeasti keksiä toimivia ratkaisuja Tällaisia tilanteita ovat mm. aloite taistelussa, ja hyökkäysten väistäminen, mutta myös erilainen improvisointi. Korkea Spiidi voi myös antaa lisää [[Statistiikka#Toimintopisteet|Toimintopisteitä]]
 
-### Spiidi
-Spiidi on nopeutta! Kuinka nopeasti hahmo reagoi tilanteisiin. Spiidiä käytetään kun hahmo haluaa reagoida äkillisiin tilanteisiin. Tällaisia tilanteita ovat mm. aloite taistelussa, ja hyökkäysten väistäminen. Korkea Spiidi voi myös antaa lisää [[13-Statistiikka#Toimintopisteet|Toimintopisteitä]]
+Spiidiin liittyvät taidot ovat: Taisteluvalmius, Väistäminen, Väsääminen ja Esiintyminen
 
-Spiidiin liittyvät taidot ovat: Taisteluvalmius, Väistäminen ja Hämääminen.
+## Psyko
+Psyko on mielenlujuutta, itsekuria ja kykyä sietää stressiä. Psykolla siitä selviää. Se auttaa välttämään stressiä, ja se on elintärkeä kyky telepaateille, mutta myös rikollisille. korkea Psyko voi myös antaa lisää [[Statistiikka#Toimintopisteet|Toimintopisteitä]]
 
-### Pärstä
-Hahmon ulkoinen olemus, kauneus, viehättävyys ja kiehtovuus. Pärstäkertoimen mukaan menee moni sosiaalinen tilanne, eikä sitä kannata aliarvioida.
+Psykoon liittyvät taidot: Itsekuri, Hämärätyöt, PSI, Vaisto ja Uhkailu
 
-Pärstään liittyvät taidot ovat: Etiketti, Viettely ja Esiintyminen.
-
-## Henkiset Kyvyt
-
-### Psyko
-Psyko on mielenlujuutta, itsekuria ja kykyä sietää stressiä. Psykolla siitä selviää. Se auttaa välttämään stressiä, ja se on elintärkeä kyky telepaateille, mutta myös rikollisille. korkea Psyko voi myös antaa lisää [[13-Statistiikka#Toimintopisteet|Toimintopisteitä]]
-
-Psykoon liittyvät taidot: PSI, Hämärätyöt, Itsekuri, Empatia.
-
-### Data
+## Data
 Data mittaa hahmon matemaattista älyä, ja tietoa. Dataa hyödynnetään monissa teknisemmissä asioissa. Dataa voidaan testata mittaamaan yleistietoutta.
 
-Dataan liittyvät taidot: Teknologia, Lääketiede, Taktiikka ja Kybertaidot.
+Dataan liittyvät taidot: Taktiikka, Kybertaidot, Teknologia, Ensiapu ja Kaupankäynti.
 
-### Skarppi
-Skarppi on hahmon kyky havainnoida ja hahmottaa tilaa ja etäisyyttä. Skarppia käytetään ampumiseen, joten se on tärkeää useimmille hahmoille, jotka haluavat selvitä pelissä hengissä. 
+## Skarppi
+Skarppi on hahmon kyky havainnoida ja hahmottaa tilaa ja etäisyyttä. Skarppia käytetään ampumiseen, joten se on tärkeää useimmille hahmoille, jotka haluavat selvitä pelissä hengissä, mutta sitä voidaan testata jos on tärkeää havainnoida asioita.
 
-Skarppiin liittyvät taidot: Ampumataito, Ajotaito, Lentotaito, Eränkäynti.
+Skarppiin liittyvät taidot: Ampumataito, Ajotaito, Lentotaito, Eränkäynti, Empatia.
 
-### Karuus
-Karuus kuvaa hahmon sosiaalista kyvykkyyttä ja luovuutta. Se on tärkeä kyky Johtajille, taitelijoille, kulttijohtajille ja yleisneroille. Korkea Karuus voi myös antaa lisää [[13-Statistiikka#Toimintopisteet|Toimintopisteitä]]
+## Karuus
+Karuus kuvaa hahmon sosiaalista kyvykkyyttä ja luovuutta. Se on tärkeä kyky Johtajille, taitelijoille, kulttijohtajille ja yleisneroille. Korkea Karuus voi myös antaa lisää [[Statistiikka#Toimintopisteet|Toimintopisteitä]]
 
-Karuuteen liittyvät taidot: Johtaminen, Väsääminen, Katutieto, Vaikuttaminen.
+Karuuteen liittyvät taidot: Johtaminen, Harhauttaminen, Etiketti, Katutieto, Vaikuttaminen.
 
 ## Kyvyt Hahmonluonnissa
 Hahmoa luodessa voit määritellä kyvyt kahdella eri menetelmällä: Satunnaismenetelmällä, tai Pikamenetelmällä.
@@ -67,7 +58,7 @@ Oletuksena kyvyt määritellään käyttäen **Satunnaismenetelmää**, jossa m�
 1. Heitä 3D6 jokaisen kyvyn kohdalla. Noppien summa on kyvyn **lukema**. Lukemaa ei tarvita enää hahmonluonnin jälkeen, joten sen voi kirjata vaikka suttupaperille.
 2. Jos lukemien summa on vähemmän kuin 88, saat heittää kaikki uudestaan.
 3. Lisää lukemaan kykyyn tulleet muutokset **taustasta**. Lukema ei voi olla pienempi kuin 3, tai suurempi kuin 18.
-4. Katso **kykyarvo** lukeman perusteella taulukosta. Valitse oikea sarake hahmon **lahjakkuuden** mukaan, mihin vaikuttaa [[2-Alkuperä|Alkuperä]] ja [[3-Erityispiirteet|Erityispiirteet]]. Ellei mitään ole mainittu, käytä **Normaali**-saraketta.
+4. Katso **kykyarvo** lukeman perusteella taulukosta. Valitse oikea sarake hahmon **lahjakkuuden** mukaan, mihin vaikuttaa [[Alkuperä|Alkuperä]] ja [[Erityispiirteet|Erityispiirteet]]. Ellei mitään ole mainittu, käytä **Normaali**-saraketta.
 
 | 3D6 | ● Surkea | ●● Heikko | ●●● Normaali | ●●●● Vahva | ●●●●● Ylivertainen |
 | --- |:--------:|:---------:|:------------:|:----------:|:------------------:|
@@ -96,19 +87,11 @@ Voit kehittää kykyjä myös hahmonluonnissa, mikäli koet, että tarvitset vä
 > Esko määrittää Wasabin luontaiset kyvyt ja heittää joka kyvyn kohdalla 3D6.
 >
 > **Ruho** (Vahva) -> 14 (+3)
->
 > **Notku** (Vahva) -> 14(+3)
->
 > **Spiidi** -> 12 (+1)
->
-> **Pärstä** -> 8 (-1)
->
 > **Psyko** (Vahva) -> = 9 (+0)
->
 > **Data** -> 7 (-1)
->
 > **Skarppi** (Vahva) -> 12 (+2)
->
 > **Karuus** -> 14 (+1)
 >
 > Wasabin Psykoon tuli taustasta -3, ja hän sai siihen luvun 12, joten Psykon lopullinen lukema tippuu 9:ään ja sen arvoksi tulee +0.
@@ -118,24 +101,25 @@ Voit kehittää kykyjä myös hahmonluonnissa, mikäli koet, että tarvitset vä
 
 Jos et tykkää heittää noppia, niin voit käyttää **pikamenetelmää**. Pikamenetelmällä valiset yhden seuraavista lukusarjoista, ja käytät ilmoitettuja **lukemia** siinä järjestyksessä kykyihin.
 
-| D12 | Nimi     | Ruho | Notku | Spiidi | Pärstä | Psyko | Data | Skarppi | Karuus |
-| --- | -------- | ---- | ----- | ------ | ------ | ----- | ---- | ------- | ------ |
-| 1   | Ruhjoja  | 16   | 12    | 12     | 10     | 10    | 8    | 10      | 10     |
-| 2   | Tonttu   | 6    | 16    | 16     | 10     | 10    | 10   | 10      | 10     |
-| 3   | Elvis    | 12   | 10    | 10     | 12     | 8     | 10   | 10      | 16     |
-| 4   | Nörtti   | 8    | 10    | 8      | 10     | 14    | 16   | 14      | 8      |
-| 5   | Chad     | 12   | 12    | 12     | 12     | 10    | 8    | 10      | 12     |
-| 6   | Samantha | 8    | 10    | 10     | 16     | 10    | 8    | 10      | 16     |
-| 7   | Angus    | 8    | 8     | 10     | 10     | 10    | 16   | 10      | 16     |
-| 8   | John     | 14   | 12    | 12     | 14     | 8     | 8    | 14      | 6      |
-| 9   | Lara     | 8    | 14    | 10     | 13     | 10    | 13   | 10      | 10     |
-| 10  | Simo     | 10   | 12    | 10     | 10     | 12    | 10   | 16      | 8      |
-| 11  | Sigmund  | 10   | 10    | 8      | 10     | 16    | 14   | 12      | 8      |
-| 12  | Karl     | 16   | 8     | 8      | 10     | 16    | 8    | 10      | 12     |
+| D12 | Nimi     | Ruho | Notku | Spiidi | Psyko | Data | Skarppi | Karuus |
+|-----|----------|------|-------|--------|-------|------|---------|--------|
+| 1   | Ruhjoja  | 16   | 12    | 12     | 10    | 8    | 10      | 10     |
+| 2   | Tonttu   | 6    | 16    | 16     | 10    | 10   | 10      | 10     |
+| 3   | Elvis    | 12   | 10    | 14     | 8     | 10   | 10      | 14     |
+| 4   | Gandalf  | 8    | 10    | 8      | 14    | 16   | 14      | 8      |
+| 5   | Chad     | 14   | 14    | 12     | 8     | 8    | 10      | 12     |
+| 6   | Samantha | 8    | 15    | 12     | 10    | 8    | 10      | 15     |
+| 7   | Angus    | 8    | 8     | 14     | 10    | 14   | 10      | 14     |
+| 8   | John     | 14   | 14    | 14     | 8     | 8    | 14      | 6      |
+| 9   | Lara     | 8    | 14    | 10     | 10    | 13   | 10      | 13     |
+| 10  | Simo     | 10   | 12    | 10     | 12    | 10   | 16      | 8      |
+| 11  | Sigmund  | 10   | 10    | 8      | 16    | 14   | 12      | 8      |
+| 12  | Karl     | 16   | 8     | 8      | 16    | 8    | 10      | 12     |
+
 
 ## Kykyjen Kehittäminen
 
-Kykyjä voi yrittää nostaa kokemuspisteillä. Maksamalla ==3 kokemuspistettä== per nostoyritys. Nostoyrityksen lopputulos ei koskaan ole taattu, vaan kyky voi myös laskea:
+Kykyjä voi yrittää nostaa kokemuspisteillä. Maksamalla `3 kokemuspistettä` per nostoyritys. Nostoyrityksen lopputulos ei koskaan ole taattu, vaan kyky voi myös laskea:
 
 - Katso **kohdeluku** taulukosta: Katso rivi Nykyisen **Arvo** mukaan, ja sarake **Lahjakkuuden** mukaan.
 - Heitä 3D6 ja vertaa kehityslukuun: jos tulos on vähintään yhtä suuri kuin katsomasi **kohdeluku**, niin kyky **nousee** yhdellä (+1).

@@ -27,7 +27,7 @@ Hahmosi saa yhden ylimääräisen sisupisteen. Kolmella pisteellä saat kaksi yl
 
 ### Vaikeasti tapettava (2p)
 
-Olet ulkoiseen olemukseesi nähden äärimmäisen sitkeä ja vaikeasti tapettava yksilö. Saat +4 [[13-Statistiikka#Kestävyys]]. Muista ottaa huomioon kokoluokkasi HP-kerroin. Jos saat vakavan vamman, joka aiheuittaisi kuolemasi, on sinulla on 50% mahdollisuus jäädä henkiin, mutta menetät silti tajuntasi ja olet poissa pelistä vähän aikaa ainakin, ja kärsit tällöin kuitenkin vastaavanlaisen lievän vamman.
+Olet ulkoiseen olemukseesi nähden äärimmäisen sitkeä ja vaikeasti tapettava yksilö. Saat +4 [[Statistiikka#Kestävyys]]. Muista ottaa huomioon kokoluokkasi HP-kerroin. Jos saat vakavan vamman, joka aiheuittaisi kuolemasi, on sinulla on 50% mahdollisuus jäädä henkiin, mutta menetät silti tajuntasi ja olet poissa pelistä vähän aikaa ainakin, ja kärsit tällöin kuitenkin vastaavanlaisen lievän vamman.
 
 ### Varakas (1p/3p)
 

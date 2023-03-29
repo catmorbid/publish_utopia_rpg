@@ -9,19 +9,23 @@ Pelaajien varallisuus määräytyy varallisuusluokan perusteella. *Oletuksena* h
 
 Varallisuuteen kuuluu kaikki hahmon omaisuus, tavallisia vaatteita, tai joitain vähäisiä henkilökohtaisia esineitä lukuunottamatta. Mikäli hahmo siis haluaa omistaa asunnon, tai ajoneuvon, aseen, tai luoteja aseeseen, on kaikesta maksettava erikseen.
 
-| Varallisuusluokka | Aloitusrahat |
-| ----------------- | ------------ |
-| 0                 | 1000 CR      |
-| 1                 | 3000 CR      |
-| 2 (oletus)        | 6000 CR      |
-| 3                 | 10 000 CR    |
-| 4                 | 15 000 CR    |
-| 5                 | 20 000 CR    |
-| 6                 | 30 000 CR    |
-| 7                 | 45 000 CR    |
-| 8                 | 60 000 CR    |
-| 9                 | 75 000 CR    |
-| 10                | 100 000 CR   |
+| Varallisuusluokka | Aloitusrahat | Päivätulot | Viikkotulot |
+| ----------------- | ------------ | ---------- | ----------- |
+| 0                 | 1000 CR      | 20         | 100         |
+| 1                 | 3000 CR      | 60         | 300         |
+| 2 (oletus)        | 6000 CR      | 120        | 600         |
+| 3                 | 10 000 CR    | 200        | 1000        |
+| 4                 | 15 000 CR    | 300        | 1500        |
+| 5                 | 20 000 CR    | 400        | 2000        |
+| 6                 | 30 000 CR    | 600        | 3000        |
+| 7                 | 45 000 CR    | 900        | 4500        |
+| 8                 | 60 000 CR    | 1200       | 6000        |
+| 9                 | 75 000 CR    | 1500       | 7500        |
+| 10                | 100 000 CR   | 2000       | 10000       | 
+
+Tulot lasketaan ammattiin vaikuttavien taitojen perusteella: Ota keskiarvo ammattiin vaikuttavista taidoista, josta saat keskimääräiset hahmon tulot.
+
+Tuloista vähennetään kaikki menot, kuten asuminen ja muu, ja kaiken lisäksi se edellyttää, että hahmoilla on jokin työ, jota he voivat tehdä. Tulot voidaan huomioida, jos pelataan pitkiä aikoja suvantoa, mutta työllisyystilanne on on silti eri asia.
 
 > Wasabin tarina...
 >
