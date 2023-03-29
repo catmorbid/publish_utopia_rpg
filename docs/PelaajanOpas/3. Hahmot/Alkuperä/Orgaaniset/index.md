@@ -2,7 +2,7 @@
 share: true
 title: Orgaaniset Alkuperät
 ---
-Kaikki orgaaniset alkuperät saavat **1 [[14-Sisu|Sisupisteen]]**.
+Kaikki orgaaniset alkuperät saavat **1 [[Sisu|Sisupisteen]]**.
 
 > **Pelintekijän muistiinpanoja:**
 >
