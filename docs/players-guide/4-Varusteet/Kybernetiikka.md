@@ -53,7 +53,7 @@ Jos hahmolla on käytössään kybernetiikkapisteitä, hän voi käyttää niit�
 
 Kybernetiikka parantaa suorituskykyä ja tekee hahmosta paremman, kestävämmän ja tehokkaamman olennon. Tällainen äkillinen voiman lisäys on addiktiivista ja hullaannuttavaa. Turmelus kuvaa hahmon vähentynyttä ihmisyyttä kyberneettisten osien lisäilyn seurauksena, jossa kyseessä on pohjimmiltaan voimakas addiktio ja sen aiheuttamat odottamattoman seurakset psyykeeseen.
 
-Voit lukea lisää turmeluksen seurauksista, eli **kyberraivosta** [[Alkuperä-Synteettiset-Kyborgi#Kyber Raivo|Kyborgin alkuperä]] -osiosta. Vaikka kyborgi todennäköisesti on ja heti alttiina kyberraivolle, niin kaikki hahmot voivat riittävästi turmellusta saatuaan altistua näille seurauksille.
+Voit lukea lisää turmeluksen seurauksista, eli **kyberraivosta** [[Kyborgi#Kyber Raivo|Kyborgin alkuperä]] -osiosta. Vaikka kyborgi todennäköisesti on ja heti alttiina kyberraivolle, niin kaikki hahmot voivat riittävästi turmellusta saatuaan altistua näille seurauksille.
 
 ## Proteesit
 
