@@ -23,9 +23,7 @@ Varallisuuteen kuuluu kaikki hahmon omaisuus, tavallisia vaatteita, tai joitain 
 | 9                 | 75 000 CR    | 1500       | 7500        |
 | 10                | 100 000 CR   | 2000       | 10000       | 
 
-Tulot lasketaan ammattiin vaikuttavien taitojen perusteella: Ota keskiarvo ammattiin vaikuttavista taidoista, josta saat keskimääräiset hahmon tulot.
 
-Tuloista vähennetään kaikki menot, kuten asuminen ja muu, ja kaiken lisäksi se edellyttää, että hahmoilla on jokin työ, jota he voivat tehdä. Tulot voidaan huomioida, jos pelataan pitkiä aikoja suvantoa, mutta työllisyystilanne on on silti eri asia.
 
 > Wasabin tarina...
 >
@@ -46,6 +44,12 @@ Tuloista vähennetään kaikki menot, kuten asuminen ja muu, ja kaiken lisäksi 
 > Hän valitsee käytetyn Urban Soldier -moottoripyörän, josta maksaa 6000CR. Ajoneuvo sisältää täyden tankin, joten polttoaineista ei tarvitse huolehtia. Ensiapuun hän ostaa 5 kpl MediMedi -parannusruiskeita (1500 CR). Lopuksi hän ostaa 50 CR hintaisen matkapuhelimen, jolla pystyy käyttämään Utopian palveluita, ja hänelle jää jäljelle 950 CR käyttörahaa. Esko toteaa, että se on ihan hyvä määrä, koska jotain kuluja varmasti tulee pelin aikana.
 >
 > Esko pohtii millaista on Wasabin elämä. Wasabilla ei ole asuntoa, eikä vaihtovaatteita, eikä mitään merkittävää omaisuutta lukuunottamatta sitä mitä hän kantaa yllään, ja moottoripyörä. Yöt hän viettää satunnaisissa motelleissa, tai kadulla, mikäli vaikuttaa tuvalliselta. Matkapuhelimella hän pääsee käsiksi Utopian palveluihin ja voi esimerkiksi etsiä työkeikkoja. Paikalliset MERC toimistot ovat myös aina auki ja työtähän riittää tekijälle. 
+
+## Tulot
+
+**Tulot** lasketaan [[Ammatit|Ammattiin]] vaikuttavien taitojen perusteella: Ota keskiarvo ammattiin vaikuttavista taidoista, ja käytä tätä Varallisuusluokkana. Jos kuulut ryhmittymään, niin tarkista ryhmittymän kuvauksesta millaisia tuloja se tarjoaa. Vaikka olet ryhmittymässä, voit silti harjoittaa jotakin ammattia sivubisneksenä, jolloin tulot riippuvat ammatista, jota pyrit harjoittamaan.
+
+Tuloista vähennetään kaikki menot, kuten asuminen ja muu, ja kaiken lisäksi se edellyttää, että hahmoilla on jokin työ, jota he voivat tehdä. Tulot voidaan huomioida, jos pelataan pitkiä aikoja suvantoa, mutta työllisyystilanne on on silti eri asia.
 
 ## TEK-Taso
 
