@@ -1,7 +1,7 @@
 ---
 share: true
 ---
-# Hahmot
+# 3. Hahmot
 Tässä osioissa käsitellään hahmojen piirteet, sekä hahmonluonti. Seuraa ohjeita, ja [[Hahmonluonti|hahmonluonti]] käy kätevästi.
 
 Hahmot rakentuvat erilaisista **ominaisuuksista**, jotka kuvaavat hahmon [[Taustatarina|taustatarinaa]], [[Kyvyt|kyvykkyyttä]], [[Taidot|taitoja]] ja [[Erityispiirteet|erityispiirteitä]], sekä liuta erilaisia laskettuja ominaisuuksia, jotka johdetaan muiden ominaisuuksien lukemista. Hahmon persoonallisuus on näistä irrallinen, ja täysin pelaajan päätettävissä, mutta neuvokas pelaaja toki ammentaa näistä ominaisuuksista paljon inspiraatiota hahmonsa luonteeseen. Hahmonluonti tapahtuu vaiheissa, jolloin määritellään kaikki ominaisuudet sopivassa järjestyksessä. Hahmonluonnissa käytetään noppia ominaisuuksien määrittelemiseen. Voit kuitenkin keskustella pelinjohtajan kanssa, jos haluat valita jonkin tietyn ominaisuuden hahmollesi.

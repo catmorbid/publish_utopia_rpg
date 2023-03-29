@@ -56,7 +56,7 @@ Hahmoa luodessa voit määritellä kyvyt kahdella eri menetelmällä: Satunnaism
 Oletuksena kyvyt määritellään käyttäen **Satunnaismenetelmää**, jossa määritellään ensin kyvyn **lukema** heittämällä noppia.
 
 1. Heitä 3D6 jokaisen kyvyn kohdalla. Noppien summa on kyvyn **lukema**. Lukemaa ei tarvita enää hahmonluonnin jälkeen, joten sen voi kirjata vaikka suttupaperille.
-2. Jos lukemien summa on vähemmän kuin 88, saat heittää kaikki uudestaan.
+2. Jos lukemien summa on vähemmän kuin 78, saat heittää kaikki uudestaan.
 3. Lisää lukemaan kykyyn tulleet muutokset **taustasta**. Lukema ei voi olla pienempi kuin 3, tai suurempi kuin 18.
 4. Katso **kykyarvo** lukeman perusteella taulukosta. Valitse oikea sarake hahmon **lahjakkuuden** mukaan, mihin vaikuttaa [[Alkuperä|Alkuperä]] ja [[Erityispiirteet|Erityispiirteet]]. Ellei mitään ole mainittu, käytä **Normaali**-saraketta.
 
@@ -108,10 +108,10 @@ Jos et tykkää heittää noppia, niin voit käyttää **pikamenetelmää**. Pik
 | 3   | Elvis    | 12   | 10    | 14     | 8     | 10   | 10      | 14     |
 | 4   | Gandalf  | 8    | 10    | 8      | 14    | 16   | 14      | 8      |
 | 5   | Chad     | 14   | 14    | 12     | 8     | 8    | 10      | 12     |
-| 6   | Samantha | 8    | 15    | 12     | 10    | 8    | 10      | 15     |
+| 6   | Samantha | 8    | 14    | 12     | 10    | 8    | 10      | 16     |
 | 7   | Angus    | 8    | 8     | 14     | 10    | 14   | 10      | 14     |
 | 8   | John     | 14   | 14    | 14     | 8     | 8    | 14      | 6      |
-| 9   | Lara     | 8    | 14    | 10     | 10    | 13   | 10      | 13     |
+| 9   | Lara     | 8    | 14    | 10     | 10    | 14   | 10      | 12     |
 | 10  | Simo     | 10   | 12    | 10     | 12    | 10   | 16      | 8      |
 | 11  | Sigmund  | 10   | 10    | 8      | 16    | 14   | 12      | 8      |
 | 12  | Karl     | 16   | 8     | 8      | 16    | 8    | 10      | 12     |
