@@ -14,13 +14,13 @@ PP
 
 KEST
 
-`10 + Ruho`. Laske yhteen kaikki muuttujat, ja lopuksi kerro [[#kokoluokka|Kokoluokan]] mukaisella **Kestävyys-kertoimella**.  
+`10 + Ruho`. Laske yhteen kaikki muuttujat, ja lopuksi kerro [[Statistiikka#kokoluokka|Kokoluokan]] mukaisella **Kestävyys-kertoimella**.  
 
 Kestävyys määrittää kuinka paljon vahinkoa hahmon täytyy ottaa yhdellä kertaa ennen kuin tuhoutuu välittömästi, ilman mahdollisuutta selviytyä. Kestävyyden mukaan määritellän raja-arvot vammautumiselle:
 
-**Vakava vamma**: `Kestävyys / 2 (pyöristä alas)`.  Vakava vamma määrittää kuinka monta haavapistettä hahmon pitää ottaa yhdestä hyökkäyksestä, että se aiheuttaa Vakavan Vamman. ks. [[#Vahinko ja vammautuminen|Vammautuminen]].
+**Vakava vamma**: `Kestävyys / 2 (pyöristä alas)`.  Vakava vamma määrittää kuinka monta haavapistettä hahmon pitää ottaa yhdestä hyökkäyksestä, että se aiheuttaa Vakavan Vamman. ks. [[Statistiikka#Vahinko ja vammautuminen|Vammautuminen]].
 
-**Lievä vamma**: `Kestävyys / 4 (pyöristä alas)` .  Lievä vamma määrittää kuinka monta haavapistettä hahmon pitää ottaa yhdestä hyökkäyksestä, että se aiheuttaa Lievän Vamman. ks. [[#Vahinko ja vammautuminen|Vammautuminen]].
+**Lievä vamma**: `Kestävyys / 4 (pyöristä alas)` .  Lievä vamma määrittää kuinka monta haavapistettä hahmon pitää ottaa yhdestä hyökkäyksestä, että se aiheuttaa Lievän Vamman. ks. [[Statistiikka#Vahinko ja vammautuminen|Vammautuminen]].
 
 ## Kuntopisteet
 
