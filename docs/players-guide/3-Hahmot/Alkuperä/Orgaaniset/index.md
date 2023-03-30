@@ -2,7 +2,7 @@
 share: true
 title: Orgaaniset Alkuperät
 ---
-Kaikki orgaaniset alkuperät saavat **1 [[Sisu|Sisupisteen]]**.
+Kaikki orgaaniset alkuperät saavat **1 [[../../Sisu|Sisupisteen]]**.
 
 > **Pelintekijän muistiinpanoja:**
 >
@@ -14,14 +14,14 @@ Kaikki orgaaniset alkuperät saavat **1 [[Sisu|Sisupisteen]]**.
 > - Pienikokoinen -1 piste, Suuri 2 pistettä
 > - Sekalaiset edut ja haitat pääsääntöisesti kumoavat toisensa
 
-[[Ihminen]]
+[[./Ihminen|Ihminen]]
 
-[[Haltia]]
+[[./Haltia|Haltia]]
 
-[[Kaapio|Kääpiö]]
+[[./Kaapio|Kääpiö]]
 
-[[Telepaatti]]
+[[./Telepaatti|Telepaatti]]
 
-[[Orkki|Troggi]]
+[[./Orkki|Troggi]]
 
-[[Peikko|Sumo-Troggi]]
+[[./Peikko|Sumo-Troggi]]

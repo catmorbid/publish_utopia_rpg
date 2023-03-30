@@ -13,7 +13,7 @@ Kybernetiikka kuitenkin sotkee päänupin ja tekee käyttäjistään epätasapai
 
 - Kyborgit luovat hahmon ensin ihan normaalisti, valiten alkuperänsä mistä tahansa orgaanisesta alkuperästä, mutta käytössäolevat erikoisuuspisteet laskevat kolmella.
 - Lopuksi kyborgit saavat 20 **kybernetiikkapistettä**, joilla voivat ostaa kyberneettisiä osia ja implantteja.
-- Kyborgien [[Sisu|Sisu]] on alussa 0, mutta sen voi nostaa korkeintaan 2:een. Kyborgi voi käyttää **Sisupisteitä** estääkseen Kyberraivoa.
+- Kyborgien [[../../Sisu|Sisu]] on alussa 0, mutta sen voi nostaa korkeintaan 2:een. Kyborgi voi käyttää **Sisupisteitä** estääkseen Kyberraivoa.
 
 ## Kyber Raivo
 

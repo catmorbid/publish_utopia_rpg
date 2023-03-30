@@ -38,6 +38,6 @@ share: true
 
 Ryhmittymä antaa +1 jokaiseen listattuun taitoon.
 
-[[religious-orders]]
+[[./religious-orders|religious-orders]]
 
-[[organizations]]
+[[./organizations|organizations]]

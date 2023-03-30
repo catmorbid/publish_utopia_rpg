@@ -6,7 +6,7 @@ Hahmot, jotka eivät kuulu mihinkään ryhmittymään, voivat hankkia itselleen 
 
 Ammatin opiskelu on vaatinut yleensä muutaman vuoden elämästäsi, mutta sen seurauksena olet oppinut käteviä taitoja.
 
-Jokainen ammatti sisältää neljä taitoa, joihin saat jokaiseen saat +1 taitoasteen. Ammatin avulla voit tienata elantosi silloin kun on luppoaikaa: Katso [[4-Varusteet#Tulot|Tulot]] varusteista ja varallisuudesta.
+Jokainen ammatti sisältää neljä taitoa, joihin saat jokaiseen saat +1 taitoasteen. Ammatin avulla voit tienata elantosi silloin kun on luppoaikaa: Katso [[../4-Varusteet/index#Tulot|Tulot]] varusteista ja varallisuudesta.
 
 | Ammatti            | Taidot                                                |
 |--------------------|-------------------------------------------------------|
