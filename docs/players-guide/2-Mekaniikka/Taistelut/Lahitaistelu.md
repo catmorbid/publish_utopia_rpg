@@ -8,7 +8,7 @@ Lähitaistelussa hyökkäys ratkaistaan testaamalla **Taistelulajit**, tai **Nyr
 
 **Nyrkkitappo**-taidolla voi ainoastaan hyökätä, mutta hahmo voi toki yrittää **Väistää** hyökkäystä tekemällä **Väistäminen**-testin. Väistön tulos on tällöin hahmon uusi puolustus-arvo.
 
-**Taistelulajit**-taidolla voi pyrkiä myös tekemään **vastahyökkäyksen**, jolloin tehdäänkin [[Ydinmekaniikka#Vastakkaistesti|vastakkaistesti]], jonka voittaja onnistuu hyökkäyksessä, oli hän sitten alunperin hyökkääjä, tai puolustaja.
+**Taistelulajit**-taidolla voi pyrkiä myös tekemään **vastahyökkäyksen**, jolloin tehdäänkin [[../Ydinmekaniikka#Vastakkaistesti|vastakkaistesti]], jonka voittaja onnistuu hyökkäyksessä, oli hän sitten alunperin hyökkääjä, tai puolustaja.
 
 Hyvä onnistuminen mahdollistaa paremman lopputuloksen, ja hahmo voikin käyttää **Onnistumismarginaaliaan** seuraaviin efekteihin:
 
