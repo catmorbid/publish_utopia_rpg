@@ -20,9 +20,10 @@ Hyökkäysheitot ratkaistaan testaamalla `Ampumataitoa`. Vaikeusasteena on hyök
 
 ### Kantama
 
-Aseen kantama määrittää hyökkäyksen perusvaikeusasteen. Kantama voidaan ilmoittaa muodossa `A-B` tai pelkkä `B`. Jälkimmäinen numero, tai ainoastaan yksi numero kertoo aseen **Optimaalisen Kantaman**, kun taas kaksi numeroa tarkoittaa, että ensimmäinen on **Minimikantama**, ja vasta toinen lukema optimalinen kantama.
-
-Jos hahmo on lähempänä kuin **minimikantama**, on asetta vaikea käyttää hyökkäykseen, ja hyökkäyksen vaikeusaste on 10.
+Aseen kantama määrittää hyökkäyksen perusvaikeusasteen. Kantama voidaan ilmoittaa muodossa `A/B-C` tai pelkkä `B-C`, jossa:
+`A` = minimikantama. Asetta on vaikea käyttää ja hyökkäyksen vaikeusaste on 14.
+`B` = Optimaalinen kantama.
+`C` = Maksimikantama. Yleensä 16x optimaalinen kantama. Tämän jälkeen vahinko puolitettaan.
 
 | Kantama                | Etäisyys (korkeintaan)              | Vaikeusaste | 50m  |
 | ---------------------- | ----------------------------------- | ----------- | ---- |
@@ -55,26 +56,16 @@ Tuliaseita vastaan on hankala puolustautua, ja vaihtoehtoja on käytännössä k
 
 #### Väistöliikkeet
 Hahmo voi yrittää tehdä itsestään hankalamman kohteen käyttämällä 1 toimintopisteen ja testaamalla **Väistöliikkeet** -taitoa. Testin lopputulos on tällöin uusi vaikeusaste kaikille hyökkäyksille kohdetta vastaan, mutta vaikeusaste on kuitenkin *vähintään* kantaman mukainen perusvaikeusaste.
-Väistöliikkeet on voimassa hahmon seuraavan vuoroon asti.
+Väistöliikkeet on voimassa kunnes hahmo toimii seuraavaksi. Väistöliikkeitä voi tehdä myös **Reaktiona**, jolloin hahmo viivyttää seuraavaa vuoroaan puolustautumalla.
 
 #### Suojautuminen
 Paras tapa suojautua tuliaseilta on hakeutua suojaan. Suoja on kuitenkin parhaimmillaankin väliaikainen, mutta voi tarjota pienen hengähdyksen tiukan tulitaistelun keskellä.
 
-**Suoja** kestää aina tietyn määrän osumia, ja jokainen osuma hahmoon osuu suojaan, mikäli hahmo on suojassa. Suojalla on **Panssariluokka**. Mutta sitä ei käytetä vahingon laskemiseen, vaan ainoastaan sen laskemiseen, että vahingoittaako osuma suojaa vai ei. Jos PL on suurempi kuin aseen VL, niin ase ei vahingoita suojaa lainkaan.
+**Suoja** tekee osumisesta kohteeseen vaikeampaa, ja tämän lisäksi, mikäli hyökkäys ei osu kohteeseen suojan takia, niin suoja vahingoittuu. Kun suoja on vahingoittunut tarpeeksi, sen luokitus laskee. Suojan kunnon laskemiseen voi käyttää vaikka erilaisia pelimerkkejä.
 
-Lisäksi suojalla voi olla **Kovuus**-arvo. Jos Aseen läpäisy ylittää Kovuus-arvon, niin suoja ei tehoa yhtä hyvin. Yleensä suoja kuitenkin auttaa vähentämään osumien määrää ihan vaan sillä, että se estää näkyvyyden kohteeseen, joten vaikka ammukset läpäisevät suojan, vain puolet osumista lasketaan. Jos hyökkääjä pystyy näkemään suojan materiaalin läpi, niin hänellä on silloin etulyöntiasema, ja kaikki osumat lasketaan normaalisti, jos ammus läpäisee suojan.
-
-| Suoja                  | Osumat | PL  | Läpäisy |
-| ---------------------- | ------ | --- | ------- |
-| Puunrunko              | 15     | 1   | 1       |
-| Auton ovi              | 5      | 1   | 0       |
-| Kokonainen auto        | 30     | 2   | 2       |
-| Flipattu toimistopöytä | 10     | 1   | 0       |
-| Flipattu Metallipöytä  | 10     | 2   | 2       |
-| Betoniporsas           | 10     | 3   | 2       |
-| Betonipylväs           | 15     | 3   | 3       |
-| Betoniseinä            | 20     | 4   | 3       |
-| Paksu teräsovi         | 30     | 5   | 4       |
+- **Kevyt** Suoja: -2 osumiseen. Jos vahingoittuu, niin tuhoutuu.
+- **Kohtalainen** suoja: -4 osumiseen. Voi vahingoittua 2 kertaa ennen kuin heikkenee.
+- **Raskas** Suoja: -6 osumiseen. Voi vahingoittua 3 kertaa ennen kuin heikkenee.
 
 ### Tulinopeus
 
