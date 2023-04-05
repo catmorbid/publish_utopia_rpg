@@ -41,7 +41,7 @@ Vahinkoluokan perusteella saadaan Vahinkonoppa (ks. taulukko). Pelaajat voivat s
 | 11            | d12+d10      | 2    | 12        | 22   |
 | 12            | 2d12         | 2    | 13        | 24   |
 
-Pelaaja heittää yhden **vahinkonopan** per [[Haavoittuminen#Osumat|Osumat]] ja laskee luvut yhteen: summa on hyökkäyksen lopullinen vahinko. Jos vahinkonoppaan pätee **vahinkomuuttujia**, lisätään muuttujat kerrottuna osumien määrällä noppien summaan.
+Pelaaja heittää yhden **vahinkonopan** per [[Vahinkoluokka#Osumat|Osumat]] ja laskee luvut yhteen: summa on hyökkäyksen lopullinen vahinko. Jos vahinkonoppaan pätee **vahinkomuuttujia**, lisätään muuttujat kerrottuna osumien määrällä noppien summaan.
 
 Vahinkoluokat seitsemästä (7) ylöspäin antavat toisen nopan. Tällöin heitetään kumpaakin noppaa osumien verran.
 

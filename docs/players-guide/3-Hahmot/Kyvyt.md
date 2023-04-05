@@ -13,43 +13,43 @@ Kuhunkin kykyyn vaikuttaa kaksi (2) muuttujaa:
 
 **Kykyarvo** kertoo kuinka hyvä hahmo on. Nolla on keskivertoihmisen kyvykkyys. Arvoa käytetään mm. **taitotesteissä** ja sillä on suurin merkitys siihen kuinka hyvä hahmo on jossakin asiassa. Arvo voi vaihdella -8 ja +10 välillä, mutta tyypillisellä ihmisellä vaihteluväli on -3 ja +3.
 
-## Ruho
+### Ruho
 Fyysinen voimakkuus ja urheilullisuus, Ruumiinrakenne ja kestävyys. Isompi ruho voi vihjata isompikokoiseen kaveriin, kun taas pieni ruho yleensä tarkoittaa suhteessa pienikokoisempaa yksilöä. Ruho on tärkeä ominaisuus lähitaistelussa, koska se antaa lisää vahinkoa iskuihin, mutta toisaalta se on kyllä hyvä ihan kaikille, koska se määrittää [[./Statistiikka#Kestävyys|Kestävyyden]], joka parantaa henkiinjäämisen mahdollisuuksia.
 
 Ruhoon liittyvät taidot ovat: Nyrkkitappo, Urheilu, Karaistuminen ja Katu-uskottavuus.
 
-## Notku
+### Notku
 Notku kuvaa ketteryyttä, nopeutta ja liikkeen sulavuutta. Notku vaikuttaa [[./Statistiikka#Liikenopeus|Liikenopeuteen]] ja korkea notku voi myös antaa lisää [[./Statistiikka#Toimintopisteet|Toimintopisteitä]]. Se on tärkeä kyky urheilijoille ja akrobaateille, ja se tekee hahmosta paremman lähitaistelijan.
 
 Notkuun liittyvät taidot ovat: Taistelulajit, Hiiviskely, Pako ja Seksi
 
-## Spiidi
+### Spiidi
 Spiidi kuvaa reaktioaikaa ja hoksottimia, kuinka nopeasti hahmo pystyy ajattelemaan ja reagoimaan yllättäviin tilanteisiin. Spiidiä käytetään kun hahmo haluaa reagoida äkillisiin tilanteisiin, tai kun pitää nopeasti keksiä toimivia ratkaisuja Tällaisia tilanteita ovat mm. aloite taistelussa, ja hyökkäysten väistäminen, mutta myös erilainen improvisointi. Korkea Spiidi voi myös antaa lisää [[./Statistiikka#Toimintopisteet|Toimintopisteitä]]
 
 Spiidiin liittyvät taidot ovat: Taisteluvalmius, Väistäminen, Väsääminen ja Esiintyminen
 
-## Psyko
+### Psyko
 Psyko on mielenlujuutta, itsekuria ja kykyä sietää stressiä. Psykolla siitä selviää. Se auttaa välttämään stressiä, ja se on elintärkeä kyky telepaateille, mutta myös rikollisille. korkea Psyko voi myös antaa lisää [[./Statistiikka#Toimintopisteet|Toimintopisteitä]]
 
 Psykoon liittyvät taidot: Itsekuri, Hämärätyöt, PSI, Vaisto ja Uhkailu
 
-## Data
+### Data
 Data mittaa hahmon matemaattista älyä, ja tietoa. Dataa hyödynnetään monissa teknisemmissä asioissa. Dataa voidaan testata mittaamaan yleistietoutta.
 
 Dataan liittyvät taidot: Taktiikka, Kybertaidot, Teknologia, Ensiapu ja Kaupankäynti.
 
-## Skarppi
+### Skarppi
 Skarppi on hahmon kyky havainnoida ja hahmottaa tilaa ja etäisyyttä. Skarppia käytetään ampumiseen, joten se on tärkeää useimmille hahmoille, jotka haluavat selvitä pelissä hengissä, mutta sitä voidaan testata jos on tärkeää havainnoida asioita.
 
 Skarppiin liittyvät taidot: Ampumataito, Ajotaito, Lentotaito, Eränkäynti, Empatia.
 
-## Karuus
+### Karuus
 Karuus kuvaa hahmon sosiaalista kyvykkyyttä ja luovuutta. Se on tärkeä kyky Johtajille, taitelijoille, kulttijohtajille ja yleisneroille. Korkea Karuus voi myös antaa lisää [[./Statistiikka#Toimintopisteet|Toimintopisteitä]]
 
 Karuuteen liittyvät taidot: Johtaminen, Harhauttaminen, Etiketti, Katutieto, Vaikuttaminen.
 
 ## Kyvyt Hahmonluonnissa
-Hahmoa luodessa voit määritellä kyvyt kahdella eri menetelmällä: Satunnaismenetelmällä, tai Pikamenetelmällä.
+Hahmoa luodessa voit määritellä kyvyt käyttäen yhtä seuraavaksi esitellyistä menetelmistä.
 
 ### Satunnaismenetelmä
 
@@ -99,32 +99,50 @@ Voit kehittää kykyjä myös hahmonluonnissa, mikäli koet, että tarvitset vä
 
 ### Pikamenetelmä
 
-Jos et tykkää heittää noppia, niin voit käyttää **pikamenetelmää**. Pikamenetelmällä valiset yhden seuraavista lukusarjoista, ja käytät ilmoitettuja **lukemia** siinä järjestyksessä kykyihin.
+Jos et tykkää heittää noppia, niin voit käyttää **pikamenetelmää**. Pikamenetelmällä heität 3D20, joista valitset yhden luvun. Noppaluku antaa puolestaan yhden lukusarjan, jossa on määritelty **lukemat**, joita sinun tulee käyttää kunkin kyvyn kohdalla. Tähän päälle sitten lisäät lukeemiin tulevat muutokset taustasta jne. ja katsot lopulta kykyarvon normaalisti taulukon perusteella.
 
-| D12 | Nimi     | Ruho | Notku | Spiidi | Psyko | Data | Skarppi | Karuus |
-|-----|----------|------|-------|--------|-------|------|---------|--------|
-| 1   | Ruhjoja  | 16   | 12    | 12     | 10    | 8    | 10      | 10     |
-| 2   | Tonttu   | 6    | 16    | 16     | 10    | 10   | 10      | 10     |
-| 3   | Elvis    | 12   | 10    | 14     | 8     | 10   | 10      | 14     |
-| 4   | Gandalf  | 8    | 10    | 8      | 14    | 16   | 14      | 8      |
-| 5   | Chad     | 14   | 14    | 12     | 8     | 8    | 10      | 12     |
-| 6   | Samantha | 8    | 14    | 12     | 10    | 8    | 10      | 16     |
-| 7   | Angus    | 8    | 8     | 14     | 10    | 14   | 10      | 14     |
-| 8   | John     | 14   | 14    | 14     | 8     | 8    | 14      | 6      |
-| 9   | Lara     | 8    | 14    | 10     | 10    | 14   | 10      | 12     |
-| 10  | Simo     | 10   | 12    | 10     | 12    | 10   | 16      | 8      |
-| 11  | Sigmund  | 10   | 10    | 8      | 16    | 14   | 12      | 8      |
-| 12  | Karl     | 16   | 8     | 8      | 16    | 8    | 10      | 12     |
+| D20 | Nimi       | Ruho | Notku | Spiidi | Psyko | Data | Skarppi | Karuus |
+|-----|------------|------|-------|--------|-------|------|---------|--------|
+| 1   | Ruhjoja    | 16   | 12    | 12     | 10    | 10   | 10      | 8      |
+| 2   | Notkuilija | 12   | 16    | 12     | 10    | 10   | 8       | 10     |
+| 3   | Gonzales   | 10   | 12    | 16     | 12    | 8    | 10      | 10     |
+| 4   | Psyko      | 9    | 10    | 12     | 16    | 12   | 10      | 9      |
+| 5   | Data       | 10   | 10    | 8      | 12    | 16   | 12      | 10     |
+| 6   | Skarppi    | 10   | 8     | 10     | 10    | 12   | 16      | 12     |
+| 7   | Karuus     | 8    | 10    | 10     | 10    | 12   | 12      | 16     |
+| 8   | Rambo      | 14   | 12    | 10     | 10    | 10   | 14      | 8      |
+| 9   | Jeesus     | 8    | 10    | 10     | 14    | 12   | 10      | 14     |
+| 10  | Ninja      | 10   | 14    | 14     | 12    | 10   | 10      | 8      |
+| 11  | Chad       | 14   | 12    | 10     | 6     | 10   | 12      | 14     |
+| 12  | Nero       | 8    | 10    | 14     | 8     | 14   | 10      | 14     |
+| 13  | Tyson      | 14   | 14    | 14     | 12    | 8    | 8       | 8      |
+| 14  | Zen        | 10   | 10    | 6      | 18    | 10   | 10      | 10     |
+| 15  | Hyper      | 10   | 6     | 18     | 10    | 10   | 10      | 10     |
+| 16  | Tonttu     | 6    | 18    | 10     | 10    | 10   | 10      | 10     |
+| 17  | Idiootti   | 18   | 10    | 10     | 10    | 6    | 10      | 10     |
+| 18  | Paranoidi  | 10   | 10    | 10     | 6     | 10   | 18      | 10     |
+| 19  | Autisti    | 10   | 10    | 10     | 10    | 18   | 10      | 6      |
+| 20  | Narsisti   | 10   | 10    | 10     | 10    | 10   | 6       | 18     |
+
+### Pistemenetelmä
+Pistemenetelmä antaa pelaajille maksimaalisen vapauden hahmonluontiin. Tämä johtaa yleensä min-maxattuihin munchkineihin, joten menetellmä on mahdollista ainoastaan, mikäli pelinjohtaja näin antaa.
+
+Pistemenetelmässä pelaajalla on käytösssään 75 pistettä, jotka hänen voi jakaa vapaasti eri kykyjensä kesken, seuraavilla rajoituksilla:
+- Yksikään kyky ei voi olla **pienempi kuin 6**
+- Yksikään kyky ei voi olla **suurempi kuin 16**.
 
 
 ## Kykyjen Kehittäminen
 
-Kykyjä voi yrittää nostaa kokemuspisteillä. Maksamalla `3 kokemuspistettä` per nostoyritys. Nostoyrityksen lopputulos ei koskaan ole taattu, vaan kyky voi myös laskea:
+Hahmonluonnin jälkeen kykyjä voi yrittää nostaa kokemuspisteillä. Maksamalla `3 kokemuspistettä` per nostoyritys. Nostoyrityksen lopputulos ei koskaan ole taattu, vaan kyky voi myös laskea:
 
-- Katso **kohdeluku** taulukosta: Katso rivi Nykyisen **Arvo** mukaan, ja sarake **Lahjakkuuden** mukaan.
-- Heitä 3D6 ja vertaa kehityslukuun: jos tulos on vähintään yhtä suuri kuin katsomasi **kohdeluku**, niin kyky **nousee** yhdellä (+1).
-- Jos tulos on **3 (1, 1, 1)** niin kyky laskee yhdellä
-- Jos tulos on **18 (6, 6, 6)** niin kyky nousee kahdella(2)! Senkin onnekas paskiainen!
+- Katso **kohdeluku** taulukosta:
+	- Katso rivi Nykyisen **Arvo** mukaan
+	- Katso sarake **Lahjakkuuden** mukaan.
+- Heitä 3D6 ja vertaa kehityslukuun:
+	- Jos tulos on vähintään yhtä suuri kuin katsomasi **kohdeluku**, niin kyky **nousee** yhdellä (+1).
+	- Jos tulos on **3 (1, 1, 1)** niin kyky laskee yhdellä. Paska mäihä. (1/216)
+	- Jos tulos on **18 (6, 6, 6)** niin kyky nousee kahdella(2)! Senkin onnekas paskiainen (1/216)!
 
 | Nykyinen Arvo | ● Surkea | ●● Heikko | ●●● Normaali | ●●●● Vahva | ●●●●● Ylivertainen | 
 | ------------- | -------- | --------- | ------------ | ---------- | ------------------ |

@@ -6,7 +6,11 @@ Hahmot, jotka eivät kuulu mihinkään ryhmittymään, voivat hankkia itselleen 
 
 Ammatin opiskelu on vaatinut yleensä muutaman vuoden elämästäsi, mutta sen seurauksena olet oppinut käteviä taitoja.
 
-Jokainen ammatti sisältää neljä taitoa, joihin saat jokaiseen saat +1 taitoasteen. Ammatin avulla voit tienata elantosi silloin kun on luppoaikaa: Katso [[../4-Varusteet/index#Tulot|Tulot]] varusteista ja varallisuudesta.
+Jokainen ammatti sisältää neljä taitoa, joihin saat jokaiseen saat +1 taitoasteen. Ammatin avulla voit tienata elantosi silloin kun on luppoaikaa: Katso [[../4-Varusteet/index#Tulot|Tulot]] varusteista ja varallisuudesta. Kaikissa ammateissa TEK ja Varallisuusluokka on oletuksena 2.
+
+Hahmolla on pelin alussa 30% mahdollisuus olla sillä hetkellä työsuhteessa, jolloin hän saa +1 Varallisuusluokkaan, tai esim. työhön liittyviä varusteita, kuten asustusta, aseistusta, ajoneuvon tai erilaista laitteistoa; ja/tai muita etuja, kuten asunnon, metrokortin, tai alennuksen työnantajan tarjoamista palveluista. Edut on pelinjohtajan kanssa sovittavissa.
+
+Muussa tapauksessa hän on rahapulan takia joutunut panttaamaan mahdolliset varusteet, ja joutuu elämään niillä mitä saa normaalin varallisuuten puitteissa.
 
 | Ammatti            | Taidot                                                |
 |--------------------|-------------------------------------------------------|
@@ -24,6 +28,7 @@ Jokainen ammatti sisältää neljä taitoa, joihin saat jokaiseen saat +1 taitoa
 | Motoristi          | Ajotaito, Karaistuminen, Nyrkkitappo, Väsääminen      |
 | Neuvottelija       | Empatia, Etiketti, Kaupankäynti, Vaikuttaminen        |
 | Palkkionmetsästäjä | Ajotaito, Katutieto, Kybertaidot, Taistelulajit       |
+| Portsari           | Empatia, Katu-uskottavuus, Taistelulajit, Uhkailu     |
 | Pukumies           | Esiintyminen, Kaupankäynti, Uhkailu, Vaisto           |
 | Seuralainen        | Empatia, Seksi, Urheilu, Vaikuttaminen                |
 | Sotilas            | Ampumataito, Itsekuri, Karaistuminen, Taisteluvalmius |
@@ -34,3 +39,4 @@ Jokainen ammatti sisältää neljä taitoa, joihin saat jokaiseen saat +1 taitoa
 | Varas              | Hämärätyöt, Harhauttaminen, Hiiviskely, Katutieto     |
 | Vartija            | Etiketti, Taistelulajit, Uhkailu, Vaikuttaminen       |
 | VR-urheilija       | Esiintyminen, Itsekuri, Kybertaidot, Taisteluvalmius  |
+
