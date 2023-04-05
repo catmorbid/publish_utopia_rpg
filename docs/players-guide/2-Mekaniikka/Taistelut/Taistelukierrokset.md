@@ -9,11 +9,36 @@ Aloitetta varten testataan **Taistelureaktiot**-taitoa. Paras lukema voittaa. Al
 
 Ensimmäisen **toiminnon** jälkeen edetään siinä järjestyksessä kenellä on eniten **toimintopisteitä**. Jos hahmoilla on saman verran toimintopisteitä, voit verrata hahmojen Spiidi-kykyä, ja toimia suurimman Spiidin mukaisessa järjestyksessä. Jos yhdellä hahmolla on niin paljon toimintopisteitä, että hän on jatkuvasti muita taistelijoita edellä, saa hän tosiaan toimia aina kun hänellä on eniten toimintopisteitä. Tämä voi kuulostaa epäreilulta, mutta niin se vaan menee.
 
+```mermaid
+flowchart TD
+
+    A[Taistelu alkaa] -->|Määritä Aloite| B
+
+    B[Voittaja saa ensimmäisen toiminnon] -->|+2 Etu toimintoon| C
+
+    C[Toiminnon julistus] -->|Vähennä Toimintopisteet| D[Toiminnon Ratkaisu]    
+
+    D -->|Suorita Testi| E[Määritä lopputulos]
+
+    E -->F{Onko taistelu ohi?}    
+
+    F -->|Ei toimintopisteitä|H[Uusi kierros]
+
+    F -->|Ei toimintakykyisiä vastustajia/pelaajia|I[Lopetus]
+
+    F -->|Toimijoita jäljellä|G[Seuraava toimija]
+
+    G -->|Kenellä on eniten toimintopisteitä?|C
+```
+
+
 Jokaisen toiminnon jälkeen hahmo vähentää toimintopisteistään toiminnon pistemäärän verran. Niin sanottu "standardi" toiminto on 2 pistettä. Tämä antaisi keskivertohahmolle 2 toimintoa joka kierroksessa.
 
 Toimintopisteitä voi **säästää**: Jokainen 2 säästettyä toimintopistettä säästää ensikierrokselle yhden toimintopisteen.
 
 Uuden kierroksen alettua hahmon toimintopisteet nollautuvat lukemaan: Toimintopisteet + Säästetyt toimintopisteet / 2.
+
+Joitain toiminta voi myös tehdä **Reaktioina**, jolloin toiminnon voi julistaa kesken toisen hahmon vuoroa, esimerkiksi puolustautuakseen. Hahmolla pitää tällöin olla riittävä määrä toimintopisteitä käytettävissä. Tekemällä reaktion hän myös viivyttää seuraavaa toimintoaan, koska hänellä on seuraavaksi vähemmän toimintopisteitä käytössään.
 
 | Toiminto         | TP  | Kuvaus                                    | Testi                             |
 | ---------------- | --- | ----------------------------------------- | --------------------------------- |
