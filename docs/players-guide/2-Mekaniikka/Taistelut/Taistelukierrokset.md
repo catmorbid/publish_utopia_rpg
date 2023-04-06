@@ -16,11 +16,11 @@ flowchart TD
 
     B[Voittaja saa ensimmäisen toiminnon] -->|+2 Etu toimintoon| C
 
-    C[Toiminnon julistus] -->|Vähennä Toimintopisteet| D[Toiminnon Ratkaisu]    
+    C[Toiminnon julistus] -->|Vähennä Toimintopisteet| D[Toiminnon Ratkaisu]
 
     D -->|Suorita Testi| E[Määritä lopputulos]
 
-    E -->F{Onko taistelu ohi?}    
+    E -->F{Onko taistelu ohi?}
 
     F -->|Ei toimintopisteitä|H[Uusi kierros]
 
