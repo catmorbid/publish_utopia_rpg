@@ -11,23 +11,14 @@ Ensimmäisen **toiminnon** jälkeen edetään siinä järjestyksessä kenellä o
 
 ```mermaid
 flowchart TD
-
     A[Taistelu alkaa] -->|Määritä Aloite| B
-
     B[Voittaja saa ensimmäisen toiminnon] -->|+2 Etu toimintoon| C
-
     C[Toiminnon julistus] -->|Vähennä Toimintopisteet| D[Toiminnon Ratkaisu]
-
     D -->|Suorita Testi| E[Määritä lopputulos]
-
     E -->F{Onko taistelu ohi?}
-
     F -->|Ei toimintopisteitä|H[Uusi kierros]
-
     F -->|Ei toimintakykyisiä vastustajia/pelaajia|I[Lopetus]
-
     F -->|Toimijoita jäljellä|G[Seuraava toimija]
-
     G -->|Kenellä on eniten toimintopisteitä?|C
 ```
 
@@ -40,15 +31,19 @@ Uuden kierroksen alettua hahmon toimintopisteet nollautuvat lukemaan: Toimintopi
 
 Joitain toiminta voi myös tehdä **Reaktioina**, jolloin toiminnon voi julistaa kesken toisen hahmon vuoroa, esimerkiksi puolustautuakseen. Hahmolla pitää tällöin olla riittävä määrä toimintopisteitä käytettävissä. Tekemällä reaktion hän myös viivyttää seuraavaa toimintoaan, koska hänellä on seuraavaksi vähemmän toimintopisteitä käytössään.
 
-| Toiminto         | TP  | Kuvaus                                    | Testi                             |
-| ---------------- | --- | ----------------------------------------- | --------------------------------- |
-| Liikkuminen      | 1-5 | Hahmo voi liikkue liikenopeutensa verran. | `Urheilu`, jos tarvitaan          |
-| Aseeton hyökkäys | 2   | Hahmo voi hyökätä ilman aseita             | `Taistelulajit` tai `Nyrkkitappo` |
-| Melee hyökkäys   | 2-4 | Hahmo voi hyökätä lähitaisteluaseella | `Taistelulajit`              |
-| Vastahyökkäys | 2-4 | Puolustus ja hyökkäys lähitaistelussa | `Taistelulajit` |
-| Ampuminen        | 2-5 | Hahmo voi ampua kohdetta | `Ampumataito` |
-| Väistäminen | 2 | Hahmo pyrkii väistämään hyökkäyksen | `Väistäminen` |
-| Suojautuminen | 1 | Hahmo hyödyntää läheistä suojaa | Ei testiä. |
+| Toiminto               | TP  | Kuvaus                                                         | Reaktio | Testi                             |
+| ---------------------- | --- | -------------------------------------------------------------- | ------- | --------------------------------- |
+| Liikkuminen            | 1-5 | Hahmo voi liikkue liikenopeutensa verran.                      | Ei      | `Urheilu`, jos tarvitaan          |
+| Aseeton hyökkäys       | 2   | Hahmo voi hyökätä ilman aseita                                 | Ei      | `Taistelulajit` tai `Nyrkkitappo` |
+| Melee hyökkäys         | 2-4 | Hahmo voi hyökätä lähitaisteluaseella                          | Ei      | `Taistelulajit`                   |
+| Vastahyökkäys          | 2-4 | Puolustus ja hyökkäys lähitaistelussa                          | Kyllä   | `Taistelulajit`                   |
+| Ampuminen              | 2-4 | Hahmo voi ampua kohdetta                                       | Ei      | `Ampumataito`                     |
+| Jatkuva sarjatuli      | 1   | Täyden sarjatulen jatkaminen                                   | Ei      | `Ampumataito`                                  |
+| Väistäminen            | 2   | Hahmo pyrkii väistämään hyökkäyksen                            | Kyllä   | `Väistäminen`                     |
+| Suojautuminen          | 1   | Hahmo hyödyntää läheistä suojaa                                | Kyllä   | Ei testiä.                        |
+| Kranaatin virittäminen | 1   | Hahmo virittää kranaatin toimintavalmiiksi                     | Ei      | Ei testiä                         |
+| Heittäminen            | 2-4 | Hahmo käyttää heittoasetta, esim. kranaattia tai heittoveistäå | Ei      | `Urheilu + Notku`                 |
+|                        |     |                                                                |         |                                   |
 
 
 
