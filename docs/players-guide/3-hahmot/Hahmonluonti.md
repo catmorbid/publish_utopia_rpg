@@ -14,7 +14,7 @@ Hahmonluonnin eri vaiheet lyhyesti. Voit poiketa järjestyksestä, mutta muista,
 8. Generoi **[Karma](./Karma.md)**
 9. Valitse  **[Ryhmittymä](./Ryhmittym%C3%A4.md)**, tai **[Ammatti](./Ammatit.md)**: Tarkista **vaatimukset**, ja lisää **taitoasteet** ja merkitse muut **edut**.
 10. Käytä **[Kokemuspisteet](./Kokemus.md)**: Taidot (max aste 4), Kyvyt, Erikoistumiset
-11. Laske hahmon Varallisuusluokka ja osta **[varusteet](../equipment/index.md)** (älä unohda luotiliivejä!)
-12. Käytä **Kybernetiikkapisteet**, tai osta  **[Kybernetiikkaa](../equipment/Kybernetiikka.md)**
+11. Laske hahmon Varallisuusluokka ja osta **[varusteet](../4-varusteet/index.md)** (älä unohda luotiliivejä!)
+12. Käytä **Kybernetiikkapisteet**, tai osta  **[Kybernetiikkaa](../4-varusteet/Kybernetiikka.md)**
 13. Laske  **[Statistiikka](./Statistiikka.md)** ja merkitse **[Sisupisteet](./Sisu.md)**
 14. Valmis! Nyt voit aloittaa pelaamaan.

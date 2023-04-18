@@ -53,7 +53,7 @@ Jos hahmolla on käytössään **kybernetiikkapisteitä (KBP)** , hän voi käyt
 
 Kybernetiikka parantaa suorituskykyä ja tekee hahmosta paremman, kestävämmän ja tehokkaamman olennon. Tällainen äkillinen voiman lisäys on addiktiivista ja hullaannuttavaa. Turmelus kuvaa hahmon vähentynyttä ihmisyyttä kyberneettisten osien lisäilyn seurauksena, jossa kyseessä on pohjimmiltaan voimakas addiktio ja sen aiheuttamat odottamattoman seurakset psyykeeseen.
 
-Voit lukea lisää turmeluksen seurauksista, eli **kyberraivosta** [Kyborgin alkuperä](../characters/Alkuper%C3%A4/Synteettiset/Kyborgi.md#Kyber%20Raivo) -osiosta. Vaikka kyborgi todennäköisesti on ja heti alttiina kyberraivolle, niin kaikki hahmot voivat riittävästi turmellusta saatuaan altistua näille seurauksille.
+Voit lukea lisää turmeluksen seurauksista, eli **kyberraivosta** [Kyborgin alkuperä](../3-hahmot/Alkuper%C3%A4/Synteettiset/Kyborgi.md#Kyber%20Raivo) -osiosta. Vaikka kyborgi todennäköisesti on ja heti alttiina kyberraivolle, niin kaikki hahmot voivat riittävästi turmellusta saatuaan altistua näille seurauksille.
 
 ## Proteesit
 
@@ -671,7 +671,7 @@ Hahmo, jolla ei ole kyberneettisiä aivoja, tai kyberneettistä silmää, joutuu
 
 Implanteilla on aina **väliaikainen vaikutus**, lukuunottamatta Datasiruja, jotka nyt lähinnä varastoivat dataa. Mutta muut implantit, jotka antavat jonkin edun hahmolle vaativat aktiivista käyttöä, ja vaikutus kestää karkeasti ottaen yhden toiminnon ajan. Hahmo voi kuitenkin koska tahansa päättää, että hän käyttää implanttia, jopa juuri ennen toiminnon heittämistä.
 
-Joka kerta kun hahmo käyttää implanttia, hän saa yhden [Kuormituspisteen](../characters/Kuormitus.md), mikä kuvaa aivojen ylikuormittumista intensiivisen implanttien käytön seurauksena. 
+Joka kerta kun hahmo käyttää implanttia, hän saa yhden [Kuormituspisteen](../3-hahmot/Kuormitus.md), mikä kuvaa aivojen ylikuormittumista intensiivisen implanttien käytön seurauksena. 
 
 Implanttien suomat bonukset **eivät ole kasautuvia**, eli mikäli hahmolla on useampi implantti, joka vaikuttaa samaan piirteeseen, lasketaan ainoastaan **suurin** vaikuttava bonus. Ne ovat kuitenkin kasautuvia proteesien ja muiden tekijöihin vaikutuksiin nähden.
 

@@ -55,7 +55,7 @@ Väkilukot ovat Neo-Judon väkeviä tekniikoita, joilla taltutetaan isotkin kör
 **Erikoista**: Väkilukon vaikeusaste on kohteen $Puolustus + 4$. Jos lukko onnistuu, niin kohde ottaa vahinkoa joka kerta kun tämä pyrkii irtautumaan lukosta. Irtautua voi yrittää vain voimalla, tekemällä `Urheilu`-testin, tai käyttämällä `Pako`-taitoa. Mutta vaikeusasteena on alkuperäinen Neo-Judon toiminnon hyökkäyksen aste.
 
 ### Varjoisku (Doi-K'han)
-Mystisen varjotekniikan kulmakivi on yksinkertainen varjohyökkäys, jossa taistelija kanavoi sisäistä energiaansa niin nopeaan iskuun, että sitä on lähes mahdoton havaita paljaalla silmällä. Taistelija voi tehdä iskun nopeana salamaiskuna, tai käyttää siihen enemmän aikaa. Mitä enemmän toimintopisteitä taistelija käyttää iskuun, sitä enemmän vahinkoa hän saa aikaan. Tekniikka on kuitenkin mielelle rasittavaa, ja jokainen käytetty TP antaa yhden [kuormituspisteen](../../characters/Kuormitus.md).
+Mystisen varjotekniikan kulmakivi on yksinkertainen varjohyökkäys, jossa taistelija kanavoi sisäistä energiaansa niin nopeaan iskuun, että sitä on lähes mahdoton havaita paljaalla silmällä. Taistelija voi tehdä iskun nopeana salamaiskuna, tai käyttää siihen enemmän aikaa. Mitä enemmän toimintopisteitä taistelija käyttää iskuun, sitä enemmän vahinkoa hän saa aikaan. Tekniikka on kuitenkin mielelle rasittavaa, ja jokainen käytetty TP antaa yhden [kuormituspisteen](../../3-hahmot/Kuormitus.md).
 
 **Vahinkoluokka:** $TP*2+Psyko/2$
 **Toimintopisteet:** 1-3
