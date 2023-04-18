@@ -30,13 +30,13 @@ Lisäksi on 12-sivuisia (**d12**), 8-sivuisia (**d8**), 6-sivuisia (**d6**) ja n
 
 ## Taitotestit
 
-Useimmiten ratkaisutapa on **Taitotesti**, jossa siis testataan *hahmon* taitoa pelitilanteesta riippuvaan vaikeusasteeseen nähden. Pelaaja ottaa yhtä monta **10-sivuista noppaa (d10)**, kuin hänen asiaankuuluva **Taitonsa**, ja heittää kaikki nopat samalla kertaa. Nopat viskottuaan, pelaaja valitsee suurimman noppatuloksen, ja lisää tähän lukemaan tilanteeseen sopivan **Kyvyn** osoittaman lukeman.
+Useimmiten ratkaisutapa on **Taitotesti**, jossa siis testataan *hahmon* taitoa pelitilanteesta riippuvaan vaikeusasteeseen nähden. Pelaaja ottaa yhtä monta **10-sivuista noppaa (d10)**, kuin hänen asiaankuuluva **Taitonsa**, ja heittää kaikki nopat samalla kertaa. Nopat viskottuaan, pelaaja valitsee suurimman noppatuloksen, ja lisää tähän lukemaan tilanteeseen sopivan **Kyvyn** osoittaman arvon.
 
 Jos jokin nopista näyttää `0`, niin noppa on **Kriittinen Noppa**, ja sen seurauksensa se **räjähtää:** Tällöin heität nopan uudestaan, ja lisäät lukuun 10, ja jos heität vielä uuden kriittisen, niin noppa räjähtää uudestaan. Jos onnistut Kriittisellä nopalla, niin toiminto on [Kriittinen onnistuminen](Ydinmekaniikka.md#Kriittinen%20onnistuminen).
 
 **Esimerkkejä räjähtävistä nopista**
-- Heität 3, 10 ja 8. 10 räjähtää, heität 5. Tulos on 3, 15 ja 8.
-- Heitä 8, 10, 10, 3. Heität kympit uudestaan ja saat 10 ja 3. Heität uudestaan ja saat 7. Lopputulos on 8, 27, 13, 3.
+- Heität kolmea noppaa ja saat 3, 10 ja 8. 10 räjähtää, heität 5. Tulos on 3, 15 ja 8.
+- Heität neljää noppaa ja saat 8, 10, 10, 3. Heität kympit uudestaan ja saat 10 ja 3. Heität uudestaan ja saat 7. Lopputulos on 8, 27, 13, 3.
 
 Tähän päälle voidaan lätkiä erilaisia **olosuhdemuuttujia**, eli tilannekohtaisia **etuja** ja **haittoja**, tai esim. hahmon varusteista suotavia etuja.
 
@@ -54,13 +54,13 @@ Jos pelaajalla ei ole taitoa laisinkaan, pelinjohtaja voi joko todeta, että hom
 
 Jokainen **Kriittinen Noppa** (`0`) räjähtää, ja jos Kriittisiä Noppia on vähintään `**kaksi (2)**`, ja toiminto onnistuu, eli yltää vaikeusasteeseen, niin toiminto katsotaan **Kriittiseksi Onnistumiseksi**.
 
-**Kriittinen Onnistuminen** voi tuoda tilanteeseen erilaisia tilannekohtaisia etuja, ja näitä etuja arvoidessa voidaan ottaa myös huomioon **Kriittisen Aste**, mikä on yksinkertaisesti se kuinka monta räjähtävää noppaa heitettiin yhteensä.
+**Kriittinen Onnistuminen** voi tuoda tilanteeseen erilaisia tilannekohtaisia etuja, ja näitä etuja arvoidessa voidaan ottaa myös huomioon **Kriittisen Aste**, mikä on yksinkertaisesti se kuinka monta räjähtävää noppaa heitettiin yhteensä. Tähän lasketaan mukaan nopat, jotka räjähtivät toisen kerran.
 
 Jos hahmolla ei ole taitoa, niin hän ei voi onnistua Kriittisesti, vaikka saisi kuinka monta räjähtävää noppaa.
 
 > **Pahan Pekan tarina...**
 >
-> Motoristi yrittää puolustautua Pekan mahtavaa huitaisua vastaan, jolloin tilanne ratkotaan **vastakkaistestinä**, eli Pekka osuu motoristiin vain jos hän sa paremman noppatuloksen. PJ viskoo motoristin Lähitaistelu-taidon verran noppia, ja pyöräyttää kolmella nopalla 0,0,0! Kolme noppaa räjähtää, PJ heittää uudestaan ja saa 8,4,9. Eli lopputulos on 19, mutta Kriittisen aste on 3! Motoristin Notku on melko ankea -1 ja hänellä on kova humalatila, josta vielä -2 lisää, joten lopullinen lukema on (19-3) 16. Tämä on reilusti enemmän kuin Pekan hyökkäys (12), joten Motoristi välttää Pekan huitaisun helposti, ja pelinjohtaja lataa, että koska väistö oli Kriittinen Onnistuminen, niin Motoristi saakin vaparin Pekkaan. Ei nyt mennyt Pekan kannalta kauhean hyvin tämä reissu.
+> Motoristi yrittää puolustautua Pekan mahtavaa huitaisua vastaan, jolloin tilanne ratkotaan **vastakkaistestinä**, eli Pekka osuu motoristiin vain jos hän saa paremman noppatuloksen. PJ viskoo motoristin Taistelulajit-taidon verran noppia, ja pyöräyttää kolmella nopalla 0,0,0! Kolme noppaa räjähtää, PJ heittää uudestaan ja saa 8,4,9. Eli lopputulos on surimman nopan mukaan 19, mutta heitettyään kolme kymppiä Kriittisen aste on 3! Motoristin Notku on melko ankea -1 ja hänellä on kova humalatila, josta vielä -2 lisää, joten lopullinen lukema on (19-3) 16. Tämä on reilusti enemmän kuin Pekan hyökkäys (12), joten Motoristi välttää Pekan huitaisun helposti, ja pelinjohtaja lataa, että koska väistö oli Kriittinen Onnistuminen, niin Motoristi saakin vaparin Pekkaan. Ei nyt mennyt Pekan kannalta kauhean hyvin tämä reissu.
 
 | Kriittinen | Taito 1 | 2     | 3     | 4     | 5    | 6    | 7    | 8    | 9    | 10   |
 | ---------- | ------- | ----- | ----- | ----- | ---- | ---- | ---- | ---- | ---- | ---- |
@@ -73,7 +73,7 @@ Jos hahmolla ei ole taitoa, niin hän ei voi onnistua Kriittisesti, vaikka saisi
 
 Lopullista lukemaa verrataan toiminnon **kohdelukuun**. Jos lopputulos on vähintään yhtä paljon kuin *kohdeluku*, toiminto onnistuu.
 
-Kohdeluku voi määräytyä pelinjohtajan asettaman **vaikeusasteen** perusteella, tai esim. jonkun toisen hahmon, NPC:n, tai vihollisen toiminnon tuloksesta.
+Kohdeluku voi määräytyä pelinjohtajan asettaman **vaikeusasteen** perusteella, tai esim. jonkun toisen hahmon, NPC:n, tai vihollisen toiminnon tuloksesta, kun ratkotaan [Vastakkaistestiä](Ydinmekaniikka.md#Vastakkaistesti).
 
 Taulukosta voit lukea yleisimmät *vaikeusasteet*, ja niihin liittyvän *kohdeluvun*, sekä onnistumistodennäköisyyden taidolla 1-4.
 
