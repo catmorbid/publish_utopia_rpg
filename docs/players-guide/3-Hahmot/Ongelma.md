@@ -39,7 +39,7 @@ Aikanaan voi käydä niin, että saat ongelmasi ratkaistua. Mitä sitten? Noh, o
 
 **Uhkavaatimukset**
 
-Heitä ensin vaade, jonka jälkeen heitä Seuraukset.
+Heitä ensin vaade, sitten Seuraukset, ja lopuksi Kohde.
 
 |      | Vaatimus     | Seuraukset                 |
 | ---- | ------------ | -------------------------- |
@@ -52,22 +52,38 @@ Heitä ensin vaade, jonka jälkeen heitä Seuraukset.
 | 7    | Sabotoi      | Maineen menetys            |
 | 8    | Pahoinpitele | Vankeus                    |
 
+**Kohde**
+| D10 | Kohde (esine)             | Kohde (henkilö)      |
+|-----|---------------------------|----------------------|
+| 1   | Arvokkaita helyjä         | Eliitti Porvari      |
+| 2   | Audio/video-tallenne      | Iso Kiho             |
+| 3   | Custom Ajoneuvo           | Jengiläinen          |
+| 4   | Kiristysmateriaali        | Julkisuuden henkilö  |
+| 5   | Kokeellinen lääke         | Keskiportaan pomo    |
+| 6   | Laiton rahti              | Kyttä                |
+| 7   | Prototyyppiteknologiaa    | Palkkasoturi         |
+| 8   | Räjähteitä                | Poliitikko           |
+| 9   | Taideaarre / keräilyesine | Salainen agentti     |
+| 10  | Tärkeitä dokumentteja     | Ylemmän portaan pomo |
+
+
 **Ikävä Taho**
 
-| D12  | Ikävä taho                 |
-| ---- | -------------------------- |
-| 1    | Väkivaltainen katujengi    |
-| 2    | Lahko                      |
-| 3    | Organisaatio               |
-| 4    | Järjestäytynyt rikollisuus |
-| 5    | Poliisi                    |
-| 6    | Vähäinen suuryritys        |
-| 7    | Palkkasoturiryhmä          |
-| 8    | Hakkeriryhmä               |
-| 9    | Valtion Tiedustelupalvelu  |
-| 10   | Upporikas Eliitti          |
-| 11   | Suuryritys                 |
-| 12   | Tuntematon ryhmittymä      |
+| D12 | Ikävä taho                 | Vaikutusvalta ja resurssit                                             |
+|-----|----------------------------|------------------------------------------------------------------------|
+| 1   | Väkivaltainen katujengi    | Kaikki kaduilla tietävät kaunastanne. Jengiläisiä voi olla missä vain. |
+| 2   | Lahko                      | Vaihtelee lahkon mukaan. Lahkolaisia voi olla missä vain.              |
+| 3   | Järjestö                   | Vaihtelee järjestön mukaan. Vaikutusvalta voi olla hyvin laaja.        |
+| 4   | Järjestäytynyt rikollisuus | Vaikutusvalta vaihtelee poliisipiireittäin. Liiku varoen.              |
+| 5   | Poliisi                    | Naamataulusi leviää poliisipiirien keskuudessa. Ei hyvä.               |
+| 6   | Vähäinen suuryritys        | Mittavat resurssit, mutta rajansa kaikella.                            |
+| 7   | Palkkasoturiryhmä          | Ryhmä on osaava ja tietää mitä tekee. Voi tulla keikalla vastaan.      |
+| 8   | Hakkeriryhmä               | Virtuaalinen elämäsi on yhtä kuin mennyttä.                            |
+| 9   | Valtion Tiedustelupalvelu  | Rajattomat tiedusteluresurssit. Ne seuraavat jokaista liikettäsi.      |
+| 10  | Upporikas Eliitti          | Mittaamattomat resurssit, paisunut ego ja ihan liian tylsää.           |
+| 11  | Suuryritys                 | Uskomattomat resurssit ja loputon määrä palkollisia.                   |
+| 12  | Tuntematon ryhmittymä      | ?                                                                      |
+
 
 **Motiivi**
 

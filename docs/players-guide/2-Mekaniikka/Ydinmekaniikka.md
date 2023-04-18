@@ -32,7 +32,7 @@ Lisäksi on 12-sivuisia (**d12**), 8-sivuisia (**d8**), 6-sivuisia (**d6**) ja n
 
 Useimmiten ratkaisutapa on **Taitotesti**, jossa siis testataan *hahmon* taitoa pelitilanteesta riippuvaan vaikeusasteeseen nähden. Pelaaja ottaa yhtä monta **10-sivuista noppaa (d10)**, kuin hänen asiaankuuluva **Taitonsa**, ja heittää kaikki nopat samalla kertaa. Nopat viskottuaan, pelaaja valitsee suurimman noppatuloksen, ja lisää tähän lukemaan tilanteeseen sopivan **Kyvyn** osoittaman lukeman.
 
-Jos jokin nopista näyttää `0`, niin noppa on **Kriittinen Noppa**, ja sen seurauksensa se **räjähtää:** Tällöin heität nopan uudestaan, ja lisäät lukuun 10, ja jos heität vielä uuden kriittisen, niin noppa räjähtää uudestaan. Jos onnistut Kriittisellä nopalla, niin toiminto on [[Ydinmekaniikka#Kriittinen onnistuminen|Kriittinen onnistuminen]].
+Jos jokin nopista näyttää `0`, niin noppa on **Kriittinen Noppa**, ja sen seurauksensa se **räjähtää:** Tällöin heität nopan uudestaan, ja lisäät lukuun 10, ja jos heität vielä uuden kriittisen, niin noppa räjähtää uudestaan. Jos onnistut Kriittisellä nopalla, niin toiminto on [Kriittinen onnistuminen](Ydinmekaniikka.md#Kriittinen%20onnistuminen).
 
 **Esimerkkejä räjähtävistä nopista**
 - Heität 3, 10 ja 8. 10 räjähtää, heität 5. Tulos on 3, 15 ja 8.

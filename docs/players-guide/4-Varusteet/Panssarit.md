@@ -5,18 +5,7 @@ share: true
 
 **Panssariluokka**: Ilmoitetaan vahinkotyypin mukaan. Lävistävä (L), Murskaava (M), ja Polttava (P).
 
-| Panssari              | L    | M    | P    | Tyyppi      | Muuta                   | Hinta (CR) |
-| --------------------- | ---- | ---- | ---- | ----------- | ----------------------- | ---------- |
-| Panssaroidut vaatteet | 1    | 0    | 1    | Kevyt       | -                       | 100        |
-| Nano-Armor vaatteet   | 2    | 2    | 2    | Kevyt       | Itsekorjautuva          | 1000       |
-| Kevyet Luotiliivit    | 2    | 1    | 1    | Kevyt       | -                       | 500        |
-| Nahkapanssari         | 2    | 3    | 3    | Keskiraskas | -                       | 400        |
-| Metallipanssari       | 3    | 1    | 2    | Raskas      | -                       | 600        |
-| Raskaat luotiliivit   | 3    | 2    | 1    | Keskiraskas | -                       | 1000       |
-| Sotilaspanssari       | 4    | 2    | 3    | Keskiraskas | -                       | 3000       |
-| Rynnäkköpanssari      | 5    | 3    | 4    | Raskas | Tiivis                  | 6000       |
-| Kevyt Voimahaarniska  | 6    | 4    | 6    | Keskiraskas | Ruho +2 | 10000      |
-| Raskas Voimahaarniska | 10    | 9    | 10    | Super-Raskas      | Ruho +4 | 30000      |
+[Google Sheets - Panssarit](https://docs.google.com/spreadsheets/d/1RJnrUFTozJ0qA0zV1AmJUl_qiV4HPK5_k5pvZ7RL4Rw/edit#gid=206176875)
 
 ## Panssarityypit
 
