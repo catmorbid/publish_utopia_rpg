@@ -14,22 +14,22 @@ Kuhunkin kykyyn vaikuttaa kaksi (2) muuttujaa:
 **Kykyarvo** kertoo kuinka hyvä hahmo on. Nolla on keskivertoihmisen kyvykkyys. Arvoa käytetään mm. **taitotesteissä** ja sillä on suurin merkitys siihen kuinka hyvä hahmo on jossakin asiassa. Arvo voi vaihdella -8 ja +10 välillä, mutta tyypillisellä ihmisellä vaihteluväli on -3 ja +3.
 
 ### Ruho
-Fyysinen voimakkuus ja urheilullisuus, Ruumiinrakenne ja kestävyys. Isompi ruho voi vihjata isompikokoiseen kaveriin, kun taas pieni ruho yleensä tarkoittaa suhteessa pienikokoisempaa yksilöä. Ruho on tärkeä ominaisuus lähitaistelussa, koska se antaa lisää vahinkoa iskuihin, mutta toisaalta se on kyllä hyvä ihan kaikille, koska se määrittää [[./Statistiikka#Kestävyys|Kestävyyden]], joka parantaa henkiinjäämisen mahdollisuuksia.
+Fyysinen voimakkuus ja urheilullisuus, Ruumiinrakenne ja kestävyys. Isompi ruho voi vihjata isompikokoiseen kaveriin, kun taas pieni ruho yleensä tarkoittaa suhteessa pienikokoisempaa yksilöä. Ruho on tärkeä ominaisuus lähitaistelussa, koska se antaa lisää vahinkoa iskuihin, mutta toisaalta se on kyllä hyvä ihan kaikille, koska se määrittää [Kestävyyden](./Statistiikka.md#Kestävyys), joka parantaa henkiinjäämisen mahdollisuuksia.
 
 Ruhoon liittyvät taidot ovat: Nyrkkitappo, Urheilu, Karaistuminen ja Katu-uskottavuus.
 
 ### Notku
-Notku kuvaa ketteryyttä, nopeutta ja liikkeen sulavuutta. Notku vaikuttaa [[./Statistiikka#Liikenopeus|Liikenopeuteen]] ja korkea notku voi myös antaa lisää [[./Statistiikka#Toimintopisteet|Toimintopisteitä]]. Se on tärkeä kyky urheilijoille ja akrobaateille, ja se tekee hahmosta paremman lähitaistelijan.
+Notku kuvaa ketteryyttä, nopeutta ja liikkeen sulavuutta. Notku vaikuttaa [Liikenopeuteen](./Statistiikka.md#Liikenopeus) ja korkea notku voi myös antaa lisää [Toimintopisteitä](./Statistiikka.md#Toimintopisteet). Se on tärkeä kyky urheilijoille ja akrobaateille, ja se tekee hahmosta paremman lähitaistelijan.
 
 Notkuun liittyvät taidot ovat: Taistelulajit, Hiiviskely, Pako ja Seksi
 
 ### Spiidi
-Spiidi kuvaa reaktioaikaa ja hoksottimia, kuinka nopeasti hahmo pystyy ajattelemaan ja reagoimaan yllättäviin tilanteisiin. Spiidiä käytetään kun hahmo haluaa reagoida äkillisiin tilanteisiin, tai kun pitää nopeasti keksiä toimivia ratkaisuja Tällaisia tilanteita ovat mm. aloite taistelussa, ja hyökkäysten väistäminen, mutta myös erilainen improvisointi. Korkea Spiidi voi myös antaa lisää [[./Statistiikka#Toimintopisteet|Toimintopisteitä]]
+Spiidi kuvaa reaktioaikaa ja hoksottimia, kuinka nopeasti hahmo pystyy ajattelemaan ja reagoimaan yllättäviin tilanteisiin. Spiidiä käytetään kun hahmo haluaa reagoida äkillisiin tilanteisiin, tai kun pitää nopeasti keksiä toimivia ratkaisuja Tällaisia tilanteita ovat mm. aloite taistelussa, ja hyökkäysten väistäminen, mutta myös erilainen improvisointi. Korkea Spiidi voi myös antaa lisää [Toimintopisteitä](./Statistiikka.md#Toimintopisteet)
 
 Spiidiin liittyvät taidot ovat: Taisteluvalmius, Väistäminen, Väsääminen ja Esiintyminen
 
 ### Psyko
-Psyko on mielenlujuutta, itsekuria ja kykyä sietää stressiä. Psykolla siitä selviää. Se auttaa välttämään stressiä, ja se on elintärkeä kyky telepaateille, mutta myös rikollisille. korkea Psyko voi myös antaa lisää [[./Statistiikka#Toimintopisteet|Toimintopisteitä]]
+Psyko on mielenlujuutta, itsekuria ja kykyä sietää stressiä. Psykolla siitä selviää. Se auttaa välttämään stressiä, ja se on elintärkeä kyky telepaateille, mutta myös rikollisille. korkea Psyko voi myös antaa lisää [Toimintopisteitä](./Statistiikka.md#Toimintopisteet)
 
 Psykoon liittyvät taidot: Itsekuri, Hämärätyöt, PSI, Vaisto ja Uhkailu
 
@@ -44,7 +44,7 @@ Skarppi on hahmon kyky havainnoida ja hahmottaa tilaa ja etäisyyttä. Skarppia 
 Skarppiin liittyvät taidot: Ampumataito, Ajotaito, Lentotaito, Eränkäynti, Empatia.
 
 ### Karuus
-Karuus kuvaa hahmon sosiaalista kyvykkyyttä ja luovuutta. Se on tärkeä kyky Johtajille, taitelijoille, kulttijohtajille ja yleisneroille. Korkea Karuus voi myös antaa lisää [[./Statistiikka#Toimintopisteet|Toimintopisteitä]]
+Karuus kuvaa hahmon sosiaalista kyvykkyyttä ja luovuutta. Se on tärkeä kyky Johtajille, taitelijoille, kulttijohtajille ja yleisneroille. Korkea Karuus voi myös antaa lisää [Toimintopisteitä](./Statistiikka.md#Toimintopisteet)
 
 Karuuteen liittyvät taidot: Johtaminen, Harhauttaminen, Etiketti, Katutieto, Vaikuttaminen.
 
@@ -58,7 +58,7 @@ Oletuksena kyvyt määritellään käyttäen **Satunnaismenetelmää**, jossa m�
 1. Heitä 3D6 jokaisen kyvyn kohdalla. Noppien summa on kyvyn **lukema**. Lukemaa ei tarvita enää hahmonluonnin jälkeen, joten sen voi kirjata vaikka suttupaperille.
 2. Jos lukemien summa on vähemmän kuin 78, saat heittää kaikki uudestaan.
 3. Lisää lukemaan kykyyn tulleet muutokset **taustasta**. Lukema ei voi olla pienempi kuin 3, tai suurempi kuin 18.
-4. Katso **kykyarvo** lukeman perusteella taulukosta. Valitse oikea sarake hahmon **lahjakkuuden** mukaan, mihin vaikuttaa [[./Alkupera|Alkuperä]] ja [[./Erityispiirteet|Erityispiirteet]]. Ellei mitään ole mainittu, käytä **Normaali**-saraketta.
+4. Katso **kykyarvo** lukeman perusteella taulukosta. Valitse oikea sarake hahmon **lahjakkuuden** mukaan, mihin vaikuttaa [Alkuperä](./Alkupera.md) ja [Erityispiirteet](./Erityispiirteet.md). Ellei mitään ole mainittu, käytä **Normaali**-saraketta.
 
 | 3D6 | ● Surkea | ●● Heikko | ●●● Normaali | ●●●● Vahva | ●●●●● Ylivertainen |
 | --- |:--------:|:---------:|:------------:|:----------:|:------------------:|

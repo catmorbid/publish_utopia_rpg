@@ -2,11 +2,11 @@
 share: true
 ---
 
-![[./assets/img/utopia_logo.png|utopia_logo]]
+![utopia_logo](./assets/img/utopia_logo.png)
 Utopia on roolipeli. Peliin kuuluu kolme kirjaa:
 
 WORK IN PROGRESS
 
-- [[./players-guide/index|Pelaajan Opas]]: Kaikki mitä tarvitset hahmojen luontiin ja pelaamiseen.
-- [[./gm-guide/index|Pelinjohtajan Opas]]: Työkaluja pelinjohtamiseen
-- [[./Utopaedia/index|Utopaedia]]: Maailmakuvaus ja tietosanakirja.
+- [Pelaajan Opas](./players-guide/index.md): Kaikki mitä tarvitset hahmojen luontiin ja pelaamiseen.
+- [Pelinjohtajan Opas](./gm-guide/index.md): Työkaluja pelinjohtamiseen
+- [Utopaedia](./utopaedia/index.md): Maailmakuvaus ja tietosanakirja.
