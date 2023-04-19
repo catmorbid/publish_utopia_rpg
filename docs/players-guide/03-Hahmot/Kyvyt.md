@@ -55,7 +55,7 @@ Hahmoa luodessa voit määritellä kyvyt käyttäen yhtä seuraavaksi esitellyis
 
 Oletuksena kyvyt määritellään käyttäen **Satunnaismenetelmää**, jossa määritellään ensin kyvyn **lukema** heittämällä noppia.
 
-1. Heitä 3D6 jokaisen kyvyn kohdalla. Noppien summa on kyvyn **lukema**. Lukemaa ei tarvita enää hahmonluonnin jälkeen, joten sen voi kirjata vaikka suttupaperille.
+1. Heitä 7 kertaa 3D6 ja kirjaa luvut ylös. Lukuja ei tarvita enää hahmonluonnin jälkeen, joten sen voi kirjata vaikka suttupaperille, tai hahmolomakkeen laidalle.
 2. Jos lukemien summa on vähemmän kuin 78, saat heittää kaikki uudestaan.
 3. Lisää lukemaan kykyyn tulleet muutokset **taustasta**. Lukema ei voi olla pienempi kuin 3, tai suurempi kuin 18.
 4. Katso **kykyarvo** lukeman perusteella taulukosta. Valitse oikea sarake hahmon **lahjakkuuden** mukaan, mihin vaikuttaa [[./Alkuperä/index|Alkuperä]] ja [[./Erityispiirteet|Erityispiirteet]]. Ellei mitään ole mainittu, käytä **Normaali**-saraketta.
