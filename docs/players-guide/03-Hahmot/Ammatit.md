@@ -39,4 +39,3 @@ Muussa tapauksessa hän on rahapulan takia joutunut panttaamaan mahdolliset varu
 | Varas              | Hämärätyöt, Harhauttaminen, Hiiviskely, Katutieto     |
 | Vartija            | Etiketti, Taistelulajit, Uhkailu, Vaikuttaminen       |
 | VR-urheilija       | Esiintyminen, Itsekuri, Kybertaidot, Taisteluvalmius  |
-
