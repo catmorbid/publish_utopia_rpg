@@ -1,7 +1,7 @@
 ---
 share: true
 ---
-# 4. Varusteet ja Varallisuus
+# 04 Varusteet ja Varallisuus
 
 Pelaajat voivat vapaasti ostaa varusteet varustelistoilta. Normaalisti hahmoilla on kuitenkin pääsy ainoastaan normaalin harvinaisuuden esineihin, ja mikäli he heluavat ostaa Harvinaisia, tai Eksoottisia varusteita, joutuvat he maksamaan tästä ylimääräistä.
 
@@ -87,6 +87,26 @@ Varustelistoilla on kaikkea kivaa, mutta valitettavasti ihan kaikkea ei kuitenka
 > Esim.
 >
 > Skaftung yrittää etsiä palkollisilleen laadukasta asekauppiasta. Hän haluaa löytää TEK-tason 4 varusteita, joista on tällä hetkellä pula. Hänellä on tällä hetkellä oma TEK-taso 3, joten saatavuus on vain 50%. Skaftung testaa Katutietoa, ja saa OM 4, josta tulee +20% saatavuuteen, joten saatavuus onkin jo 70%. 
+
+## Elintaso
+Elintaso on abstraktio siitä millaista elämä hahmo viettää: Missä hän asuu, mitä hän syö, millaisia vaatteita hän pitää, miten hän matkustaa ja niin edelleen. Pelaajat voivat skipata elintason kokonaan ja mikromanageroida hahmon tulot ja menot sitä mukaa kun niitä tulee - tämä on ihan hyvä lähestymistapa ja varsinkin jos hahmolla on vähän varallisuutta, se voi olla ihan paikallaan.
+
+Jos mikromanagerointi ei kuitenkaan ole sinun juttusi, voi yksinkertaisesti maksaa kuukausittain hahmon elintason mukaan köntsäsumman, jolla ylläpidät haluamaasi elämäntyyliä. Jos varallisuutesi ei riitä tietyyn elintasoon, niin joudut valitsemaan heikomman elintason, tai skippaamaan elintason kokonaan.
+
+Elintason määrittelee karkeasti hahmon elintason eri osa-alueilla, ja jos hahmo haluaa tästä poiketa, niin hän joutuu maksamaan silloin erikseen. Mutta kaikki kulut, jotka elintaso kattaa voidaan sivuuttaa, kunhan kuukausittainen elitasokustannus on maksettu (etukäteen).
+
+### Pummi
+Asut hökkelikylässä tai hylätyssä asuinrakennuksessa, jossa ei ole juuri turvallisuutta. Olet omillasi, tai, joudu luottamaan asuinyhteisöösi. Syöt mitä löydät, eli jätteitä ja rottia, ja kun kaipaat luksusta, syöt rotta-purilaisen lähigrilliltä. Käytät old-school metroa silloin kun pitää matkustaa kauemmas, tai pummaat kyydin kaverilta. Vaatteesi on löydetty roskiksesta, tai niiden edellisen omistajan yltä. Kuukausikustannus: 150 CR.§
+
+
+
+
+
+
+
+
+
+
 
 [[./Ampuma-aseet|Ampuma-aseet]]
 
