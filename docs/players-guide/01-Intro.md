@@ -9,7 +9,9 @@ Utopia sijoittuu noin vuoteen 3042, eli kaukaiseen tulevaisuuteen, maailmaan, jo
 
 Utopia ei ole erityisen kiva paikka, vaan se on täynnä kurjuutta, epätoivoa, rasismia, seksismiä, epätasa-arvoa, addiktioita ja addikteja - ja niin paljon ampuma-aseita, että niillä voisi täyttää pienen valtion, ja silti jäisi vähän yli. Ei näihin aiheisiin tässä kirjases
 
-Vuonna 3042 maailmaa hallitsevat suuryritykset, jotka nousivat Annihilaation, eli globaalin ydinsodan tuhkista, ja rakensivat maailman uudestaan mieleisekseen. Valtioita ei enää ole, tai jos on, niin niiden valta on nimellistä, ja todellisuudessa naruja vetelevät suuryhtiöt.
+Vuonna 2283 koettiin Annihilaatio; globaali ydinsota, joka kesti vain 4 tuntia ja 12 minuuttia. Kaupungit pimenivät ja valtiot katosivat kartalta. Maailman eliitti ja harvalukuinen joukko valioyksilöitä sai elää elämäänsä maanalaisissa bunkkereissa ympäri maailman, ja samaan aikaan miljoonat selviytyjät ympäri maailman pusersivat läpi ydintalven ja yrittivät selviytyä kaikin keinoin.
+
+Noin vuonna 2540 alkoi Uusi Aika, ja sivilisaatio levittäytyi hitaasti vanhan maailman bunkkereista, vallaten uudestaan maailman, jonka heidän esi-isänsä olivat tuhonneet. Vuonna 3042 maailmaa hallitsevat massiiviset globaalit suuryritykset, joista monet perustettiin Uuden Ajan alkuaikoina. Suuryritykset olivat rakentaneet maailman uudestaan mieleisekseen. Valtioita ei enää ole, tai jos on, niin niiden valta on nimellistä, ja todellisuudessa naruja vetelevät suuryhtiöt.
 
 Mars on asutettu, ja siellä sooloillaan ihan omaa show:ta. Avaruus on aarreaitta, jolla saadaan täytettyä maapallon resurssien tarve, ja vieraat tähtijärjestelmät ja niiden rikkaudet kiiluvat suuryritysten johtajien silmissä. Tekoälyt ovat mahdollistaneet liudan mullistavia teknologisia ihmeitä, ja tulevat vielä mahdollistamaan avaruuden valloituksen.
 

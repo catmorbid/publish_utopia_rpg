@@ -14,7 +14,11 @@ Erikoisuuspisteet kannattaa käyttää ennen Kykyjen määrittelemistä, koska n
 ## Yleiset Edut
 
 ### Adrenaliinihurmio 2p
-Taistelussa tai tiukoissa toimintatilanteissa tempaudut erittäin helposti vahvaan adrenaliinihurmokseen, jolloin saat uskomattomat kyvyt vähäksi aikaa. Hurmoksen aikana saat +4 edun kaikkiin Taistelu- ja Toiminta-testeihin, mutta kärsit vastaavasti -4 haitan Koulutukseen ja Vuorovaikutukseen. Hurmion **laukaisija** on toiminta- tai taistelutilanteessa jokin epäonnistuminen, ns. "läheltä piti" -tilanne, tai muu vastaava henkeä uhkaava asia, joka alleviivaa tilanteen vakavuutta ja riskejä. Esimerkkejä:
+Taistelussa tai tiukoissa toimintatilanteissa tempaudut erittäin helposti vahvaan adrenaliinihurmokseen, jolloin saat uskomattomat kyvyt vähäksi aikaa.
+
+**Mekaniikka:**  Hurmoksen aikana saat +4 edun kaikkiin Taistelu- ja Toiminta-testeihin, mutta kärsit vastaavasti -4 haitan Koulutukseen ja Vuorovaikutukseen.
+
+Hurmion **laukaisija** on toiminta- tai taistelutilanteessa jokin epäonnistuminen, ns. "läheltä piti" -tilanne, tai muu vastaava henkeä uhkaava asia, joka alleviivaa tilanteen vakavuutta ja riskejä. Esimerkkejä:
 - Epäonnistut ajotaito-testissä kesken takaa-ajon ja törmäät seinään, niin että auto ottaa vauriota, mutta matka jatkuu.
 - Taistelussa ammutaan kohti sarjatulella, tai otat vahinkoa.
 
@@ -32,7 +36,9 @@ Hahmosi saa yhden ylimääräisen sisupisteen. 3 pisteellä saat kaksi ylimäär
 
 ### Vaikeasti tapettava (2p)
 
-Olet ulkoiseen olemukseesi nähden äärimmäisen sitkeä ja vaikeasti tapettava yksilö. Saat +4 [[./Statistiikka#Kestävyys|Statistiikka > Kestävyys]]. Muista ottaa huomioon kokoluokkasi HP-kerroin. Jos saat vakavan vamman, joka aiheuttaisi kuolemasi, on sinulla on 50% mahdollisuus jäädä henkiin, mutta menetät silti tajuntasi ja olet poissa pelistä vähän aikaa ainakin, ja kärsit tällöin kuitenkin vastaavanlaisen lievän vamman.
+Olet ulkoiseen olemukseesi nähden äärimmäisen sitkeä ja vaikeasti tapettava yksilö.
+
+**Mekaniikka:** Saat +4 [[./Statistiikka#Kestävyys|Statistiikka > Kestävyys]]. Muista ottaa huomioon kokoluokkasi HP-kerroin. Jos saat vakavan vamman, joka aiheuttaisi kuolemasi, on sinulla on 50% mahdollisuus jäädä henkiin, mutta menetät silti tajuntasi ja olet poissa pelistä vähän aikaa ainakin, ja kärsit tällöin kuitenkin vastaavanlaisen lievän vamman.
 
 ### Varakas (1p/3p)
 
@@ -67,20 +73,23 @@ Ruuminrakenteesi muistuttaa tynnyriä. Olet äärimmäisen leveä, mutta myös e
 ## Haltioiden erityispiirteet
 
 ### Muinainen Haltia (1p/2p)
-**(1p)**: Sinulla on päästy haltioiden geneettiseen muistiin. Muistat pilkahduksia tapahtumista, jotka sijoittuvat vuosituhansien taakse, toiseen kolkkaan universumissa, kauan ennen kuin Muinaiset tulivat maan päälle. Muistot tulevat katkonaisesti ja aiheuttavat kaikenlaista ongelmaa, kuten päänsärkyjä ja hallusinaatioita, mutta mitä syvemmälle pääset muistoihin käsiksi, sitä enemmän tietoa pystyt omaksumaan: Saat 4 taitopistettä valitsemiisi taitoihin (maksimi aste 5). Jos otat vapaaehtoisesti [[./Kuormitus|Kuormituspisteen]], voit väliaikaisesti kasvattaa jotain taitoa 1 asteella. Vaikutus kestä yhden kohtauksen, ja voit ottaa useamman kuormituspisteen kerralla. Voit myös käyttää kuormituspisteen saadaksesi alennusta taidon hinnasta, jolloin jokainen kuormituspiste antaa 1 pisteen alennuksen.
+**(1p)**: Sinulla on päästy haltioiden geneettiseen muistiin. Muistat pilkahduksia tapahtumista, jotka sijoittuvat vuosituhansien taakse, toiseen kolkkaan universumissa, kauan ennen kuin Muinaiset tulivat maan päälle. Muistot tulevat katkonaisesti ja aiheuttavat kaikenlaista ongelmaa, kuten päänsärkyjä ja hallusinaatioita, mutta mitä syvemmälle pääset muistoihin käsiksi, sitä enemmän tietoa pystyt omaksumaan.
+
+**Mekaniikka:** Saat 4 taitopistettä valitsemiisi taitoihin (maksimi aste 5). Jos otat vapaaehtoisesti [[./Kuormitus|Kuormituspisteen]], voit väliaikaisesti kasvattaa jotain taitoa 1 asteella. Vaikutus kestä yhden kohtauksen, ja voit ottaa useamman kuormituspisteen kerralla. Voit myös käyttää kuormituspisteen saadaksesi alennusta taidon hinnasta, jolloin jokainen kuormituspiste antaa 1 pisteen alennuksen.
 
 **(2p)**: Geneettisen muistin lisäksi sinussa ilmentyy fyysisiä muutoksia, jotka ovat lajillesi epätyypillisiä, mutta seurausta piilevästä DNA:sta: Ihonvärisi on harmahtava tai hopeinen, ja sinulla mustat silmät, joissa on purppurat soikeat pupillit, ja karvoituksesi on myös luonnostaan eksoottisen värinen, esimerkiksi vihreä, sininen tai purppura. Kaiken tämän lisäksi sinulla on luontaisia [[PSI|Psyykkisiä voimia]]: voit valita yhden voiman Psyykkiset Voimat-listalta.
 
 ### Kaaosvaisto (1p)
-Olet alkanut ymmärtää haltioiden todellisen tehtävän maan päällä, mikä on taistelu pahoja kaaosvoimia vastaan, ja pystyt tunnistamaan vihollisesi yksinkertaisella **Skarppi**-testillä. Latentit psyykkiset voimasi mahdollistavat kaaosvoimien vastustamisen: Voit testata **PSI**-taitoasi pyrkiäksesi vaistonvaraisesti tukahduttamaan kaaosvoimat, joita käytetään lähellä. Saat lisäksi +2 taitoastetta Vaistoon (max aste 5).
+Olet alkanut ymmärtää haltioiden todellisen tehtävän maan päällä, mikä on taistelu pahoja kaaosvoimia vastaan, ja pystyt tunnistamaan vihollisesi helposti, ja sinulla on kyky tukahduttaa kaaosvoimia vaistonaraisesti.
+
+**Mekaniikka:** Testaa **Skarppia** kaaosvoimien havaitsemiseen. Voit testata **PSI**-taitoasi pyrkiäksesi vaistonvaraisesti tukahduttamaan kaaosvoimat, joita käytetään lähellä. Saat +1 taitoasteen **Vaistoon** ja +1 **PSI**-taitoon, maksimi taitoaste 5.
+
 
 ### Doi-K'han taitaja (1p)
-Sinulle on opetetty mystisen taistelulajin **Doi-K'han**:in salat, ja saat **Erikoistumisen** siihen. Erikoistumista ei voi normaalisti ostaa kokemuspisteillä.
+Sinulle on opetetty mystisen taistelulajin **Doi-K'han**:in salat, ja saat **Erikoistumisen** siihen. Erikoistumista *ei* voi normaalisti ostaa kokemuspisteillä.
 
 > [!info]
 > Huomaa, että jos kuulut lahkoon **[[../../Utopaedia/factions/index|E'Shara'n e'An-K'han]]**, saat tämän erikoistumisen lahkon etuna.
-
-
 
 
 
@@ -157,7 +166,3 @@ Sinulle on kasvanut ylimääräinen ruumiinosa. Vaikutukset riippuvat ruumiinosa
 
 ### Yönäkö (1p)
 Mutaatio on antanut sinulle kyvyn halutessasi nähdä pimeydessä lähes yhtä hyvin kuin päivälläkin – oli ympäristö kuinka pimeä hyvänsä. Huonona puolena tässä kyvyssäsi on, että kun käytät sitä, alkavat silmäsi loistaa kellertävää valoa, jolloin sinut on melko helppo huomata.
-
-## Psyykkiset voimat
-
-Voit ostaa Psyykkisiä voimia vain mikäli Alkuperäsi mahdollistaa sen.

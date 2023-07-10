@@ -21,6 +21,8 @@ Suuryhtiöiden propagandan ansionsta telepaatteja pelätään ja vieroksutaan, j
 - Heikko Ruho
 - Ylivoimainen Psyko
 - Vahva Data
-- **Psyykkiset Voimat:** Telepaatit voivat ostaa Psyykkisia Voimia erikoisuuspisteillä.
+- **Psyykkiset Voimat:** Saat yhden valinnaisen PSI-kyvyn ja yhden PSI-voiman, ja voit ostaa erikoisuuspisteillä lisää PSI-kykyjä ja voimia.
 - **Vainottu:** Telepaattilainsäädäntö rajoittaa telepaatin elämää. Telepaatin on käytettävä valvontaranneketta ja oltava rekisterissä, tai altistua Etsijöiden jahtaamaksi. Pelaaja voi valita.
 - 3 **Erikoisuuspistettä**
+
+[[../../../Psyykkiset voimat|Psyykkiset voimat]]
