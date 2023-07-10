@@ -36,19 +36,42 @@ Aseen kantama määrittää hyökkäyksen perusvaikeusasteen. Kantama voidaan il
 | Äärimmäinen kantama    | 8x Optimi.                          | 16          | 400m |
 | Maksimikantama         | 16x Optimi.                         | 20          | 800m |
 
+### Kantama v2
+
+Aseilla on yleensä merkitty kaksi kantamaa: **Minimikantama** ja **Optimaalinen Kantama**.
+- Jos kohde on lähempänä kuin Minimikantama, niin hyökkäyksen vaikeusaste on 12 ja kasvaa 4:llä per ylimääräinen askel minimikantamaa lähempänä
+- Jos kohde on minimikantaman ja optimaalisen kantaman välissä, niin hyökkäyksen vaikeusaste on 8.
+- Jos kohde on Optimaalisen kantaman ulkopuolella, niin vaikeusaste on 12 ja kasvaa 4:llä per askel.
+
+> Rynnäkkökiväärin kantama on L-P, eli Lyhyt-Pitkä. Jos kohde on 10-60 metrin päässä, niin hyökkäyksessä on vaikeusaste 8
+> Esim.1: Kohde on 80m päässä, eli se on Erittäin Pitkällä kantamalla. Rynnäkkökiväärin vaikeusaste on 12.
+> Esim. 2: Kohde on 2 metrin päässä, eli Lähitaistelussa. Rynnäkkökiväärin vaikeusaste on 16.
+> Esim. 3: Kohde on 800m päässä (Ä+2). Rynnäkkökiväärin hyökkäyksen vaikeusaste on 24.
+
+| Kantama                  | Lyhenne | Etäisyys   |
+| ------------------------ | ------- | ---------- |
+| Iholla                   | I       | 1 metri    |
+| Lähitaistelussa          | LT      | 3 metriä   |
+| Lähietäisyydellä         | LE      | 6 metriä   |
+| Lyhyellä kantamalla      | L       | 10 metriä  |
+| Kohtalaisella kantamalla | K       | 30 metriä  |
+| Pitkällä kantamalla      | P       | 60 metriä  |
+| Erittäin Pitkällä        | E       | 100 metriä |
+| Äärimmäinen + 0          | Ä+0     | 300 metriä |
+| Äärimmäinen + 1          | Ä+1     | 600m       |
+| Äärimmäinen + 2          | Ä+2     | 1km        |
+| Äärimmäinen + 3          | Ä+3     | 3km        |
+| Äärimmäinen + 4          | Ä+4     | 6km        |
+| Äärimmäinen + 5          | Ä+5     | 10km       |
 
 ### Tarkentimet
-Aseissa voi olla tarkentimia, jotka antavat jonkinlaisen tarkennus-kertoimen. Tämä voi olla ilmaistu esim. muodossa `x20 tarkennin`. Tarkentimet mahdollistavat aseen käytön huomattavasti pidemmällä kantamalla, tarkentamalla kohdetta, mutta toisaalta pitkän kantaman päähän on silti vaikea ampua ja osua, kun pitää ottaa huomioon kaikenlaiset olosuhdetekijät.
+Aseissa voi olla tarkentimia, jotka antavat jonkinlaisen tarkennus-kertoimen. Tämä voi olla ilmaistu esim. muodossa `x5 tarkennin`. Tarkentimet mahdollistavat aseen käytön huomattavasti pidemmällä kantamalla, tarkentamalla kohdetta, mutta toisaalta pitkän kantaman päähän on silti vaikea ampua ja osua, kun pitää ottaa huomioon kaikenlaiset olosuhdetekijät.
 
-Tarkennin vaikuttaa aseen kantamaan seuraavasti:
-- Minimikantama = 1 x tarkennuskerroin, tai minikantama x tarkennuskerroin, kumpi vain on suurempi.
-- Optimaalinen kantama = optimaalinen kantama * tarkennuskerroin.
-- Jos etäisyys > aseen normaali maksimikantama (ilman kertoimia), vaikeusasteeseen lisätään +4.
+Tarkennin vaikuttaa aseen kantamaan seuraavasti: Kohteen etäisyys jaetaan tarkentimen kertoimella. Esim. x5 tarkennnin tarkoittaa, että etäisyys jaetaan 5:llä. Tämän etäisyyden perusteella kantama määritetään normaalisti. Esim. 100m etäisyys x5 tarkentimella tarkoittaa, että kantama lasektaan 20m mukaan (100/5). 100m olisi erittiäin pitkä kantama, kun taas 20m on kohtalainen kantama.
 
-Teoriassa tarkentimella voidaan osua hyvinkin pitkien etäisyyksien päästä.
 
 >[!example] Esimerkki
->Zodiac on linnoittautunut kerrostalon katolle tarkkuuskiväärin kanssa vaanimaan kohdetta, joka hänen tulee salamurhata. Tovin odoteltuaan Zodiac huomaa kohteensa, ja ottaa tämän jyvälle. Zodiacin SS-88 Sniper -kiväärissä on x5-kiikaritähtäin. Kohde on 1000 metrin päässä, mutta kiitos kiikaritähtäimen, kiväärin optimaalinen kantama on (60x5) 300m, joten kohde on _Erittäin pitkän kantaman_ päässä (vaikeusaste 14). 1000m on kuitenkin enemmän kuin aseen normaali maksimikantama (960m), joten vaikeusaste nousee neljällä ja on 18. Harmillisen haastavaa - mutta ei toki mahdotonta. Zodiac tähtää 2 toimintopisteellä (+2), ja heittää neljällä nopalla ampumataitoa: 6, 7, 9, 19, ja lisää skarppinsa +5 ja aseen tarkkuuden +3, jolloin lopputulos on peräti 29. Zodiac osuu marginaalilla (29-18) 11. Kiväärin tulinopeus on 3 ja rekyyli 3, joten Zodiac valitsee ylimääräisen osuman ja 2x tarkka osuma, josta tulee +2 vammaheittoon. Kiväärin vahinko on hurja L7+1, ja Läpäisy 2. Kohteella on kuitenkin PL 5 panssari, mikä vähenee läpäisystä PL 3:een, ja vahinko vähenee L 4+1:een. Zodiac heittää 2D8+2 vahinkoa: 3, 5 = 8+2=10 vahinkoa. Aika paljon, mutta kohteella onkin Kestävyys 16, joten se ei riitä tappavaan osumaan, mutta on tarpeeksi vakavaan vammaan (raja 8). Hän heittää vakavan lävistävän vamman +2 muuttujalla: 8+2 = 10. Toinen luodeista osuu kohdetta suoraan kalloon, ja kallo räjähtää sirpaleiksi, värjäten katukivetyksen punaiseksi. Zodiac alkaa pakkailla kamoja, ennen kuin poliisipiirin partiot eksyvät paikalle...
+>Zodiac on linnoittautunut kerrostalon katolle tarkkuuskiväärin kanssa vaanimaan kohdetta, joka hänen tulee salamurhata. Tovin odoteltuaan Zodiac huomaa kohteensa, ja ottaa tämän jyvälle. Zodiacin SS-88 Sniper -kiväärissä on x5-kiikaritähtäin. Kohde on 1000 metrin päässä, mutta kiitos kiikaritähtäimen, etäisyys on 200m, mikä osuu Äärimmäinen+0 kantamalle. Kiväärin kantama on L-P, joten 200m etäisyys on 2 askelta yli optimaalisen kantaman, mistä tulee vaikeusaste 16. Zodiac tähtää 2 toimintopisteellä (+2), ja heittää neljällä nopalla ampumataitoa: 6, 7, 9, 19, ja lisää skarppinsa +5 ja aseen tarkkuuden +3, jolloin lopputulos on peräti 29. Zodiac osuu marginaalilla (29-16) 13. Kiväärin tulinopeus on 3 ja rekyyli 3, joten Zodiac valitsee ylimääräisen osuman ja 2x tarkka osuma, josta tulee +2 vammaheittoon. Kiväärin vahinko on hurja L7+1, ja Läpäisy 2. Kohteella on kuitenkin PL 5 panssari, mikä vähenee läpäisystä PL 3:een, ja vahinko vähenee L 4+1:een. Zodiac heittää 2D8+2 vahinkoa: 3, 5 = 8+2=10 vahinkoa. Aika paljon, mutta kohteella onkin Kestävyys 16, joten se ei riitä tappavaan osumaan, mutta on tarpeeksi vakavaan vammaan (raja 8). Hän heittää vakavan lävistävän vamman +2 muuttujalla: 8+2 = 10. Toinen luodeista osuu kohdetta suoraan kalloon, ja kallo räjähtää sirpaleiksi, värjäten katukivetyksen punaiseksi. Zodiac alkaa pakkailla kamoja, ennen kuin poliisipiirin partiot eksyvät paikalle...
 
 ## Puolustautuminen
 
@@ -56,6 +79,7 @@ Tuliaseita vastaan on hankala puolustautua, ja vaihtoehtoja on käytännössä k
 
 ### Väistöliikkeet
 Hahmo voi yrittää tehdä itsestään hankalamman kohteen käyttämällä 1 toimintopisteen ja testaamalla **Väistöliikkeet** -taitoa. Testin lopputulos on tällöin uusi vaikeusaste kaikille hyökkäyksille kohdetta vastaan, mutta vaikeusaste on kuitenkin *vähintään* kantaman mukainen perusvaikeusaste.
+
 Väistöliikkeet on voimassa kunnes hahmo toimii seuraavaksi. Väistöliikkeitä voi tehdä myös **Reaktiona**, jolloin hahmo viivyttää seuraavaa vuoroaan puolustautumalla.
 
 ### Suojautuminen
