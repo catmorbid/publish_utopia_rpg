@@ -4,16 +4,16 @@ share: true
 ---
 # Taistelut
 
-Utopia sijoittuu äärimmäisen väkivaltaiseen maailmaan, jossa kaikki turhat lait on korvattu itsevaltiaiden mielivaltaisilla säännöillä, tai täydellisellä anarkialla. Pelaajien on syytä jo tässä vaiheessa ymmärtää, että taistelut tulevat olemaan merkittävä osa peliä, ja on oleellista on ymmärtää miten helppoa pelissä on kuolla, joten eiköhän aloiteta siitä! Jos haluat ensin tietää miten hahmoja luodaan, tai lukea muita sääntöjä, niin voit lukea eteenpäin [[../../03-Hahmot/index|03-Hahmot]] osiosta, ja palata tänne, kun ei enää pelota. Mutta tulet kyllä tutustumaan tähän osioon, tavalla tai toisella.
+Utopia sijoittuu äärimmäisen väkivaltaiseen maailmaan, jossa kaikki turhat lait on korvattu itsevaltiaiden mielivaltaisilla säännöillä, tai täydellisellä anarkialla. Pelaajien on syytä jo tässä vaiheessa ymmärtää, että taistelut tulevat olemaan merkittävä osa peliä, ja on oleellista on ymmärtää miten helppoa pelissä on kuolla, joten eiköhän aloiteta siitä! Jos haluat ensin tietää miten hahmoja luodaan, tai lukea muita sääntöjä, niin voit lukea eteenpäin [03-Hahmot](../../03-Hahmot/index.md) osiosta, ja palata tänne, kun ei enää pelota. Mutta tulet kyllä tutustumaan tähän osioon, tavalla tai toisella.
 
-[[./Vahinkoluokka|Vahinkoluokka]]
+[Vahinkoluokka](./Vahinkoluokka.md)
 
-[[./Paraneminen|Paraneminen]]
+[Paraneminen](./Paraneminen.md)
 
-[[./Taistelukierrokset|Taistelukierrokset]]
+[Taistelukierrokset](./Taistelukierrokset.md)
 
-[[./Tulitaistelu|Tulitaistelu]]
+[Tulitaistelu](./Tulitaistelu.md)
 
-[[./Lahitaistelu|Lähitaistelu]]
+[Lähitaistelu](./Lahitaistelu.md)
 
-[[./Rajahteet|Räjähteet]]
+[Räjähteet](./Rajahteet.md)
