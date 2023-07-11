@@ -21,4 +21,4 @@ Peikkojen kohdalla rasismi ja syrjintä ei yleisesti ole läheskään niin paha 
 - **Supersotilas**: Sumo-Troggit on luotu supersotilaiksi, ja osana tätä heidät on tehty äärimmäisen kestäviksi. Sumo-Troggit ovat immuuneita kaikille mahdollisille myrkyille ja taudeille, sekä radioaktiiviselle säteilylle, ja heidän luontainen paranemisvauhtinsa on niin hurja, että he paranevat 1 HP joka tunti, aivan sama mitä tekevät.
 - **Syrjitty**: Sumo-Troggit ovat erittäin pelättyjä, minkä takia he voivat nauttia toisinaan näennäistä kunnioitusta muilta,  mutta heitä ei pidetä missään päin maailmaa tuottavina yhteiskunnan jäseninä, vaan jos mahdollista, heistä pyritään hankkiutumaan eroon. Monet Sumo-Troggit elävätkin villeinä pienissä laumoissa ympäri asuttamatonta joutomaata, pyrkien tuhomaan kaikki sivistyneet yksilöt kohdatessaan. Urbaaneissa ympäristössä heitä saatetaan sietää, mutta tämä on aina parhaimmillaankin väliaikaista.
 - 5 **Erikoisuuspistettä**
-- Sumo-Troggit voivat ostaa [[../../Erityispiirteet#Mutaatiot|Mutaatioita]]
+- Sumo-Troggit voivat ostaa [Mutaatioita](../../Erityispiirteet.md#Mutaatiot)
