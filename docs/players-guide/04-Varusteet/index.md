@@ -47,7 +47,7 @@ Varallisuuteen kuuluu kaikki hahmon omaisuus, tavallisia vaatteita, tai joitain 
 
 ## Tulot
 
-**Tulot** lasketaan [[../03-Hahmot/Ammatit|Ammattiin]] vaikuttavien taitojen perusteella: Ota keskiarvo ammattiin vaikuttavista taidoista, ja käytä tätä Varallisuusluokkana. Jos kuulut ryhmittymään, niin tarkista ryhmittymän kuvauksesta millaisia tuloja se tarjoaa. Vaikka olet ryhmittymässä, voit silti harjoittaa jotakin ammattia sivubisneksenä, jolloin tulot riippuvat ammatista, jota pyrit harjoittamaan.
+**Tulot** lasketaan [Ammattiin](../03-Hahmot/Ammatit.md) vaikuttavien taitojen perusteella: Ota keskiarvo ammattiin vaikuttavista taidoista, ja käytä tätä Varallisuusluokkana. Jos kuulut ryhmittymään, niin tarkista ryhmittymän kuvauksesta millaisia tuloja se tarjoaa. Vaikka olet ryhmittymässä, voit silti harjoittaa jotakin ammattia sivubisneksenä, jolloin tulot riippuvat ammatista, jota pyrit harjoittamaan.
 
 Tuloista vähennetään kaikki menot, kuten asuminen ja muu, ja kaiken lisäksi se edellyttää, että hahmoilla on jokin työ, jota he voivat tehdä. Tulot voidaan huomioida, jos pelataan pitkiä aikoja suvantoa, mutta työllisyystilanne on on silti eri asia.
 
@@ -108,16 +108,16 @@ Asut hökkelikylässä tai hylätyssä asuinrakennuksessa, jossa ei ole juuri tu
 
 
 
-[[./Ampuma-aseet|Ampuma-aseet]]
+[Ampuma-aseet](./Ampuma-aseet.md)
 
-[[./Ammukset|Ammukset]]
+[Ammukset](./Ammukset.md)
 
-[[./Lähitaisteluaseet|Lähitaisteluaseet]]
+[Lähitaisteluaseet](./L%C3%A4hitaisteluaseet.md)
 
-[[./Panssarit|Panssarit]]
+[Panssarit](./Panssarit.md)
 
-[[./Asuminen|Asuminen]]
+[Asuminen](./Asuminen.md)
 
-[[./Matkustus|Matkustus]]
+[Matkustus](./Matkustus.md)
 
-[[./Kulkuneuvot|Kulkuneuvot]]
+[Kulkuneuvot](./Kulkuneuvot.md)
