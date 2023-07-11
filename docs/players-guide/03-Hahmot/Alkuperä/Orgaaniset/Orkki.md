@@ -18,4 +18,4 @@ Tro’goth, (*Trogg*, *Troggi*, slangia) tuttavallisemmin örkit, ovat mutanttej
 - **Iätön**: Kukaan ei ole koskaan kuullut, että Troggi olisi kuollut vanhuuteen. Tähän voi olla *todella monta* eri syytä, mutta eräs suosittu teoria kertoo, että Troggit eivät yksinkertaisesti vanhene. Troggit ovat myös luonnollisesti immuuneita radioaktiiviselle säteilylle, ja päinvastoin, monet nauttivat 500 mSv säteilyannoksesta, kuin kuumasta kylvystä.
 - **Syrjitty:** Troggit ovat nauttineet jo muutaman sadan vuoden ajan jatkunutta kiihkeää rasismia ja syrjintää. Kyltti ”Ei mutantteja!” ravintolan edustalla on aina yhtä kurja käänne hyvin alkaneelle illalle.
 - 6 **Erikoisuuspistettä**
-- Troggit voivat ostaa [[../../Erityispiirteet#Mutaatiot|Mutaatioita]]
+- Troggit voivat ostaa [Mutaatioita](../../Erityispiirteet.md#Mutaatiot)

@@ -6,7 +6,7 @@ Hahmot, jotka eivät kuulu mihinkään ryhmittymään, voivat hankkia itselleen 
 
 Ammatin opiskelu on vaatinut yleensä muutaman vuoden elämästäsi, mutta sen seurauksena olet oppinut käteviä taitoja.
 
-Jokainen ammatti sisältää neljä taitoa, joihin saat jokaiseen saat +1 taitoasteen. Ammatin avulla voit tienata elantosi silloin kun on luppoaikaa: Katso [[../04-Varusteet/index#Tulot|Tulot]] varusteista ja varallisuudesta. Kaikissa ammateissa TEK ja Varallisuusluokka on oletuksena 2.
+Jokainen ammatti sisältää neljä taitoa, joihin saat jokaiseen saat +1 taitoasteen. Ammatin avulla voit tienata elantosi silloin kun on luppoaikaa: Katso [Tulot](../04-Varusteet/index.md#Tulot) varusteista ja varallisuudesta. Kaikissa ammateissa TEK ja Varallisuusluokka on oletuksena 2.
 
 Hahmolla on pelin alussa 30% mahdollisuus olla sillä hetkellä työsuhteessa, jolloin hän saa +1 Varallisuusluokkaan, tai esim. työhön liittyviä varusteita, kuten asustusta, aseistusta, ajoneuvon tai erilaista laitteistoa; ja/tai muita etuja, kuten asunnon, metrokortin, tai alennuksen työnantajan tarjoamista palveluista. Edut on pelinjohtajan kanssa sovittavissa.
 

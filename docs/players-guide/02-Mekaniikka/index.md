@@ -6,6 +6,6 @@ share: true
 # 02 Pelimekaniikka
 Tässä osiossa käsitellään pelimekaniikkaa, eli sitä millä tavoin peliä pelataan, ja miten ongelmatilanteet ja konfliktit ratkaistaan.
 
-[[./Taistelut/index|Taistelut]]
+[Taistelut](./Taistelut/index.md)
 
-[[./Ydinmekaniikka|Ydinmekaniikka]]
+[Ydinmekaniikka](./Ydinmekaniikka.md)

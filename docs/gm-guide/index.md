@@ -5,4 +5,4 @@ share: true
 Pelinjohtaminen [todo]
 
 
-[[./mega-new-york|mega-new-york]]
+[mega-new-york](./mega-new-york.md)

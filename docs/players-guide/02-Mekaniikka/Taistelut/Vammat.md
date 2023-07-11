@@ -5,7 +5,7 @@ share: true
 
 Vahinkonopilla heitetty lopullinen vahinko merkitään ylös **Haavapisteinä**. Jos hahmo on kärsinyt vähintään yhtä paljon haavapisteitä kuin hahmon **Kuntopisteet (KP)**, niin hahmo menettää toimintakykynsä, mutta tokenee kunhan haavapisteitä on vähemmän kuin hahmon *Kuntopisteitä*.
 
-Jos hahmo ottaa kerralla tarpeeksi paljon vahinkoa, voi hän saada **Vammoja**. Vammarajat lasketaan hahmon muun [[../../03-Hahmot/Statistiikka|Statistiikan]] mukana, ja niihin vaikuttaa hahmon [[../../03-Hahmot/Statistiikka#Kestävyys|Kestävyys]].
+Jos hahmo ottaa kerralla tarpeeksi paljon vahinkoa, voi hän saada **Vammoja**. Vammarajat lasketaan hahmon muun [Statistiikan](../../03-Hahmot/Statistiikka.md) mukana, ja niihin vaikuttaa hahmon [Kestävyys](../../03-Hahmot/Statistiikka.md#Kestävyys).
 
 **Lievät Vammat** hankaloittavat elämää, mutta ovat yleensä helposti parannettavissa. Lievästä vammasta tulee aina -1 haitta toimiin kivusta.
 

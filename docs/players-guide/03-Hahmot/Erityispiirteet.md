@@ -38,7 +38,7 @@ Hahmosi saa yhden ylimääräisen sisupisteen. 3 pisteellä saat kaksi ylimäär
 
 Olet ulkoiseen olemukseesi nähden äärimmäisen sitkeä ja vaikeasti tapettava yksilö.
 
-**Mekaniikka:** Saat +4 [[./Statistiikka#Kestävyys|Statistiikka > Kestävyys]]. Muista ottaa huomioon kokoluokkasi HP-kerroin. Jos saat vakavan vamman, joka aiheuttaisi kuolemasi, on sinulla on 50% mahdollisuus jäädä henkiin, mutta menetät silti tajuntasi ja olet poissa pelistä vähän aikaa ainakin, ja kärsit tällöin kuitenkin vastaavanlaisen lievän vamman.
+**Mekaniikka:** Saat +4 [Statistiikka > Kestävyys](./Statistiikka.md#Kestävyys). Muista ottaa huomioon kokoluokkasi HP-kerroin. Jos saat vakavan vamman, joka aiheuttaisi kuolemasi, on sinulla on 50% mahdollisuus jäädä henkiin, mutta menetät silti tajuntasi ja olet poissa pelistä vähän aikaa ainakin, ja kärsit tällöin kuitenkin vastaavanlaisen lievän vamman.
 
 ### Varakas (1p/3p)
 
@@ -75,9 +75,9 @@ Ruuminrakenteesi muistuttaa tynnyriä. Olet äärimmäisen leveä, mutta myös e
 ### Muinainen Haltia (1p/2p)
 **(1p)**: Sinulla on päästy haltioiden geneettiseen muistiin. Muistat pilkahduksia tapahtumista, jotka sijoittuvat vuosituhansien taakse, toiseen kolkkaan universumissa, kauan ennen kuin Muinaiset tulivat maan päälle. Muistot tulevat katkonaisesti ja aiheuttavat kaikenlaista ongelmaa, kuten päänsärkyjä ja hallusinaatioita, mutta mitä syvemmälle pääset muistoihin käsiksi, sitä enemmän tietoa pystyt omaksumaan.
 
-**Mekaniikka:** Saat 4 taitopistettä valitsemiisi taitoihin (maksimi aste 5). Jos otat vapaaehtoisesti [[./Kuormitus|Kuormituspisteen]], voit väliaikaisesti kasvattaa jotain taitoa 1 asteella. Vaikutus kestä yhden kohtauksen, ja voit ottaa useamman kuormituspisteen kerralla. Voit myös käyttää kuormituspisteen saadaksesi alennusta taidon hinnasta, jolloin jokainen kuormituspiste antaa 1 pisteen alennuksen.
+**Mekaniikka:** Saat 4 taitopistettä valitsemiisi taitoihin (maksimi aste 5). Jos otat vapaaehtoisesti [Kuormituspisteen](./Kuormitus.md), voit väliaikaisesti kasvattaa jotain taitoa 1 asteella. Vaikutus kestä yhden kohtauksen, ja voit ottaa useamman kuormituspisteen kerralla. Voit myös käyttää kuormituspisteen saadaksesi alennusta taidon hinnasta, jolloin jokainen kuormituspiste antaa 1 pisteen alennuksen.
 
-**(2p)**: Geneettisen muistin lisäksi sinussa ilmentyy fyysisiä muutoksia, jotka ovat lajillesi epätyypillisiä, mutta seurausta piilevästä DNA:sta: Ihonvärisi on harmahtava tai hopeinen, ja sinulla mustat silmät, joissa on purppurat soikeat pupillit, ja karvoituksesi on myös luonnostaan eksoottisen värinen, esimerkiksi vihreä, sininen tai purppura. Kaiken tämän lisäksi sinulla on luontaisia [[PSI|Psyykkisiä voimia]]: voit valita yhden voiman Psyykkiset Voimat-listalta.
+**(2p)**: Geneettisen muistin lisäksi sinussa ilmentyy fyysisiä muutoksia, jotka ovat lajillesi epätyypillisiä, mutta seurausta piilevästä DNA:sta: Ihonvärisi on harmahtava tai hopeinen, ja sinulla mustat silmät, joissa on purppurat soikeat pupillit, ja karvoituksesi on myös luonnostaan eksoottisen värinen, esimerkiksi vihreä, sininen tai purppura. Kaiken tämän lisäksi sinulla on luontaisia [Psyykkisiä voimia](PSI.md): voit valita yhden voiman Psyykkiset Voimat-listalta.
 
 ### Kaaosvaisto (1p)
 Olet alkanut ymmärtää haltioiden todellisen tehtävän maan päällä, mikä on taistelu pahoja kaaosvoimia vastaan, ja pystyt tunnistamaan vihollisesi helposti, ja sinulla on kyky tukahduttaa kaaosvoimia vaistonaraisesti.
@@ -89,7 +89,7 @@ Olet alkanut ymmärtää haltioiden todellisen tehtävän maan päällä, mikä 
 Sinulle on opetetty mystisen taistelulajin **Doi-K'han**:in salat, ja saat **Erikoistumisen** siihen. Erikoistumista *ei* voi normaalisti ostaa kokemuspisteillä.
 
 > [!info]
-> Huomaa, että jos kuulut lahkoon **[[../../Utopaedia/factions/index|E'Shara'n e'An-K'han]]**, saat tämän erikoistumisen lahkon etuna.
+> Huomaa, että jos kuulut lahkoon **[E'Shara'n e'An-K'han](../../Utopaedia/factions/index.md)**, saat tämän erikoistumisen lahkon etuna.
 
 
 
@@ -127,7 +127,7 @@ Pystyt oksentamaan tahdonalaisesti vahvasti syövyttävää happoa. Happohyökk�
 Olet poikkeuksellisen suurikokoinen. Kokoluokkasi kasvaa **keskikokoisesta** **suureksi**, jos olet jos Suurikokoinen, niin tämä ei sinua auta.
 
 ### Massiivinen (2p)
-Olet massiivinen järkäle, yllät helposti 3-metriseksi. Kestät huomattavasti enemmän vahinkoa kuin muut, mutta sinuun on myös helppo osua taistelussa. [[./Kokoluokka|Kokoluokkasi]] kasvaa **Suuresta** peräti **Massiiviseksi**. Jos olet keskikokoinen, niin sinun täytyy ensin kasvattaa kokoluokkasi Suureksi.
+Olet massiivinen järkäle, yllät helposti 3-metriseksi. Kestät huomattavasti enemmän vahinkoa kuin muut, mutta sinuun on myös helppo osua taistelussa. [Kokoluokkasi](./Kokoluokka.md) kasvaa **Suuresta** peräti **Massiiviseksi**. Jos olet keskikokoinen, niin sinun täytyy ensin kasvattaa kokoluokkasi Suureksi.
 
 ### Myrkyllinen iho (1p)
 Ihosi erittää voimakasta myrkkyä, joka tarttuu kosketuksen välityksellä, ellei käytetä suojavälineitä. Myrkky on nopeavaikutteista ja pelkkä hipaisu riittää vaikutukseen. Kohde kärsii 2d10 myrkytysvahinkoa: Lievä vamma aiheuttaa -2 haitan toimiin, ja vakava vamma -4 haitan, ja kohde voi myös kuolla myrkytykseen.

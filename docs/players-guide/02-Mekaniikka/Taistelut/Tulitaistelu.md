@@ -11,7 +11,7 @@ Hyökkäysheitot ratkaistaan testaamalla `Ampumataitoa`. Vaikeusasteena on hyök
 
 - **Ylimääräinen osuma**: +1 osuma per Rekyyli OM.
 - **Ylimääräinen kohde**: Saat jakaa osumia myös toiseen kohteeseen. Huom. vaatii vähintään 2 osumaa.
-- **Yliläpäisyn kohde:** 2 OM. Mikäli käytetään [[Tulitaistelu#Yliläpäisy|Yliläpäisy]]-sääntöä, toissijainen kohde saa puolet ensisijaisen kohteen osumista.
+- **Yliläpäisyn kohde:** 2 OM. Mikäli käytetään [Yliläpäisy](Tulitaistelu.md#Yliläpäisy)-sääntöä, toissijainen kohde saa puolet ensisijaisen kohteen osumista.
 - **Tarkka osuma**: +/- 1 vammaheiton tulokseen per 4 OM.
 
 > [!abstract] Pahan Pekan tarina...
@@ -228,7 +228,7 @@ Hahmo voi käyttää 1-5 toimintopistettä tähtäykseen, jolloin hän saa +1 pe
 Kannattaa käyttää vaikka noppa (D6 toimii tähän hyvin) merkitsemään muistiin paljonko toimintopisteitä olit jo käyttänyt tähtäykseen. Jos hahmo haluaa ampua ennen kuin on käyttäny kaikki aikomansa pisteet, tulee hänen tehdä Vaikea **Taisteluvalmius**-testi, jossa onnistuessaan hän saa muuttaa suunnitelmiaan.
 
 ## Kriittinen Tähtäys
-Hahmo voi yrittää tähdätä heikkoihin kohtiin kohteessa. Tämä on mahdollista vain, jos hahmo ampuu kertatulta, eli käyttää tulinopeutta 1, mutta myös jos hän ampuu [[Tulitaistelu#Purskeet|Purskeita]]. Tähdätessään heikkoihin kohtiin, Pelinjohtaja määrää muutoksen vaikeusasteeseen, riippuen siitä kuinka vaikea kyseiseen kohtaan on tähdätä.
+Hahmo voi yrittää tähdätä heikkoihin kohtiin kohteessa. Tämä on mahdollista vain, jos hahmo ampuu kertatulta, eli käyttää tulinopeutta 1, mutta myös jos hän ampuu [Purskeita](Tulitaistelu.md#Purskeet). Tähdätessään heikkoihin kohtiin, Pelinjohtaja määrää muutoksen vaikeusasteeseen, riippuen siitä kuinka vaikea kyseiseen kohtaan on tähdätä.
 
 Oletuksena vaikeusaste riippuu siitä millainen panssari kohteella on yllään.
 
@@ -244,7 +244,7 @@ Onnistuessaan heikkoon kohtaan tähdätty hyökkäys tekee automaattisesti kriit
 ## Yliläpäisy
 Jos oleellista, niin taistelussa voidaan huomioida **Yliläpäisy**, jolloin projektiilit voivat läpäistä yhden kohteen, ja osua toiseen kohteeseen sen takana. Yliläpäisy tapahtuu automaattisesti, mikäli aseessa on vähintään 1 piste läpäisyä jäljellä sen jälkeen kun läpäisy on vähentänyt panssarin nolliin. Tällöin ammus jatkaa matkaansa kohteen läpi, ja sen *efektiivinen läpäisy* on jäljellä oleva läpäisy.
 
-Osumat toissijaisiin kohteisiin voidaan ratkaista esim. *harhaluodeilla*, tai mikäli se on haluttu efekti, niin hyökkääjä voi käyttää [[Tulitaistelu#Hyökkääminen|Hyökkäyksen]] **onnistumismarginaalia** ottaakseen ylimääräisen yliläpäisykohteen. Yliläpäisy voi jatkua myös toissijaisen kohteen jälkeen, mikäli vain läpäisyä riittää, mutta jokainen läpäisty kohde vähentää Läpäisyarvoa yhdellä.
+Osumat toissijaisiin kohteisiin voidaan ratkaista esim. *harhaluodeilla*, tai mikäli se on haluttu efekti, niin hyökkääjä voi käyttää [Hyökkäyksen](Tulitaistelu.md#Hyökkääminen) **onnistumismarginaalia** ottaakseen ylimääräisen yliläpäisykohteen. Yliläpäisy voi jatkua myös toissijaisen kohteen jälkeen, mikäli vain läpäisyä riittää, mutta jokainen läpäisty kohde vähentää Läpäisyarvoa yhdellä.
 
 > [!Example] Esimerkki
 > **Driver** on karaistunut NWFL Troggi, joka joutuu puolustamaan ryhmäänsä hyökkäävältä laumalta mutanttisusipetoja keskellä erämaata. Driver on ladannut automaattihaulikkoonsa APN Panssarineula-ammuksia, ja lataa sarjan kohti hyökkäävää laumaa. Koirat tulevat kivassa letkassa kahdessa rivissä, joten Driver pyrkii osumaan kahteen letkan ensimmäiseen. Hyökkäysheitosta tulee 15 ja kohteet ovat optimaalisella kantamalla, joten Driver osuu OM 7. Hän käyttää 4 OM saadakseen kumpaankin kohteeseen toissijaisen Yliläpäisykohteen. Jäljelle jäävällä OM 3 hän saa toisen osuman. Kohteilla on PL 1 ja ammuksissa on LL 3, joten yliläpäisyyn jää (3 - 1 (PL) - 1 (yliläpäisy)) LL 1. Ammuksissa on x6 osuma-kerroin joten kumpikin ensisijainen kohde ottaa 6d4 vahinkoa. Ensimmäinen peto ottaa 16 vahinkoa ja toinen 15 vahinkoa. kumpikin pedoista kuolee osumiin. Yliläpäisyn kohteet ottavat kumpikin 3 osumaa LL 1, mikä riittää läpäisemään panssarin PL 1, joten kumpikin ottaa 3d4 vahinkoa: 9 ja 6 mikä riittää vakvaan ja toinen lievään vammaan. Vamma-heitoista tulee 6, 9. Kaksi koirista kuolee, kolmas tipahtaa ja vuotaa kuiviin, mutta neljäs jatkaa matkaansa, vaikkakin haavoittuneena.

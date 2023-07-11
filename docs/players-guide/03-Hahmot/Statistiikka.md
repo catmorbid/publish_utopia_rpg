@@ -8,25 +8,25 @@ Satistiikka johdetaan Kyvyista ja Taidoista.
 
 PP
 
- `5 + Spiidi + Väistäminen`. Peruspuolustus määrittelee hyökkääjän vaikeusasteen lähitaistelussa, mutta vain mikäli kohde on tietoinen hyökkäyksestä. Peruspuolustus ei yleensä riitä mihinkään, vaan antaa lähinnä viimeisen mahdollisuuden välttää osumia. Huomaa [[|kokoluokasta]] tuleva muutos Peruspuolustukseen.
+ `5 + Spiidi + Väistäminen`. Peruspuolustus määrittelee hyökkääjän vaikeusasteen lähitaistelussa, mutta vain mikäli kohde on tietoinen hyökkäyksestä. Peruspuolustus ei yleensä riitä mihinkään, vaan antaa lähinnä viimeisen mahdollisuuden välttää osumia. Huomaa [kokoluokasta](.md) tuleva muutos Peruspuolustukseen.
 
 ## Kestävyys
 
 KEST
 
-`10 + Ruho`. Laske yhteen kaikki muuttujat, ja lopuksi kerro [[Statistiikka#kokoluokka|Kokoluokan]] mukaisella **Kestävyys-kertoimella**.  
+`10 + Ruho`. Laske yhteen kaikki muuttujat, ja lopuksi kerro [Kokoluokan](Statistiikka.md#kokoluokka) mukaisella **Kestävyys-kertoimella**.  
 
 Kestävyys määrittää kuinka paljon vahinkoa hahmon täytyy ottaa yhdellä kertaa ennen kuin tuhoutuu välittömästi, ilman mahdollisuutta selviytyä. Kestävyyden mukaan määritellän raja-arvot vammautumiselle:
 
-**Vakava vamma**: `Kestävyys / 2 (pyöristä alas)`.  Vakava vamma määrittää kuinka monta haavapistettä hahmon pitää ottaa yhdestä hyökkäyksestä, että se aiheuttaa Vakavan Vamman. ks. [[Statistiikka#Vahinko ja vammautuminen|Vammautuminen]].
+**Vakava vamma**: `Kestävyys / 2 (pyöristä alas)`.  Vakava vamma määrittää kuinka monta haavapistettä hahmon pitää ottaa yhdestä hyökkäyksestä, että se aiheuttaa Vakavan Vamman. ks. [Vammautuminen](Statistiikka.md#Vahinko%20ja%20vammautuminen).
 
-**Lievä vamma**: `Kestävyys / 4 (pyöristä alas)` .  Lievä vamma määrittää kuinka monta haavapistettä hahmon pitää ottaa yhdestä hyökkäyksestä, että se aiheuttaa Lievän Vamman. ks. [[Statistiikka#Vahinko ja vammautuminen|Vammautuminen]].
+**Lievä vamma**: `Kestävyys / 4 (pyöristä alas)` .  Lievä vamma määrittää kuinka monta haavapistettä hahmon pitää ottaa yhdestä hyökkäyksestä, että se aiheuttaa Lievän Vamman. ks. [Vammautuminen](Statistiikka.md#Vahinko%20ja%20vammautuminen).
 
 ## Kuntopisteet
 
 KP
 
-`Kestävyys + Karaistuminen`.  Kuntopisteet määrittää kuinka monta haavapistettä hahmo voi kärsiä ja säilyttää vielä normaalin toimintakykynsä. Siihen vaikuttaa Kestävyyden lisäksi hahmon [[|Vahingonsieto]] joka mahdollistaa sinnittelyn toimintakykyisenä pidempään. Jos hahmo kärsii vähintään Kuntopisteidensä verran haavapisteitä, hän menettää toimintakykynsä, eli useimmiten joutuu tajuttomaksi.
+`Kestävyys + Karaistuminen`.  Kuntopisteet määrittää kuinka monta haavapistettä hahmo voi kärsiä ja säilyttää vielä normaalin toimintakykynsä. Siihen vaikuttaa Kestävyyden lisäksi hahmon [Vahingonsieto](.md) joka mahdollistaa sinnittelyn toimintakykyisenä pidempään. Jos hahmo kärsii vähintään Kuntopisteidensä verran haavapisteitä, hän menettää toimintakykynsä, eli useimmiten joutuu tajuttomaksi.
 
 ## Toimintopisteet
 
@@ -40,7 +40,7 @@ LI
 
 `5 + Notku`. Liikenopeus määrittelee kuinka monta metriä hahmo voi liikkua yhdellä Toimintopisteellä. Maksimiliikenopeus on 5x LI, jos hahmo käyttää koko kierroksen liikkumiseen, tai hänellä on riittävästi toimintopisteitä. Liikkumiseen ei voi käyttää enempää kuin 5 toimintopistettä.
 
-[[|Panssarit]] vähentävät maksimiliikenopeutta rajoittamalla kuinka monta toimintopistettä liikkumiseen voidaan käyttä. Ne eivät siis juurikaan vaikuta lyhyillä etäisyyksillä, mutta pidemmillä etäisyyksillä vaikutus alkaa olla tuntuva.
+[Panssarit](.md) vähentävät maksimiliikenopeutta rajoittamalla kuinka monta toimintopistettä liikkumiseen voidaan käyttä. Ne eivät siis juurikaan vaikuta lyhyillä etäisyyksillä, mutta pidemmillä etäisyyksillä vaikutus alkaa olla tuntuva.
 
 ## Taakkaraja
 

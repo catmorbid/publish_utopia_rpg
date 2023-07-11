@@ -77,7 +77,7 @@ Taitoja ostetaan **Kokemuspisteillä**, joten taitojen kehittäminen tapahtuu sa
 3. erikoistuminen 15 KP
 4. erikoistuminen 20 KP
 
-Hahmot saavat usein [[|Taustan]] mukaan kokemuspisteitä johonkin taitokategoriaan. Nämä kokemuspisteet voidaan yhdistää pelinjohtajan pelin alussa, tai pelin aikana antamiin kokemuspisteisiin. Taitokategorioihin annetuissa kokemuspisteissä ainoana rajoituksen on, että niitä ei voi käyttää toisen taitokategorian taitojen kehittämiseen.
+Hahmot saavat usein [Taustan](.md) mukaan kokemuspisteitä johonkin taitokategoriaan. Nämä kokemuspisteet voidaan yhdistää pelinjohtajan pelin alussa, tai pelin aikana antamiin kokemuspisteisiin. Taitokategorioihin annetuissa kokemuspisteissä ainoana rajoituksen on, että niitä ei voi käyttää toisen taitokategorian taitojen kehittämiseen.
 
 Pelinjohtaja voi myös pelin aikana myöntää taitokategoriaan kokemuspisteitä, seurauksena esim. hahmon kouluttautumisesta, tai harjoittelusta. Silloinkin näitä pisteitä voi hyödyntään ainoastaan kyseisen taitokategorian taitojen kehittämiseen.
 

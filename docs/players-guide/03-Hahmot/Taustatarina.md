@@ -70,19 +70,19 @@ Olet rikkaan perheen hemmoteltu lapsi. Sait aina kaiken haluamasi, mutta sinulta
 
 Varallisuus +1, Koulutus +2, Psyko -2
 
-### 8. Sivistyneisyys
+### 8.Sivistyneisyys
 
 Kasvoit älyllisesti rikkaassa ympäristössä, jossa kannustettiin oppimaan ja ymmärtämään asioita, ja opitkin jo hyvin nuoresta pitäen paljon asioita, jotka antoivat sinulle hyvän pohjan jatkaa eteenpäin, mutta älylliset pyrkimyksesti ovat tehneet sinusta fyysisesti heikomman.
 
 Data +1, Koulutus +2, Ruho -1, Notku -1.
 
-### 9. Onnellisuus
+### 9.Onnellisuus
 
 Vietit erittäin onnellisen lapsuuden lämpimässä perheessä, ja sinulla on paljon hyviä muistoja pahojen päivien varalle. Harmi vain, että hyvät muistot eivät pysäytä luoteja.
 
 Psyko +1
 
-### 10. Tuntematon
+### 10.Tuntematon
 
 Lapsuutesi on sinulle tuntematon. Et tiedä koska synnyit, ketkä olivat vanhempasi, tai mitä teit. Sinulla on poikkeuselliset kyvyt, ja olet erittäin taitava, mutta mikä on näiden etujen hinta?
 
@@ -138,19 +138,19 @@ Sait nuoruudessasi nauttia mittavasta ylellisyydestä opiskellessasi hyvämainei
 
 Koulutus +2, Vuorovaikutus +2, Varallisuus +1, Psyko -1, Karma -2.
 
-### 8. Sivistyneisyys
+### 8.Sivistyneisyys
 
 Vietit nuoruutesi pitkälti teknologian parissa, kehittäen älykkyyttäsi. Tämä kuitenkin teki sinusta fyysisesti heikomman ja huonokuntoisen, mutta tiedät paljon asioita.
 
 Data +1, Koulutus +3, Karma +1, Ruho -1, Notku -1
 
-### 9. Onnellisuus
+### 9.Onnellisuus
 
 Nuoruutesi oli yhtä hyvinvointia henkisellä tasolla. Sait kannustusta pyrkimyksissäsi, ja sisäinen hyvinvointisi heijastui kasvaneena sosiaalisena käyttäytymisenä. Olitkin nuorena erittäin ulospäinsuuntautunut.
 
 Psyko +1, Vuorovaikutus +2.
 
-### 10. Tuntematon
+### 10.Tuntematon
 
 Et muista nuoruudestasi mitään. Joskus heräät keskellä yötä huutaen, kun näet samaa toistuvaa painajaista, mutta hetken päästä olet taas unohtanut kaiken.
 
@@ -170,7 +170,7 @@ Kybertaidot +2, Koulutus +4, Karuus -1
 
 ### 2.Köyhyys
 
-Olosuhteet ajoivat sinut aikuisuuden kynnyksellä elämään kaduilla köyhyydessä ja kurjuudessa. Ystäväpiirisi koostuu lähinnä pultsareista, narkkareista, pikkurikollisista, prostituoiduista ja muista katujen asukeista. Olet tottunut tekemään kaikenlaisia hanttihommia elääksesi, niin pikkurikoksista raskaaseen fyysiseen työhön. Katkeruudella katsot kun rikkaat kulkevat liitolimusiineissaan ohitse ja nauravat kurjuudellesi. Olet todella köyhä, mutta toisaalta tunnet kadut paremmin kuin taskusi - omat tai ei - ja tiedät kaikki parhaat paikat kerjätä ja tonkia syömäkelpoista sapuskaa.
+Olosuhteet ajoivat sinut aikuisuuden kynnyksellä elämään kaduilla köyhyydessä ja kurjuudessa. Ystäväpiirisi koostuu lähinnä pultsareista, narkkareista, pikkurikollisista, prostituoiduista ja muista katujen asukeista. Olet tottunut tekemään kaikenlaisia hanttihommia elääksesi, niin pikkurikoksista raskaaseen fyysiseen työhön. Katkeruudella katsot kun rikkaat kulkevat liitolimusiineissaan ohitse ja nauravat kurjuudellesi. Olet todella köyhä, mutta toisaalta tunnet kadut paremmin kuin taskusi - tai jonkun toisen - ja tiedät kaikki parhaat paikat kerjätä ja tonkia syömäkelpoista sapuskaa.
 
 Toiminta +2, Selviytyminen +4, Varallisuus -1.
 
@@ -204,19 +204,19 @@ Aikuisena pääsit rahan makuun. Oletkin viettänyt hyvää elämää hyvätuloi
 
 Varallisuus +4, Psyko -1, Karma -2
 
-### 8. Sivistyneisyys
+### 8.Sivistyneisyys
 
 Olet aikusena saanut nauttia sivistyksen hedelmistä ja niin korkeateknologia kuin politiikan maailman tapahtumat ovat sinulle tuttuja. Nautit modernin teknologian mahdollisuuksista, mutta halveksut köyhiä ja sivistymättömiä, jotka turvautuvat raakuuksiin ja väkivaltaan joka päiväisessä elämässään.
 
 Koulutus +2, Vuorovaikutus +2, Varallisuus +1, Karma -2
 
-### 9. Onnellisuus
+### 9.Onnellisuus
 
 Olet viettänyt hyvää, tasapainoista elämää. Sinulla on ystäviä, rakkaita, lemmikkirotta ja kaunis kiiltävä käsiase vitriinissä. Tämä mahtava elinympäristö on näkynyt suurena motivaation puuskana läpi varhaisen aikuisuutesi, ja oletkin määrätietoisesti pyrkinyt eteenpäin kohti unelmiasi.
 
 Voit jakaa 4 taitoastetta vapaasti valitsemiesi taitojen kesken. Varallisuus +1.
 
-### 10. Tuntematon
+### 10.Tuntematon
 
 Et tiedä kuka olet. Et muista eilistä pidemmälle, lukuunottamatta irrallisia välähdyksiä. Et mitään, mikä auttaisi sinua selvittämään kuka olet, tai mitä teet tässä maailmassa. Lykkyä tykö.
 
