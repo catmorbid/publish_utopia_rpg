@@ -24,30 +24,30 @@ Maailmaa hallitsevat lukemattomat suuriyritykset, jotka toimivat enemm√§n tai v√
 
 
 
-[[./Bobs-Company|Bobs-Company]]
+[Bobs-Company](./Bobs-Company.md)
 
-[[Utopaedia/suuryritykset/Lambda-Tech]]
+[Lambda-Tech](Utopaedia/suuryritykset/Lambda-Tech.md)
 
-[[./Medi-Tech-Industries|Medi-Tech-Industries]]
+[Medi-Tech-Industries](./Medi-Tech-Industries.md)
 
-[[./Megacorp|Megacorp]]
+[Megacorp](./Megacorp.md)
 
-[[./Nokea-Technologies|Nokea-Technologies]]
+[Nokea-Technologies](./Nokea-Technologies.md)
 
-[[./Tech-X|Tech-X]]
+[Tech-X](./Tech-X.md)
 
-[[./Megatech|Megatech]]
+[Megatech](./Megatech.md)
 
-[[./Unknown9|Unknown9]]
+[Unknown9](./Unknown9.md)
 
-[[./Zerotech|Zerotech]]
+[Zerotech](./Zerotech.md)
 
-[[./Smichter|Smichter]]
+[Smichter](./Smichter.md)
 
-[[./Manhunt|Manhunt]]
+[Manhunt](./Manhunt.md)
 
-[[./Winchester-Sports|Winchester-Sports]]
+[Winchester-Sports](./Winchester-Sports.md)
 
-[[./Von-Krauer-Schantz|Von-Krauer-Schantz]]
+[Von-Krauer-Schantz](./Von-Krauer-Schantz.md)
 
-[[./Starrco|Starrco]]
+[Starrco](./Starrco.md)
