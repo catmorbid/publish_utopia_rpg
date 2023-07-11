@@ -50,7 +50,7 @@ Vahinkoluokan perusteella saadaan Vahinkonoppa (ks. taulukko). Pelaajat voivat s
 | 20            | 4d10      | 4      | 22     | 40     |
 
 
-Pelaaja heittää yhden **vahinkonopan** per [[Vahinkoluokka#Osumat|Osumat]] ja laskee luvut yhteen: summa on hyökkäyksen lopullinen vahinko. Jos vahinkonoppaan pätee **vahinkomuuttujia**, lisätään muuttujat kerrottuna osumien määrällä noppien summaan.
+Pelaaja heittää yhden **vahinkonopan** per [Osumat](Vahinkoluokka.md#Osumat) ja laskee luvut yhteen: summa on hyökkäyksen lopullinen vahinko. Jos vahinkonoppaan pätee **vahinkomuuttujia**, lisätään muuttujat kerrottuna osumien määrällä noppien summaan.
 
 Vahinkoluokat seitsemästä (7) ylöspäin antavat toisen nopan. Tällöin heitetään kumpaakin noppaa osumien verran.
 
@@ -88,4 +88,4 @@ Tyypilliset vahinkoluokat on tarkoitettu henkilökohtaiseen välienselvittelyyn,
 
 
 
-[[./Vammat|Vammat]]
+[Vammat](./Vammat.md)
