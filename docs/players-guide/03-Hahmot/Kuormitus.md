@@ -16,3 +16,5 @@ Kuormitusta voi tulla seurauksena, esimerkiksi:
 - Kyberaseiden seurauksena
 - Stressin seurauksena
 
+## Palautuminen
+Kuormitus palautuu luonnollisesti yhden pisteen vuorokaudessa, olettaen, että hahmo on saanut vähintään yhden pisteen lepoa. Erilaiset huumausaineet ja lääkkeet voivat edesauttaa palautumista ja meditaation ammattilaiset pystyvät palautumaan paremmin: Voit päivän aikana yrittää meditoida testaamalla Itsekuria (Psyko) nopeuttaaksesti kuormituksen palautumista. Meditaatio on vaikeaa ja sen vaikeusaste on $10+2*Kuormituspisteet$, eli mitä pahemmassa kuopassa olet, sitä vaikeampaa on sieltä kaivautua meditaation keinoin. Meditoidessa saat takaisin yhden kuormituspisteen + ylimääräisen pisteen per 4 Onnistumisen Marginaali. Meditaatio tarvitsee vähintään 2 tuntia rauhallista aikaa.
