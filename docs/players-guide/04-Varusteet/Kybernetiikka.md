@@ -25,14 +25,15 @@ Kybernetiikkamarkkinoilla on lukuisia tekijöitä, jotka tekevät erilaatuista t
 
 Lisäominaisuudet ovat yleensä kiinteähintaisia, ja niihin ei vaikuta valmistaja, joten voit ostaa haluamasi lisäominaisuudet proteesin normaalin hinnan päälle.
 
-| Valmistaja            | Bonus/Proteesi | Bonus/Implantti | Hinta/Proteesi | Hinta/Implantti |
-| --------------------- | -------------- | --------------- | -------------- | --------------- |
-| Lambda Tech Solutions | 1              | 1               | 1              | 1               |
-| Megacorp              | 2              | 3               | 2              | 4               |
-| Megatech              | 3              | 2               | 4              | 2               |
-| Tech-X                | 5              | 4               | 16             | 8               |
-| Unknown9              | 6              | 6               | 32             | 32              |
-| Zerotech              | 4              | 5               | 8              | 16              |
+| Valmistaja            | Bonus/Proteesi | Bonus/Siru | Hinta/Proteesi | Hinta/Siru |
+|-----------------------|----------------|------------|----------------|------------|
+| Lambda Tech Solutions | 1              | 1          | 1              | 1          |
+| Megacorp              | 3              | 3          | 4              | 4          |
+| Megatech              | 4              | 2          | 8              | 2          |
+| Tech-X                | 5              | 4          | 16             | 8          |
+| Unknown9              | 6              | 6          | 32             | 32         |
+| Zerotech              | 2              | 5          | 2              | 16         |
+
 
 ## Kybernetiikkapisteet ja TEK
 
@@ -71,6 +72,8 @@ Proteesit voivat antaa bonusta tai haittaa kykyihin. Bonus tai haitta vaikuttaa 
 > Anargil menetti kätensä "auto-onnettomuudessa", kun moottoripyöräjengiläinen ampui sen katkaistulla haulikolla tohjoksi rekan ikkunan läpi. Anargil tutkailee proteesikättä sen tilalle, ja on valinnut Megacorpin kyberneettisen käden. Megacorpin kyberneettiset proteesit antavat +2 bonuksen ja niiden hintakerroin on vain 2, joten käteen voi asentaa 2 lisäominaisuutta ja se maksaa 3000 CR. Anargil korvaa tällä vasemman kätensä, mutta hänen oikea kätensä on edelleen luonnollinen, joten kaikki edut vaikuttavat vain vasemman käden käyttöön.
 
 
+### Proteesilista
+
 | Malli                           | Proteesi          | Hinta | Turmelus | Työ |
 | ------------------------------- | ----------------- | ----- | -------- | --- |
 | Kyberneettinen käsi             | Käsi              | 500   | 1        | 1   |
@@ -90,119 +93,117 @@ Proteesit voivat antaa bonusta tai haittaa kykyihin. Bonus tai haitta vaikuttaa 
 | Implanttilaatikko, Suojattu     | Implanttilaatikko | 1000  | 1        | 2   |
 | Implanttilaatikko, Tuhoutumaton | Implanttilaatikko | 2000  | 1        | 2   |
 
-
-### Kyberneettinen käsi  
-**Proteesi**: Käsi  
-**Hinta**: 500  
-**Turmelus**: 1  
-**Työ**: 1  
+#### Kyberneettinen käsi
+**Proteesi**: Käsi
+**Hinta**: 500
+**Turmelus**: 1
+**Työ**: 1
 **Kuvaus**: Toimiva käsi. Saat [laatubonus] lisäominaisuutta.
 
-### Kyberneettinen jalka  
-**Proteesi**: Jalka  
-**Hinta**: 1000  
-**Turmelus**: 1  
-**Työ**: 1  
+#### Kyberneettinen jalka
+**Proteesi**: Jalka
+**Hinta**: 1000
+**Turmelus**: 1
+**Työ**: 1
 **Kuvaus**: Toimiva jalka. Saat [laatubonus] lisäominaisuutta.
 
-### Kyberneettinen silmä  
-**Proteesi**: Silmä  
-**Hinta**: 1500  
-**Turmelus**: 1  
-**Työ**: 4  
+#### Kyberneettinen silmä
+**Proteesi**: Silmä
+**Hinta**: 1500
+**Turmelus**: 1
+**Työ**: 4
 **Kuvaus**: Toimiva silmä. Saat [laatubonus] lisäominaisuutta.
 
-### Kyberneettinen Korva  
-**Proteesi**: Korva  
-**Hinta**: 1200  
-**Turmelus**: 1  
-**Työ**: 2  
+#### Kyberneettinen Korva
+**Proteesi**: Korva
+**Hinta**: 1200
+**Turmelus**: 1
+**Työ**: 2
 **Kuvaus**: Toimiva korva. Saat [laatubonus] lisäominaisuutta.
 
-### Kyberneettinen Leuka  
-**Proteesi**: Pää  
-**Hinta**: 750  
-**Turmelus**: 1  
-**Työ**: 2  
-**Kuvaus**: Uudet kiiltävät leegot ja mahtava puruvoima. Saat +[bonus] edun lähitaistelussa vahinkoluokkaan, kun yrität purra vastustajaasi.
+#### Kyberneettinen Leuka
+**Proteesi**: Pää
+**Hinta**: 750
+**Turmelus**: 1
+**Työ**: 2
+**Kuvaus**: Uudet kiiltävät leegot ja mahtava puruvoima. Saat  +[bonus] edun lähitaistelussa vahinkoluokkaan, kun yrität purra vastustajaasi.
 
-### Kyberneettiset aivot  
-**Proteesi**: Pää  
-**Hinta**: 4000  
-**Turmelus**: 4  
-**Työ**: 5  
+#### Kyberneettiset aivot
+**Proteesi**: Pää
+**Hinta**: 4000
+**Turmelus**: 4
+**Työ**: 5
 **Kuvaus**: Keinotekoiset aivot, joissa on orgaanista materiaa. Data +[bonus/2]. Psyko -[bonus/2]. Mahdollistaa suoran neuraaliyhteyden Utopiaan ja muihin laitteisiin ilman ulkoisia apuvälineitä, käyttäen aivoja suoraan prosessorina. Mahdollistaa tietoisuuden istuttamisen aivoihin.
 
-### Kyberranka  
-**Proteesi**: Selkäranka  
-**Hinta**: 4000  
-**Turmelus**: 1  
-**Työ**: 5  
+#### Kyberranka
+**Proteesi**: Selkäranka
+**Hinta**: 4000
+**Turmelus**: 1
+**Työ**: 5
 **Kuvaus**: Kyberranka yhdistää aivot hermostoon ja tehostaa koko kehon toimintaa. Kestävyys +[laatubonus] ja 1 lisäominaisuus.
 
-### Kyberneettiset elimet  
-**Proteesi**: Elimet  
-**Hinta**: 2500  
-**Turmelus**: 1  
-**Työ**: 3  
+#### Kyberneettiset elimet
+**Proteesi**: Elimet
+**Hinta**: 2500
+**Turmelus**: 1
+**Työ**: 3
 **Kuvaus**: Kestävyys +[laatubonus]. Yksittäisen elimen hinta 200-500 CR. Kestävyys etu tulee vasta, kun merkittävä osa elimistä on korvattu. [laatubonus/2] lisäominaisuutta.
 
-### Kyborgikoneisto  
-**Proteesi**: Torso  
-**Hinta**: 10000  
-**Turmelus**: 4  
-**Työ**: 5  
+#### Kyborgikoneisto
+**Proteesi**: Torso
+**Hinta**: 10000
+**Turmelus**: 4
+**Työ**: 5
 **Kuvaus**: Korvaa sisäelimet ja selkärangan biogeneraattorilla ja kyberangalla. Hahmolla ei enää ole sydäntä tai verenkiertoa, hänen ei tarvitse hengittää ja hän voi silti käyttää orgaanista ravintoa energianlähteenä, tai ladata suoraan latauspisteestä. Kestävyys +[laatubonus x2]. Ja [laatubonus] lisäominaisuutta. 3x Kyberpistehinta.
 
-### Kyberneettinen luusto  
-**Proteesi**: Luusto  
-**Hinta**: 1500  
-**Turmelus**: 2  
-**Työ**: 4  
-**Kuvaus**: Kevyt metallinen sisäranka, joka suojelee sisäelimiä, mutta on taipuisa ja suhteellisen kevyt. Luontainen panssari (skaalautuu laatubonuksen kanssa): L ½, M 1, P ½. Ruho-muuttuja +1, Notku-muuttuja -1.
+#### Kyberneettinen luusto
+**Proteesi**: Luusto
+**Hinta**: 1500
+**Turmelus**: 2
+**Työ**: 4
+**Kuvaus**: Kevyt metallinen sisäranka, joka suojelee sisäelimiä, mutta on taipuisa ja suhteellisen kevyt. Luontainen panssari (skaalautuu laatubonuksen kanssa): L ½, M 1, P ½. Ruho +2, Notku-muuttuja -1.
 
-### Semi-orgaaninen luusto  
-**Proteesi**: Luusto  
-**Hinta**: 2000  
-**Turmelus**: 1  
-**Työ**: 4  
-**Kuvaus**: Semi-orgaaninen polymeeriseos. Erittäin kevyt. Ei rekisteröidy läpiluotauksessa kyberneettisenä. Luontainen Panssari (skaalautuu laatubonuksen kanssa): L ½, M½, P 1.
+#### Semi-orgaaninen luusto
+**Proteesi**: Luusto
+**Hinta**: 2000
+**Turmelus**: 1
+**Työ**: 4
+**Kuvaus**: Semi-orgaaninen polymeeriseos. Erittäin kevyt. Ei rekisteröidy läpiluotauksessa kyberneettisenä. Luontainen Panssari (skaalautuu laatubonuksen kanssa): L ½, M½, P 1. Ruho +1.
 
-### Adamantium-luusto  
-**Proteesi**: Luusto  
-**Hinta**: 4000  
-**Turmelus**: 3  
-**Työ**: 4  
-**Kuvaus**: Äärimmäisen luja metalliseos. Harvinaista meteoriittimetallia. Luontainen Panssari (skaalautuu laatubonuksen mukaan): L 1, M 1, P 1. Ruho +2.
+#### Adamantium-luusto
+**Proteesi**: Luusto
+**Hinta**: 4000
+**Turmelus**: 3
+**Työ**: 4
+**Kuvaus**: Äärimmäisen luja metalliseos. Harvinaista meteoriittimetallia. Luontainen Panssari (skaalautuu laatubonuksen mukaan): L 1, M 1, P 1. Ruho +3, Notku -1
 
-### Terminator-luusto  
-**Proteesi**: Luusto  
-**Hinta**: 10000  
-**Turmelus**: 4  
-**Työ**: 4  
-**Kuvaus**: Terminator-luokan luustot ovat äärimmäisen tiheitä ja painavia ja uskomattoman kestäviä, mutta vähän kömpelöitä. Luontainen Panssari (skaalautuu laatubonuksen kanssa): L 2, M 2, P 2. Ruho +3, Notku -2.
+#### Terminator-luusto
+**Proteesi**: Luusto
+**Hinta**: 10000
+**Turmelus**: 4
+**Työ**: 4
+**Kuvaus**: Terminator-luokan luustot ovat äärimmäisen tiheitä ja painavia ja uskomattoman kestäviä, mutta vähän kömpelöitä. Luontainen Panssari (skaalautuu laatubonuksen kanssa): L 2, M 2, P 2. Ruho +4, Notku -3.
 
-### Implanttilaatikko  
-**Proteesi**: Implanttilaatikko  
-**Hinta**: 400  
-**Turmelus**: 1  
-**Työ**: 2  
+#### Implanttilaatikko
+**Proteesi**: Implanttilaatikko
+**Hinta**: 400
+**Turmelus**: 1
+**Työ**: 2
 **Kuvaus**: [bonus x2] paikkaa siruille
 
-### Implanttilaatikko, Suojattu  
-**Proteesi**: Implanttilaatikko  
-**Hinta**: 1000  
-**Turmelus**: 1  
-**Työ**: 2  
+#### Implanttilaatikko, Suojattu
+**Proteesi**: Implanttilaatikko
+**Hinta**: 1000
+**Turmelus**: 1
+**Työ**: 2
 **Kuvaus**: [bonus] paikkaa siruille. Kestää EMP:n, 50% kestävyys pääosumissa
 
-### Implanttilaatikko, Tuhoutumaton  
-**Proteesi**: Implanttilaatikko  
-**Hinta**: 2000  
-**Turmelus**: 1  
-**Työ**: 2  
+#### Implanttilaatikko, Tuhoutumaton
+**Proteesi**: Implanttilaatikko
+**Hinta**: 2000
+**Turmelus**: 1
+**Työ**: 2
 **Kuvaus**: [bonus] paikkaa siruille. Tuhoutumaton
-
 
 ### Proteesien asennus
 
@@ -222,7 +223,7 @@ Kyberkirurgin kokemus ja työn vaikeus vaikuttaa myös asennukseen kuluvaan aika
 | 4    | 800 CR / 32h / 20%  | 1600 CR / 24h / 12% | 4000 CR / 16h / 8%  | 8000 CR / 12h / 4%  | 16000 CR / 8h / 2%  |
 | 5    | 1600 CR / 64h / 25% | 3200 CR / 48h / 15% | 8000 CR / 32h / 10% | 16000 CR / 24h / 5% | 32000 CR / 16h / 3% |
 
-#### Komplikaatiot
+### Komplikaatiot
 
 Heitä D100 (D%), jos tulos on yhtä suuri tai pienempi kuin **komplikaatio** %, niin hahmo kärsii komplikaatioista kirurgin operaation aikana. Heitä uudestaan komplikaatiot-taulukosta varsinainen komplikaatio, mutta lisää nopanheittoon hahmon karma. On mahdollista, että hahmo kuolee kirurgin pöydälle.
 
@@ -234,9 +235,10 @@ Heitä D100 (D%), jos tulos on yhtä suuri tai pienempi kuin **komplikaatio** %,
 | 31-50       | Vähäisiä komplikaatioita    | Operaatio kestää 1d8h aiottua pidempään ja hahmo saa 1 pisteen vauriota yhteen kykyyn. |
 | 51+         | Pieniä mutkia matkassa      | Operaatio kestää 1d6h pidempään, mutta onnistuu suunnitelman mukaisesti. |
 
-## Proteesien Lisäominaisuudet
+### Proteesien Lisäominaisuudet
 
 Proteesien lisäominaisuudet laajentavat proteesin käyttötapaa. Lisäominaisuudella on kiinteä hinta, joka maksetaan proteesin tavallisen hinnan päälle. 
+
 
 | Ominaisuus                   | Proteesi         | Hinta | TUR | KBP | TEK |
 | ---------------------------- | ---------------- | ----- | --- | --- | --- |
@@ -284,376 +286,341 @@ Proteesien lisäominaisuudet laajentavat proteesin käyttötapaa. Lisäominaisuu
 | Ultra-kiihdytin v3           | Torso/Selkäranka | 36000 | 12  | 9   | 5   |
 | Lääkeannostelija             | Torso/Selkäranka | 6500  | 4   | 3   | 3   |
 | Kivun estäjä                 | Torso/Selkäranka | 3000  | 4   | 1   | 4   |
-| AR Linkki                    | Aivot            | 4200  | 2   | 3   | 4   |
+| Raskas Luusto                | Luusto           | 5000  | 4   | 3   | 4   |
+| AR Linkki                    | Aivot            | 4200  | 2   | 2   | 4   |
 | VR Linkki                    | Aivot            | 10000 | 5   | 4   | 4   |
 
-### Integroitu ase, ulkoinen  
-**Proteesi**: Käsi / Jalka  
-**Hinta**: 500  
-**TUR**: 2  
-**KBP**: 1  
-**TEK**: 3  
+
+#### Integroitu ase, ulkoinen
+**Proteesi**: Käsi / Jalka
+**Hinta**: 500
+**TUR**: 2
+**KBP**: 1
+**TEK**: 3
 **Kuvaus**: Max. KO = 4 + Ruho / 3. 2x Lipaskoko.
-
-### Integroitu ase, piilotettava  
-**Proteesi**: Käsi / Jalka  
-**Hinta**: 2000  
-**TUR**: 2  
-**KBP**: 2  
-**TEK**: 3  
+#### Integroitu ase, piilotettava
+**Proteesi**: Käsi / Jalka
+**Hinta**: 2000
+**TUR**: 2
+**KBP**: 2
+**TEK**: 3
 **Kuvaus**: Max KO = 2 + Ruho / 4. 1x Lipaskoko.
-
-### Rekyylivaimennin  
-**Proteesi**: Käsi  
-**Hinta**: 3500  
-**TUR**: 1  
-**KBP**: 2  
-**TEK**: 3  
+#### Rekyylivaimennin
+**Proteesi**: Käsi
+**Hinta**: 3500
+**TUR**: 1
+**KBP**: 2
+**TEK**: 3
 **Kuvaus**: Käsiteltävän aseen rekyyli -1
-
-### Voimanlisääjä v1  
-**Proteesi**: Käsi  
-**Hinta**: 3000  
-**TUR**: 3  
-**KBP**: 2  
-**TEK**: 3  
+#### Voimanlisääjä v1
+**Proteesi**: Käsi
+**Hinta**: 3000
+**TUR**: 3
+**KBP**: 2
+**TEK**: 3
 **Kuvaus**: Lisää käyttäjän fyysistä voimaa, Saat +1 edun voimaa vaativiin urheilutesteihin, sekä +1 lähitaistelun vahinkoluokkaan. Vaikutus kasautuu, mikäli ominaisuus on molemmissa käsissä, ja pystyt käyttämään kumpaakin kättä toimintoon.
-
-### Voimanlisääjä v2  
-**Proteesi**: Käsi  
-**Hinta**: 6000  
-**TUR**: 6  
-**KBP**: 4  
-**TEK**: 4  
+#### Voimanlisääjä v2
+**Proteesi**: Käsi
+**Hinta**: 6000
+**TUR**: 6
+**KBP**: 4
+**TEK**: 4
 **Kuvaus**: Saat +2 edun voimaa vaativiin testeihin, sekä +2 lähitaistelun vahinkoluokkaan.
-
-### Voimanlisääjä v3  
-**Proteesi**: Käsi  
-**Hinta**: 12000  
-**TUR**: 9  
-**KBP**: 6  
-**TEK**: 5  
+#### Voimanlisääjä v3
+**Proteesi**: Käsi
+**Hinta**: 12000
+**TUR**: 9
+**KBP**: 6
+**TEK**: 5
 **Kuvaus**: Saat +3 edun voimaa vaativiin testeihin, sekä +3 edun lähitaistelun vahinkoluokkaan.
-
-### Käsivakautin v1  
-**Proteesi**: Käsi  
-**Hinta**: 3500  
-**TUR**: 1  
-**KBP**: 2  
-**TEK**: 3  
+#### Käsivakautin v1
+**Proteesi**: Käsi
+**Hinta**: 3500
+**TUR**: 1
+**KBP**: 2
+**TEK**: 3
 **Kuvaus**: Saat +1 edun hienomotoriikkaa vaativiin testeihin, kuten ampumiseen tai kirurgiaan.
-
-### Käsivakautin v2  
-**Proteesi**: Käsi  
-**Hinta**: 7000  
-**TUR**: 2  
-**KBP**: 4  
-**TEK**: 4  
+#### Käsivakautin v2
+**Proteesi**: Käsi
+**Hinta**: 7000
+**TUR**: 2
+**KBP**: 4
+**TEK**: 4
 **Kuvaus**: Saat +2 edun hienomotoriikkaa vaativiin testeihin, kuten ampumiseen tai kirurgiaan.
-
-### Käsivakautin v3  
-**Proteesi**: Käsi  
-**Hinta**: 14000  
-**TUR**: 3  
-**KBP**: 6  
-**TEK**: 5  
+#### Käsivakautin v3
+**Proteesi**: Käsi
+**Hinta**: 14000
+**TUR**: 3
+**KBP**: 6
+**TEK**: 5
 **Kuvaus**: Saat +3 edun hienomotoriikkaa vaativiin testeihin, kuten ampumiseen tai kirurgiaan.
-
-### Pieni piilotettu varasto  
-**Proteesi**: Käsi / Jalka  
-**Hinta**: 500  
-**TUR**: 1  
-**KBP**: 1  
-**TEK**: 3  
+#### Pieni piilotettu varasto
+**Proteesi**: Käsi / Jalka
+**Hinta**: 500
+**TUR**: 1
+**KBP**: 1
+**TEK**: 3
 **Kuvaus**: Varasto Max. KO 1 esineille
-
-### Liikevakautin v1  
-**Proteesi**: Jalat  
-**Hinta**: 3000  
-**TUR**: 2  
-**KBP**: 2  
-**TEK**: 3  
+#### Liikevakautin v1
+**Proteesi**: Jalat
+**Hinta**: 3000
+**TUR**: 2
+**KBP**: 2
+**TEK**: 3
 **Kuvaus**: Saat pysyvästi +1 Notku-muuttujaan. Vaatii molemmat jalat.
-
-### Liikevakautin v2  
-**Proteesi**: Jalat  
-**Hinta**: 6000  
-**TUR**: 4  
-**KBP**: 4  
-**TEK**: 4  
+#### Liikevakautin v2
+**Proteesi**: Jalat
+**Hinta**: 6000
+**TUR**: 4
+**KBP**: 4
+**TEK**: 4
 **Kuvaus**: Saat pysyvästi +2 Notku-muuttujaan. Vaatii molemmat jalat.
-
-### Liikevakautin v3  
-**Proteesi**: Jalat  
-**Hinta**: 12000  
-**TUR**: 6  
-**KBP**: 6  
-**TEK**: 5  
+#### Liikevakautin v3
+**Proteesi**: Jalat
+**Hinta**: 12000
+**TUR**: 6
+**KBP**: 6
+**TEK**: 5
 **Kuvaus**: Saat pysyvästi +3 Notku-muuttujaan. Vaatii molemmat jalat.
-
-### Hyppyavustin  
-**Proteesi**: Jalat  
-**Hinta**: 4000  
-**TUR**: 2  
-**KBP**: 2  
-**TEK**: 3  
+#### Hyppyavustin
+**Proteesi**: Jalat
+**Hinta**: 4000
+**TUR**: 2
+**KBP**: 2
+**TEK**: 3
 **Kuvaus**: Hyppykorkeus 10m. Vaatii molemmat jalat.
-
-### Juoksuavustin  
-**Proteesi**: Jalat  
-**Hinta**: 4000  
-**TUR**: 2  
-**KBP**: 2  
-**TEK**: 3  
+#### Juoksuavustin
+**Proteesi**: Jalat
+**Hinta**: 4000
+**TUR**: 2
+**KBP**: 2
+**TEK**: 3
 **Kuvaus**: Liikenopeus x1.5. Vaatii molemmat jalat.
-
-### Rullaluistimet  
-**Proteesi**: Jalat  
-**Hinta**: 3000  
-**TUR**: 2  
-**KBP**: 1  
-**TEK**: 3  
+#### Rullaluistimet
+**Proteesi**: Jalat
+**Hinta**: 3000
+**TUR**: 2
+**KBP**: 1
+**TEK**: 3
 **Kuvaus**: Jaloissa on rullaluistimet sisäänrakennettuna. Aktivoituina liikenopeus 30, ohjattavuus -2.
-
-### Työntömoottorit  
-**Proteesi**: Jalat  
-**Hinta**: 5000  
-**TUR**: 4  
-**KBP**: 2  
-**TEK**: 4  
+#### Työntömoottorit
+**Proteesi**: Jalat
+**Hinta**: 5000
+**TUR**: 4
+**KBP**: 2
+**TEK**: 4
 **Kuvaus**: Voit lentää tai hyppiä isoja loikkia jalkoihin asennettujen työntömoottorien avulla. Maksiminopeus 100km/h. Käyttöaika 30min.
-
-### Tarkennin v1  
-**Proteesi**: Silmä  
-**Hinta**: 1500  
-**TUR**: 2  
-**KBP**: 2  
-**TEK**: 3  
-**Kuvaus**: 5x Zoom silmässä.
-
-### Tarkennin v2  
-**Proteesi**: Silmä  
-**Hinta**: 3000  
-**TUR**: 2  
-**KBP**: 3  
-**TEK**: 3  
-**Kuvaus**: 10x Zoom silmässä.
-
-### Tarkennin v3  
-**Proteesi**: Silmä  
-**Hinta**: 6000  
-**TUR**: 3  
-**KBP**: 4  
-**TEK**: 4  
-**Kuvaus**: 25x Zoom silmässä
-
-### Tarkennin v4  
-**Proteesi**: Silmä  
-**Hinta**: 12000  
-**TUR**: 4  
-**KBP**: 5  
-**TEK**: 4  
-**Kuvaus**: 50x Zoom silmässä
-
-### Tarkennin v5  
-**Proteesi**: Silmä  
-**Hinta**: 24000  
-**TUR**: 5  
-**KBP**: 6  
-**TEK**: 5  
-**Kuvaus**: 100x Zoom silmässä
-
-### Yönäkö  
-**Proteesi**: Silmä  
-**Hinta**: 3000  
-**TUR**: 1  
-**KBP**: 2  
-**TEK**: 3  
+#### Tarkennin v1
+**Proteesi**: Silmä
+**Hinta**: 1500
+**TUR**: 2
+**KBP**: 2
+**TEK**: 3
+**Kuvaus**: 2x Zoom silmässä. Toimii ampuma-aseiden tarkentimena, jos aseessa on neurolinkki-yhteys.
+#### Tarkennin v2
+**Proteesi**: Silmä
+**Hinta**: 3000
+**TUR**: 2
+**KBP**: 3
+**TEK**: 3
+**Kuvaus**: 3x Zoom silmässä.
+#### Tarkennin v3
+**Proteesi**: Silmä
+**Hinta**: 6000
+**TUR**: 3
+**KBP**: 4
+**TEK**: 4
+**Kuvaus**: 4x Zoom silmässä
+#### Tarkennin v4
+**Proteesi**: Silmä
+**Hinta**: 12000
+**TUR**: 4
+**KBP**: 5
+**TEK**: 4
+**Kuvaus**: 5x Zoom silmässä
+#### Tarkennin v5
+**Proteesi**: Silmä
+**Hinta**: 24000
+**TUR**: 5
+**KBP**: 6
+**TEK**: 5
+**Kuvaus**: 6x Zoom silmässä
+#### Yönäkö
+**Proteesi**: Silmä
+**Hinta**: 3000
+**TUR**: 1
+**KBP**: 2
+**TEK**: 3
 **Kuvaus**: Hahmo näkee pimeässä kuin päivänvalossa.
-
-### Infrapunanäkö  
-**Proteesi**: Silmä  
-**Hinta**: 4000  
-**TUR**: 2  
-**KBP**: 2  
-**TEK**: 4  
+#### Infrapunanäkö
+**Proteesi**: Silmä
+**Hinta**: 4000
+**TUR**: 2
+**KBP**: 2
+**TEK**: 4
 **Kuvaus**: Hahmo erottaa infrapunasäteilyn, eli pystyy erottamaan kohteita esteidenkin läpi.
-
-### Röntgennäkö  
-**Proteesi**: Silmä  
-**Hinta**: 5000  
-**TUR**: 3  
-**KBP**: 3  
-**TEK**: 4  
+#### Röntgennäkö
+**Proteesi**: Silmä
+**Hinta**: 5000
+**TUR**: 3
+**KBP**: 3
+**TEK**: 4
 **Kuvaus**: Röntgennäöllä pystyt näkemään joidenkin materiaalien läpi, ja erottamaan esim. piilotetut aseet ja kyberneettiset proteesit vaatteiden läpi.
-
-### Kamera  
-**Proteesi**: Silmä  
-**Hinta**: 800  
-**TUR**: 1  
-**KBP**: 1  
-**TEK**: 3  
+#### Kamera
+**Proteesi**: Silmä
+**Hinta**: 800
+**TUR**: 1
+**KBP**: 1
+**TEK**: 3
 **Kuvaus**: Silmä voi tallentaa kaiken silmän näkemän kuvamateriaalin. Tallentuu joko yhdistetylle datasirulle, tai ulkoiseen varastoon erillisen linkkikaapelin avulla.
-
-### Nauhuri  
-**Proteesi**: Korva  
-**Hinta**: 600  
-**TUR**: 1  
-**KBP**: 1  
-**TEK**: 3  
+#### Nauhuri
+**Proteesi**: Korva
+**Hinta**: 600
+**TUR**: 1
+**KBP**: 1
+**TEK**: 3
 **Kuvaus**: Korva voi tallentaa kaiken kuulemansa äänen. Tallentuu joko yhdistetylle datasirulle, tai ulkoiseen varastoon erillisen linkkikaapelin avulla.
-
-### Kaikuluotain  
-**Proteesi**: Korva  
-**Hinta**: 4000  
-**TUR**: 2  
-**KBP**: 2  
-**TEK**: 4  
+#### Kaikuluotain
+**Proteesi**: Korva
+**Hinta**: 4000
+**TUR**: 2
+**KBP**: 2
+**TEK**: 4
 **Kuvaus**: Hahmo pystyy havaitsemaan kaikuluotaimen tavoin kohteet 100m etäisyydelle ja navigoimaan helposti ilman muita toimivia aisteja.
-
-### Kääntäjä  
-**Proteesi**: Korva  
-**Hinta**: 2000  
-**TUR**: 2  
-**KBP**: 1  
-**TEK**: 4  
+#### Kääntäjä
+**Proteesi**: Korva
+**Hinta**: 2000
+**TUR**: 2
+**KBP**: 1
+**TEK**: 4
 **Kuvaus**: Kääntää 90% kielistä reaaliaikaisesti käyttäjän haluamalle kielelle.
-
-### Kuulotehostin v1  
-**Proteesi**: Korva  
-**Hinta**: 2000  
-**TUR**: 1  
-**KBP**: 1  
-**TEK**: 3  
+#### Kuulotehostin v1
+**Proteesi**: Korva
+**Hinta**: 2000
+**TUR**: 1
+**KBP**: 1
+**TEK**: 3
+**Kuvaus**: Saat +1 edun kuuloaistin käyttöön
+#### Kuulotehostin v2
+**Proteesi**: Korva
+**Hinta**: 4000
+**TUR**: 2
+**KBP**: 2
+**TEK**: 4
 **Kuvaus**: Saat +2 edun kuuloaistin käyttöön
-
-### Kuulotehostin v2  
-**Proteesi**: Korva  
-**Hinta**: 4000  
-**TUR**: 2  
-**KBP**: 2  
-**TEK**: 4  
+#### Kuulotehostin v3
+**Proteesi**: Korva
+**Hinta**: 8000
+**TUR**: 3
+**KBP**: 3
+**TEK**: 5
 **Kuvaus**: Saat +3 edun kuuloaistin käyttöön
-
-### Kuulotehostin v3  
-**Proteesi**: Korva  
-**Hinta**: 8000  
-**TUR**: 3  
-**KBP**: 3  
-**TEK**: 5  
-**Kuvaus**: Saat +4 edun kuuloaistin käyttöön
-
-### Tasapainotin v1  
-**Proteesi**: Korva  
-**Hinta**: 2500  
-**TUR**: 1  
-**KBP**: 2  
-**TEK**: 3  
-**Kuvaus**: Sisäkorvaan tuleva muutos parantaa tasapainoa ja motoriikkaa. Saan +2 edun tasapainoa vaativiin akrobaattisiin temppuihin ja hyppyihin.
-
-### Tasapainotin v2  
-**Proteesi**: Korva  
-**Hinta**: 5000  
-**TUR**: 2  
-**KBP**: 4  
-**TEK**: 4  
-**Kuvaus**: Sisäkorvaan tuleva muutos parantaa tasapainoa ja motoriikkaa. Saan +3 edun tasapainoa vaativiin akrobaattisiin temppuihin ja hyppyihin.
-
-### Tasapainotin v3  
-**Proteesi**: Korva  
-**Hinta**: 10000  
-**TUR**: 3  
-**KBP**: 6  
-**TEK**: 5  
-**Kuvaus**: Sisäkorvaan tuleva muutos parantaa tasapainoa ja motoriikkaa. Saan +4 edun tasapainoa vaativiin akrobaattisiin temppuihin ja hyppyihin.
-
-### Äänikohdistin  
-**Proteesi**: Korva  
-**Hinta**: 3000  
-**TUR**: 2  
-**KBP**: 1  
-**TEK**: 4  
-**Kuvaus**: Pystyt havainnoimaan äänenlähteen sijainnin erittäin tarkasti, jolloin voit hyökätä kohteen kimppuun kuin näkisit sen. Ampuma-aseilla saat kuitenkin -4 haitan, koska et pysty tähtäämään tarkasti.
-
-### Reaktiokiihdytin v1  
-**Proteesi**: Torso/Selkäranka  
-**Hinta**: 3000  
-**TUR**: 3  
-**KBP**: 2  
-**TEK**: 3  
+#### Tasapainotin v1
+**Proteesi**: Korva
+**Hinta**: 2500
+**TUR**: 1
+**KBP**: 2
+**TEK**: 3
+**Kuvaus**: Sisäkorvaan tuleva muutos parantaa tasapainoa ja motoriikkaa. Saat +1 edun tasapainoa vaativiin akrobaattisiin temppuihin ja hyppyihin.
+#### Tasapainotin v2
+**Proteesi**: Korva
+**Hinta**: 5000
+**TUR**: 2
+**KBP**: 4
+**TEK**: 4
+**Kuvaus**: Sisäkorvaan tuleva muutos parantaa tasapainoa ja motoriikkaa. Saat +2 edun tasapainoa vaativiin akrobaattisiin temppuihin ja hyppyihin.
+#### Tasapainotin v3
+**Proteesi**: Korva
+**Hinta**: 10000
+**TUR**: 3
+**KBP**: 6
+**TEK**: 5
+**Kuvaus**: Sisäkorvaan tuleva muutos parantaa tasapainoa ja motoriikkaa. Saat +3 edun tasapainoa vaativiin akrobaattisiin temppuihin ja hyppyihin.
+#### Äänikohdistin
+**Proteesi**: Korva
+**Hinta**: 3000
+**TUR**: 2
+**KBP**: 1
+**TEK**: 4
+**Kuvaus**: Pystyt havainnoimaan äänenlähteen sijainnin erittäin tarkasti, jolloin voit hyökätä kohteen kimppuun kuin näkisit sen. Ampuma-aseilla saat kuitenkin -4 haitan, koska et pysty tähtäämään tarkasti, ellei asetta käytetä Neurolinkki-yhteydellä.
+#### Reaktiokiihdytin v1
+**Proteesi**: Torso/Selkäranka
+**Hinta**: 3000
+**TUR**: 3
+**KBP**: 2
+**TEK**: 3
 **Kuvaus**: Saat pysyvästi +1 Spiidi-muuttujaan
-
-### Reaktiokiihdytin v2  
-**Proteesi**: Torso/Selkäranka  
-**Hinta**: 6000  
-**TUR**: 6  
-**KBP**: 4  
-**TEK**: 4  
+#### Reaktiokiihdytin v2
+**Proteesi**: Torso/Selkäranka
+**Hinta**: 6000
+**TUR**: 6
+**KBP**: 4
+**TEK**: 4
 **Kuvaus**: Saat pysvästi +2 Spiidi-muuttujaan
-
-### Reaktiokiihdytin v3  
-**Proteesi**: Torso/Selkäranka  
-**Hinta**: 12000  
-**TUR**: 10  
-**KBP**: 6  
-**TEK**: 5  
+#### Reaktiokiihdytin v3
+**Proteesi**: Torso/Selkäranka
+**Hinta**: 12000
+**TUR**: 10
+**KBP**: 6
+**TEK**: 5
 **Kuvaus**: Saat pysyvästi +3 Spiidi-muuttujaan
-
-### Ultra-kiihdytin v1  
-**Proteesi**: Torso/Selkäranka  
-**Hinta**: 9000  
-**TUR**: 4  
-**KBP**: 3  
-**TEK**: 4  
+#### Ultra-kiihdytin v1
+**Proteesi**: Torso/Selkäranka
+**Hinta**: 9000
+**TUR**: 4
+**KBP**: 3
+**TEK**: 4
 **Kuvaus**: Saat +1 toimintopisteen. Sinulla ei voi olla enempää kuin 8 toimintopistettä. Kärsit 1 haavapisteen joka toinen kierros kun käytät Ultra-kiihdytintä'.
-
-### Ultra-kiihdytin v2  
-**Proteesi**: Torso/Selkäranka  
-**Hinta**: 18000  
-**TUR**: 8  
-**KBP**: 6  
-**TEK**: 5  
+#### Ultra-kiihdytin v2
+**Proteesi**: Torso/Selkäranka
+**Hinta**: 18000
+**TUR**: 8
+**KBP**: 6
+**TEK**: 5
 **Kuvaus**: Saat +2 toimintopistettä (max 8). Kärsit 1 haavapisteen joka kierros kun käytät Ultra-Kiihdytintä.
-
-### Ultra-kiihdytin v3  
-**Proteesi**: Torso/Selkäranka  
-**Hinta**: 36000  
-**TUR**: 12  
-**KBP**: 9  
-**TEK**: 5  
+#### Ultra-kiihdytin v3
+**Proteesi**: Torso/Selkäranka
+**Hinta**: 36000
+**TUR**: 12
+**KBP**: 9
+**TEK**: 5
 **Kuvaus**: Saat +3 toimintopistettä (max 8). Kärsit 2 haavapistettä joka kierros kun käytät Ultra-Kiihdytintä.
-
-### Lääkeannostelija  
-**Proteesi**: Torso/Selkäranka  
-**Hinta**: 6500  
-**TUR**: 4  
-**KBP**: 3  
-**TEK**: 3  
+#### Lääkeannostelija
+**Proteesi**: Torso/Selkäranka
+**Hinta**: 6500
+**TUR**: 4
+**KBP**: 3
+**TEK**: 3
 **Kuvaus**: Automaattinen lääkeannostelija, johon voi ladata yhteensä 5 annosta mitä tahansa lääkkeitä, jotka ruiskutetaan automaattisesti elintoimintojen heikentyessä, tai käyttäjän halutessa.
-
-### Kivun estäjä  
-**Proteesi**: Torso/Selkäranka  
-**Hinta**: 3000  
-**TUR**: 4  
-**KBP**: 1  
-**TEK**: 4  
+#### Kivun estäjä
+**Proteesi**: Torso/Selkäranka
+**Hinta**: 3000
+**TUR**: 4
+**KBP**: 1
+**TEK**: 4
 **Kuvaus**: Puolittaa vammoista ja kivusta tulevat haitat.
-
-### AR Linkki  
-**Proteesi**: Aivot  
-**Hinta**: 4200  
-**TUR**: 2  
-**KBP**: 3  
-**TEK**: 4  
+#### Raskas Luusto
+**Proteesi**: Luusto
+**Hinta**: 5000
+**TUR**: 4
+**KBP**: 3
+**TEK**: 4
+**Kuvaus**: Luusto on erityisen raskasrakenteinen. Ruho +1, Notku -2
+#### AR Linkki
+**Proteesi**: Aivot
+**Hinta**: 4200
+**TUR**: 2
+**KBP**: 2
+**TEK**: 4
 **Kuvaus**: Aivoissa on linkki Utopian AR-rajapintaan, joka mahdollistaa kaikenlaisen todellisuuden meta-informaation näyttämisen hahmon näköpiirissä ilman kömpelöitä lisävarusteita. Vaatii kyberneetisen silmän.
-
-### VR Linkki  
-**Proteesi**: Aivot  
-**Hinta**: 10000  
-**TUR**: 5  
-**KBP**: 4  
-**TEK**: 4  
+#### VR Linkki
+**Proteesi**: Aivot
+**Hinta**: 10000
+**TUR**: 5
+**KBP**: 4
+**TEK**: 4
 **Kuvaus**: Linkki Utopian VR-rajapintaan, joka mahdollistaa jatkuvan reaaliaikaisen neurovirtuaaliyhteyden. Käyttäjä voi säätää yhteyden immersiotasoja ja halutessaan uppoutua kokemukseen täysillä, tai pitää sen kevyempänä versiona, jollloin on mahdollista suorittaa normaaleita arkiaskareita samalla.
+
 
 ## Implantit
 
@@ -677,6 +644,7 @@ Implanttien suomat bonukset **eivät ole kasautuvia**, eli mikäli hahmolla on u
 
 
 ### Implanttilista
+
 | Malli                    | Tyyppi      | Hinta | Turmelus |
 | ------------------------ | ----------- | ----- | -------- |
 | Datasiru                 | Datavarasto | 500   | 1        |

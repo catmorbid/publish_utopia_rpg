@@ -5,7 +5,7 @@ share: true
 
 Vahinkonopilla heitetty lopullinen vahinko merkitään ylös **Haavapisteinä**. Jos hahmo on kärsinyt vähintään yhtä paljon haavapisteitä kuin hahmon **Kuntopisteet (KP)**, niin hahmo menettää toimintakykynsä, mutta tokenee kunhan haavapisteitä on vähemmän kuin hahmon *Kuntopisteitä*.
 
-Jos hahmo ottaa kerralla tarpeeksi paljon vahinkoa, voi hän saada **Vammoja**. Vammarajat lasketaan hahmon muun [Statistiikan](../../03-Hahmot/Statistiikka.md) mukana, ja niihin vaikuttaa hahmon [Kestävyys](../../03-Hahmot/Statistiikka.md#Kestävyys).
+Jos hahmo ottaa kerralla tarpeeksi paljon vahinkoa, voi hän saada **Vammoja**. Vammautumisen **raja-arvot** lasketaan hahmon muun [Statistiikan](../../03-Hahmot/Statistiikka.md) mukana, ja niihin vaikuttaa hahmon [Kestävyys](../../03-Hahmot/Statistiikka.md#Kestävyys).
 
 **Lievät Vammat** hankaloittavat elämää, mutta ovat yleensä helposti parannettavissa. Lievästä vammasta tulee aina -1 haitta toimiin kivusta.
 
@@ -37,18 +37,18 @@ Murtumien taulukko.
 
 Lievä murtuma antaa aina -1 kivusta, ja vakava murtuma -2 kivusta.
 
-| D10  | Lievä Murtuma (-1)                                           | Vakava Murtuma (-2)                                          |
-| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 1    | Ai, sattuu! 1d4 ylimääräistä vahinkoa.                       | Kivulias osuma, mutta mitään ei tainnut mennä rikki? Kärsit 1d10 vahinkoa. -1 kivusta. |
-| 2    | Osuma jalkaan. -1 Notku.                                     | Toinen jalka murtuu pirstaleiksi. -3 Notku.                  |
-| 3    | Osuma käteen. -1 Ruho.                                       | Käsi murskautuu ja on käyttökelvoton. -3 Ruho.               |
-| 4    | Osuma selkään. Nyt meni hermoon! -1 Spiidi.                  | Selkäranka vaurioituu. 50% mahd. -3 Spiidi, tai halvaannut alaraajoista. 1 Kierros pökertynyt. |
-| 5    | Kova tälli korvia pitkin. -1 Skarppi.                        | Tärykalvot puhkeavat iskun voimasta. -3 Skarppi. 1 Kierros pökertynyt. |
-| 6    | No nyt osui nenään! Naama ei ole entisensä. -1 Pärstä.       | Kasvot ruhjoutuvat tunnistamattomiksi. Pärstä -3, Psyko -2. 1 Kierros pökertynyt. |
-| 7    | Isku palleaan vie ilmat pihalle. Hahmo on 1 kierroksen pökerryksissä. | Kova isku keskiruumiseen. Kuolet 1D6 minuutissa sisäiseen verenvuotoon. 3 Kierrosta pökertynyt. |
-| 8    | Kova isku päähän. -1 Data. 1 kierros pökertynyt.             | Saat vakavan aivovamman. -3 Data, -3 Karuus. Menetät tajunnan. |
-| 9    | Suoraan silmään. Näkökyky menee 1D6 kierrokseksi.            | Nenä survoutuu aivoihin. Menetät tajunnan ja kuolet 1D6 kierroksessa. |
-| 10   | Kova isku kalloon. Testaa Karaistuminen VA15, tai menetät tajunnan. | Osuma kalloon. Kallo menee murskaksi ja aivot roiskuvat pitkin katukivetystä. |
+| D10 | Lievä Murtuma (-1)                                                    | Vakava Murtuma (-2)                                                                             |
+| --- | --------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| 1   | Ai, sattuu! 1d4 ylimääräistä vahinkoa.                                | Kivulias osuma, mutta mitään ei tainnut mennä rikki? Kärsit 1d10 vahinkoa. -1 kivusta.          |
+| 2   | Osuma jalkaan. -1 Notku.                                              | Toinen jalka murtuu pirstaleiksi. -3 Notku.                                                     |
+| 3   | Osuma käteen. -1 Ruho.                                                | Käsi murskautuu ja on käyttökelvoton. -3 Ruho.                                                  |
+| 4   | Osuma selkään. Nyt meni hermoon! -1 Spiidi.                           | Selkäranka vaurioituu. -3 Spiidi. 1 Kierros pökertynyt.  |
+| 5   | Kova tälli korvia pitkin. -1 Skarppi.                                 | Tärykalvot puhkeavat iskun voimasta. -3 Skarppi. 1 Kierros pökertynyt.                          |
+| 6   | No nyt osui nenään! Naama ei ole entisensä. -1 Karuus.                | Kasvot ruhjoutuvat tunnistamattomiksi. Karuus -3, Psyko -2. 1 Kierros pökertynyt.               |
+| 7   | Isku palleaan vie ilmat pihalle. Hahmo on 1 kierroksen pökerryksissä. | Kova isku keskiruumiseen. Kuolet 1D6 minuutissa sisäiseen verenvuotoon. 3 Kierrosta pökertynyt. |
+| 8   | Kova isku päähän. -1 Data. 1 kierros pökertynyt.                      | Saat vakavan aivovamman. -3 Data, -3 Karuus. Menetät tajunnan.                                  |
+| 9   | Suoraan silmään. Näkökyky menee 1D6 kierrokseksi.                     | Nenä survoutuu aivoihin. Menetät tajunnan ja kuolet 1D6 kierroksessa.                           |
+| 10  | Kova isku kalloon. Testaa Karaistuminen VA15, tai menetät tajunnan.   | Osuma kalloon. Kallo menee murskaksi ja aivot roiskuvat pitkin katukivetystä.                   |
 
 ## Lävistykset
 
@@ -80,12 +80,12 @@ Lievä palovamma antaa aina -1 kivusta, ja vakava palovamma -2 kivusta.
 | 1    | Polttaa! Ota 1D2 vahinkoa.                                   | Olet tuskissasi. Ota 1D10 vahinkoa ja -2 kivusta.            |
 | 2    | Poltat kätesi. -1 Ruho.                                      | Tuli polttaa hermojasi. Lamaannut kivusta 1D4 kierrokseksi ja otat 1D10 vahinkoa ja -2 kivusta. |
 | 3    | Poltat jalkasi. -1 Notku.                                    | Jalkasi palaa karrelle. -2 Notku, 1D6 vahinkoa.              |
-| 4    | Poltat kasvosi. -1 Karuus.                                   | Kätesi palaa karrelle. -2 Räplä, 1D6 vahinkoa.               |
-| 5    | Sokeudut. -2 Skarppi. Et näe mitään, ja tarvitset välitöntä ensiapua. | Keskiruumis palaa karrelle. -2 Ruho ja -2 pärstä. 1D6 vahinkoa. |
-| 6    | Lahje syttyy tuleen. Ota 1 vahinko joka kierros, kunnes saat tulen sammumaan. Ota 1D4 vahinkoa. | Poltat kasvosi pahasti. Et ole enää entisensä. -2 Pärstä, -2 Psyko ja -2 Karuus. 1D8 vahinkoa. |
+| 4    | Poltat kasvosi. -1 Karuus.                                   | Kätesi palaa karrelle. -2 Ruho, 1D6 vahinkoa.               |
+| 5    | Sokeudut. -2 Skarppi. Et näe mitään, ja tarvitset välitöntä ensiapua. | Keskiruumis palaa karrelle. -2 Ruho ja -2 Psyko. 1D6 vahinkoa. |
+| 6    | Lahje syttyy tuleen. Ota 1 vahinko joka kierros, kunnes saat tulen sammumaan. Ota 1D4 vahinkoa. | Poltat kasvosi pahasti. Et ole enää entisensä. -2 Psyko ja -2 Karuus. 1D8 vahinkoa. |
 | 7    | Hiha syttyy tuleen. Ota 1 vahinko joka kierros, kunnes saat tulen sammumaan. Ota 1D4 vahinkoa. | Menetät molemmat silmäsi. -4 Skarppi ja -2 psyko. Et näe mitään. 1D8 vahinkoa. |
 | 8    | Saat ikäviä palovammoja keskiruumiseen. Ota 1D6 vahinkoa. Ruho -1. | Tuli polttaa sisuskalujasi. Lyyhistyt ja huudat kivusta. Kuolet 1D10 kierroksessa, mutta jatkat huutamista koko tämän ajan. |
-| 9    | Erittäin kivuliaita vammoja. Ota 1D10 vahinkoa. -1 kaikkiin toimiin kivusta. | Raajasi sulaa kuumuudessa, ja siitä jää jäljelle hiiltynyt luuranko. Olet tuskissasi. Ota 1D12 vahinkoa, ja -4 kivusta. |
+| 9    | Erittäin kivuliaita vammoja. Ota 1D10 vahinkoa. -1 kaikkiin toimiin kivusta. | Raajasi sulaa kuumuudesta, ja siitä jää jäljelle hiiltynyt luuranko. Olet tuskissasi. Ota 1D12 vahinkoa, ja -4 kivusta. |
 | 10   | Leimahdat kunnolla liekkeihin! Ota 1D4 vahinkoa joka kierros, kunnes liekit on tukahdutettu. -2 kaikkiin toimiin kivusta. | Leimahdat liekkeihin ja hetken päästä sinusta jää hiiltynyt, kuollut kasa lihaa ja luita. Lähialueiden kannibaalit valmistautuvat grillijuhlaan. |
 
 ## Paraneminen

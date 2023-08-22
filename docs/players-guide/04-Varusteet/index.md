@@ -96,7 +96,7 @@ Jos mikromanagerointi ei kuitenkaan ole sinun juttusi, voi yksinkertaisesti maks
 Elintason määrittelee karkeasti hahmon elintason eri osa-alueilla, ja jos hahmo haluaa tästä poiketa, niin hän joutuu maksamaan silloin erikseen. Mutta kaikki kulut, jotka elintaso kattaa voidaan sivuuttaa, kunhan kuukausittainen elitasokustannus on maksettu (etukäteen).
 
 ### Pummi
-Asut hökkelikylässä tai hylätyssä asuinrakennuksessa, jossa ei ole juuri turvallisuutta. Olet omillasi, tai, joudu luottamaan asuinyhteisöösi. Syöt mitä löydät, eli jätteitä ja rottia, ja kun kaipaat luksusta, syöt rotta-purilaisen lähigrilliltä. Käytät old-school metroa silloin kun pitää matkustaa kauemmas, tai pummaat kyydin kaverilta. Vaatteesi on löydetty roskiksesta, tai niiden edellisen omistajan yltä. Kuukausikustannus: 150 CR.§
+Asut hökkelikylässä tai hylätyssä asuinrakennuksessa, jossa ei ole juuri turvallisuutta. Olet omillasi, tai, joudu luottamaan asuinyhteisöösi. Syöt mitä löydät, eli jätteitä ja rottia, ja kun kaipaat luksusta, syöt rotta-purilaisen lähigrilliltä. Käytät old-school metroa silloin kun pitää matkustaa kauemmas, tai pummaat kyydin kaverilta. Vaatteesi on löydetty roskiksesta, tai niiden edellisen omistajan yltä. Kuukausikustannus: 150 CR.
 
 
 

@@ -70,6 +70,7 @@ Heitä ensin vaade, sitten Seuraukset, ja lopuksi Kohde.
 
 
 ## Ikävä Taho
+
 | D12 | Ikävä taho                 | Vaikutusvalta ja resurssit                                             |
 |-----|----------------------------|------------------------------------------------------------------------|
 | 1   | Väkivaltainen katujengi    | Kaikki kaduilla tietävät kaunastanne. Jengiläisiä voi olla missä vain. |

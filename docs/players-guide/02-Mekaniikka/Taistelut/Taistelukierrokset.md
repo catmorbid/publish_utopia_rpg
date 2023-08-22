@@ -5,7 +5,7 @@ share: true
 
 Taistelu jaetaan kierroksiin. Yksi kierros vastaa noin 6 sekuntia pelin maailmassa. Yhden kierroksen aikana kukin osallistuja saa toimia niin monta kertaa kuin ehtii **Toimintopisteidensä** puitteissa. Lähtökohtaisesti taistelut alkavat siitä, että joku **tekee aloitteen**, eli julistaa ensimmäisen toiminnon. Aloitteen tekijällä on aina etulyöntiasema, mutta muut toimijat voivat yrittää väliin, mikäli ovat tietoisia siitä, että nyt alkaa tapahtua. Siksi taistelun alkaessa määritetään aina **Aloite**, mikä määrää sen kuka saa tehdä taistelun *ensimmäisen* toiminnon.
 
-Aloitetta varten testataan **Taistelureaktiot**-taitoa. Paras lukema voittaa. Aloitteentekijä saa aina +2 edun toimintoonsa. Jos hahmo joutuu yllätetyksi, ei hän saa heittää aloitetta lainkaan, vaan häviää sen automaattisesti.
+Aloitetta varten testataan **Taisteluvalmius**-taitoa. Paras lukema voittaa. Aloitteentekijä saa aina +2 edun toimintoonsa. Jos hahmo joutuu yllätetyksi, ei hän saa heittää aloitetta lainkaan, vaan häviää sen automaattisesti.
 
 Ensimmäisen **toiminnon** jälkeen edetään siinä järjestyksessä kenellä on eniten **toimintopisteitä**. Jos hahmoilla on saman verran toimintopisteitä, voit verrata hahmojen Spiidi-kykyä, ja toimia suurimman Spiidin mukaisessa järjestyksessä. Jos yhdellä hahmolla on niin paljon toimintopisteitä, että hän on jatkuvasti muita taistelijoita edellä, saa hän tosiaan toimia aina kun hänellä on eniten toimintopisteitä. Tämä voi kuulostaa epäreilulta, mutta niin se vaan menee.
 
@@ -37,7 +37,7 @@ Joitain toiminta voi myös tehdä **Reaktioina**, jolloin toiminnon voi julistaa
 | Aseeton hyökkäys       | 2   | Hahmo voi hyökätä ilman aseita                                 | Ei      | `Taistelulajit` tai `Nyrkkitappo` |
 | Melee hyökkäys         | 2-4 | Hahmo voi hyökätä lähitaisteluaseella                          | Ei      | `Taistelulajit`                   |
 | Vastahyökkäys          | 2-4 | Puolustus ja hyökkäys lähitaistelussa                          | Kyllä   | `Taistelulajit`                   |
-| Ampuminen              | 2-4 | Hahmo voi ampua kohdetta                                       | Ei      | `Ampumataito`                     |
+| Ampuminen              | 2-4 | Hgahmo voi ampua kohdetta                                       | Ei      | `Ampumataito`                     |
 | Jatkuva sarjatuli      | 1   | Täyden sarjatulen jatkaminen                                   | Ei      | `Ampumataito`                     |
 | Väistäminen            | 2   | Hahmo pyrkii väistämään hyökkäyksen                            | Kyllä   | `Väistäminen`                     |
 | Suojautuminen          | 1   | Hahmo hyödyntää läheistä suojaa                                | Kyllä   | Ei testiä.                        |

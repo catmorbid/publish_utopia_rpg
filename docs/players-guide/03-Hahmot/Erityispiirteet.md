@@ -75,7 +75,24 @@ Ruuminrakenteesi muistuttaa tynnyriä. Olet äärimmäisen leveä, mutta myös e
 ### Muinainen Haltia (1p/2p)
 **(1p)**: Sinulla on päästy haltioiden geneettiseen muistiin. Muistat pilkahduksia tapahtumista, jotka sijoittuvat vuosituhansien taakse, toiseen kolkkaan universumissa, kauan ennen kuin Muinaiset tulivat maan päälle. Muistot tulevat katkonaisesti ja aiheuttavat kaikenlaista ongelmaa, kuten päänsärkyjä ja hallusinaatioita, mutta mitä syvemmälle pääset muistoihin käsiksi, sitä enemmän tietoa pystyt omaksumaan.
 
-**Mekaniikka:** Saat 4 taitopistettä valitsemiisi taitoihin (maksimi aste 5). Jos otat vapaaehtoisesti [Kuormituspisteen](./Kuormitus.md), voit väliaikaisesti kasvattaa jotain taitoa 1 asteella. Vaikutus kestä yhden kohtauksen, ja voit ottaa useamman kuormituspisteen kerralla. Voit myös käyttää kuormituspisteen saadaksesi alennusta taidon hinnasta, jolloin jokainen kuormituspiste antaa 1 pisteen alennuksen.
+**Mekaniikka:** Saat 4 taitopistettä valitsemiisi taitoihin (maksimi aste 5). Tämän lisäksi voit pyrkiä pääsemään käsiksi muistoihin syvemmällä tasolla, jolloin voit väliaikaisesti kasvattaa jotakin taitoa, tai oppia pysyviä taitoja alennuksella. Näistä ensimmäistä kutsutaan **Muistamiseksi**, kun jälkimmäinen taas on **Oppimista**
+
+#### Muistaminen
+Jos otat vapaaehtoisesti [Kuormituspisteen](./Kuormitus.md), voit väliaikaisesti kasvattaa jotain taitoa 1 asteella. Vaikutus kestää yhden kohtauksen, ja voit ottaa useamman kuormituspisteen kerralla. Kun  kehität taitojasi, voit myös käyttää kuormituspisteen saadaksesi alennusta taidon hinnasta, jolloin jokainen kuormituspiste antaa 1 pisteen alennuksen.
+
+Muistoihin käsiksi pääseminen vaatii aina yhden kierroksen keskittymisen ja itsekuri taitotestin (psyko + itsekuri), jonka vaikeusaste on $10+2*kykyastebonus$. Eli 1 asteen lisääminen väliaikaisesti on vaikeusaste 12 testi. Itsekuri-taidon aste myös määrittää vapaaehtoisesti otettavien kuormituspisteiden maksimimäärän kerralla joko taidon väliaikaiseen nostoon, tai taidon hintaa alennettaessa.
+
+Taidon hinnan alentaminen (oppiminen) tapahtuu ottamalla Khrono-tripin, jonka aikana haltija pääsee trippailemaan huolella geneettiseen muistiin. Taitoheittoa ei tässä tarvita, mutta alennusta voi ottaa korkeintaan itsekurin taitoasteen verran ja tästä seuraa saman verran kuormituspisteitä. 
+
+Epäonnistuminen geneettisen muistin itsekuri-heitossa (jää alle 10) aiheuttaa silti puolet tavoitelluista kuormituspisteistä ilman taitolisäystä. Epäonnistuminen siten, että ei saavuta tavoiteltua onnistumista, mutta ylittää perusvaikeusasteen, tuottaa osa-onnistumisen. Esim. Haltijan tavoitellessa 4 kykyasteen lisäämistä kohtauksen ajaksi kybertaitoihin vaatii itsekuriheiton, jonka vaikeusaste on 12 + 3x2 = 18. Mikäli haltija saa tulokseksi vain 14, saa hän kohtauksen ajaksi käyttöönsä vain 2 kykyastetta lisää kybertaitoihinsa, ottaen myös kaksi kuormituspistettä itselleen. Muinainen haltija erikoisominaisuuden omaava voi erikoistua itsekurissa geneettiseen muistiin.
+
+Erikoistuminen 1: kestät geneettisen muistin käyttämistä paremmin. Kuormituspisteet antavat haavan vain tuloksella 1
+Erikoistuminen 2: kestät geneettisen muistin käyttämistä paremmin ja saat vain puolet kuormituspisteistä
+Erikoistuminen 3: geneettiseen muistiin pääseminen vie yhden kierroksen sijaan yhden toiminnon
+Erikoistuminen 4: olet yhtä geneettisen muistin kanssa ja voit hyödyntää sitä koska vain ilman toiminnon käyttämistä. Sinun pitää silti heittää itsekuri-heitto ominaisuudelle. (Vaati erikoistumisen 3 ensin) 
+
+Geneettisen muistin omaavat haltijat ovat mystisyydestään ja (teko)pyhyydestään huolimatta usein enemmän tai vähemmän narkkareita. Geneettisen muistin käyttäminen on kuormittavaa, mutta tieto on addiktoivaa. Taidon ympärillä pyörii myös vahva huumescene, jossa käytetyimpiä huumeita ovat mm. HC, Khrono, magnolium ja Blizz. Varsinkin Khrono on haltijoille pyhä huume, jonka valmistaminen on opittu geneettisen muistin avulla aikoinaan. Valitettavasti huumeen tuottaminen on vaativaa ja kysyntä kovaa. Moni haltija on kohdannut loppunsa yliannostukseen, tai vain ryöstötapettu katuojaan varomattoman tripin aikana. 
+
 
 **(2p)**: Geneettisen muistin lisäksi sinussa ilmentyy fyysisiä muutoksia, jotka ovat lajillesi epätyypillisiä, mutta seurausta piilevästä DNA:sta: Ihonvärisi on harmahtava tai hopeinen, ja sinulla mustat silmät, joissa on purppurat soikeat pupillit, ja karvoituksesi on myös luonnostaan eksoottisen värinen, esimerkiksi vihreä, sininen tai purppura. Kaiken tämän lisäksi sinulla on luontaisia [Psyykkisiä voimia](PSI.md): voit valita yhden voiman Psyykkiset Voimat-listalta.
 
@@ -139,9 +156,9 @@ Veresi on jonkin mutaation ansiosta paljon normaalia paksumpaa, hieman limamaist
 Aikamoinen määrä radioaktiivista säteilyä on antanut sinulle uudenlaisen katseen, nimittäin tappavan sellaisen. Katseesi toimii halutessasi radioaktiivisena hyökkäyksenä, johon käytetään Itsekuri-taitoa. Voit ostaa hyökkäykselle erikoistumisen. Hyökkäyksen optimaalinen kantama on $10+Ruho+Psyko$ metriä, ja se aiheuttaa palovammoja, joiden Vahinkoluokka on $Ruho + Psyko$. Hyökkäys kuluttaa 4 toimintopistettä.
 
 ### Regeneraatio (1p-3p)
-Sinulla on häkellyttävän nopea uusiutumiskyky, ja paranet luontaisesti 1 haavapisteen tunnissa.
-- 2p versiolla paranemisvauhti on huikeat 1 haavapiste per 10 minuuttia
-- 3p versiolla 1 haavapiste kierroksessa.
+Sinulla on häkellyttävän nopea uusiutumiskyky, ja paranet luontaisesti 1 haavapisteen tunnissa. Vammojen toipumisaika on puolet normaalista, mutta tarvitset silti hoitoa.
+- 2p versiolla paranemisvauhti on huikeat 1 haavapiste per 10 minuuttia. Vammojen toipumisaika on vian 1/4 normaalista, ja lievät vammat paranevat itsestään ilman hoitoa. Heitä kuitenkin toipumisaika.
+- 3p versiolla 1 haavapiste kierroksessa. Vakavatkin vammat paranevat itsestään ilman hoitoa, ja toipumisaika on vain 1/10 normaalista.
 
 **Sumo-Troggit** saa 1 pisteen alennuksen tästä erityispiirteestä.
 

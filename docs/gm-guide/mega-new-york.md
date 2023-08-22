@@ -86,3 +86,8 @@ Piiri 666 on anarkia-alue, jota hallitsee Maailmanlopun Ratsastajat. Kultti pit�
 #### Piiri 777
 
 Piiri 777 on Pyh채 Tulen Pilarien Profeettojen yll채pit채m채 itsehallintoalue, jossa ei ole poliiseja lainkaan. Kultistit pakottavat alueen asukkaat osallistumaan rituaalimenoihinsa perustoimeentulon, ravinnon ja infrastruktuurin avulla. Piiri 777 on tarkkaan vartioitu ja turvallinen paikka asua.
+
+## Random poliisipiiri
+D10 vahvuus
+D10 vauraus
+D12 Valtaapit채v채 taho (heit채 ik채v채 taho -taulukosta)

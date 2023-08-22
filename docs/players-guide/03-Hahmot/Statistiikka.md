@@ -26,7 +26,7 @@ Kestävyys määrittää kuinka paljon vahinkoa hahmon täytyy ottaa yhdellä ke
 
 KP
 
-`Kestävyys + Karaistuminen`.  Kuntopisteet määrittää kuinka monta haavapistettä hahmo voi kärsiä ja säilyttää vielä normaalin toimintakykynsä. Siihen vaikuttaa Kestävyyden lisäksi hahmon [Vahingonsieto](.md) joka mahdollistaa sinnittelyn toimintakykyisenä pidempään. Jos hahmo kärsii vähintään Kuntopisteidensä verran haavapisteitä, hän menettää toimintakykynsä, eli useimmiten joutuu tajuttomaksi.
+$Kestävyys + Karaistuminen*2$.  Kuntopisteet määrittää kuinka monta haavapistettä hahmo voi kärsiä ja säilyttää vielä normaalin toimintakykynsä. Siihen vaikuttaa Kestävyyden lisäksi hahmon [Karaistuminen](Karaistuminen.md), joka mahdollistaa sinnittelyn toimintakykyisenä pidempään. Jos hahmo kärsii vähintään Kuntopisteidensä verran haavapisteitä, hän menettää toimintakykynsä, eli useimmiten joutuu tajuttomaksi.
 
 ## Toimintopisteet
 

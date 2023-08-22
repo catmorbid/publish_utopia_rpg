@@ -15,8 +15,9 @@ Hahmot saavat hahmonluontia varten kokemuspisteitä. Samoja kokemuspisteitä kä
 ## Hinnat
 Kokemuspisteitä voi käyttää oheisen hintataulukon perusteella:
 
-| Piirre         | Hinta                                                                                               |
-| -------------- | --------------------------------------------------------------------------------------------------- |
-| Kyvyt           | 3 kokemuspistettä per yritys.|
-| Taidot          | 2 kokemuspistettä x seuraava taidon aste                                                            |
-| Erikoistumiset  | Hinta per kuinka mones erikoistuminen.5 KP / 10 KP / 15 KP / 20 KP                                                                                                    |
+| Piirre         | Hinta                                                              |
+| -------------- | ------------------------------------------------------------------ |
+| Kyvyt          | 3 kokemuspistettä per kehitysyritys.                               | 
+| Taidot         | 2 kokemuspistettä x seuraava taidon aste                           |
+| Erikoistumiset | Hinta per kuinka mones erikoistuminen. 5 KP / 10 KP / 15 KP / 20 KP |
+| Sisu           | 20 kokemuspistettä x seuraava sisupiste                            |
