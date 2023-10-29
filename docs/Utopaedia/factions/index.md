@@ -36,6 +36,6 @@ share: true
 > 1 Kyberpiste = 2p
 > Yhteensä saisi olla se 20 pistettä
 
-[religious-orders](./religious-orders.md)
+[religions](./religions.md)
 
 [organizations](./organizations.md)
