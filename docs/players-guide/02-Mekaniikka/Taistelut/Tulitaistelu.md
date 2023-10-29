@@ -7,143 +7,91 @@ Tulitaistelussa luodit lentelevät ympäriinsä ja kuolema korjaa nopeasti. Harh
 
 ## Hyökkäys ampuma-aseella
 
-Hyökkäysheitot ratkaistaan testaamalla `Ampumataitoa`. Vaikeusasteena on hyökkääjän ja kohteen välisen etäisyyden perusteella määrittyvä **Kantama**. Onnistumisen Marginaalilla voidaan ostaa **Efektejä**, eli käytännössä joko enemmän osumia, tai pyrkiä tarkempaan osumaan. Yleisesti ottaen nyrkkisääntönä voi pitää, että sarjatuliaseilla otetaan lisää osumia, kun taas kertalaukauksilla, tai puoliautomaattisilla aseilla voidaan pyrkiä tarkkoihin osumiin.
+Hyökkäysheitot ratkaistaan testaamalla `Ampumataitoa`. Vaikeusaste riippuu kohteen koosta ja senhetkisestä nopeudesta. **Onnistumisen Marginaalilla** voidaan ostaa **Efektejä**, eli käytännössä joko enemmän osumia, tai pyrkiä tarkempaan osumaan. Yleisesti ottaen nyrkkisääntönä voi pitää, että sarjatuliaseilla otetaan lisää osumia, kun taas kertalaukauksilla, tai puoliautomaattisilla aseilla voidaan pyrkiä tarkkoihin osumiin. Normaali vaikeusaste on 8 ihmisen kokoiseen kohteeseen, joka ei juurikaan liiku.
 
-- **Ylimääräinen osuma**: +1 osuma per Rekyyli OM.
-- **Ylimääräinen kohde**: Saat jakaa osumia myös toiseen kohteeseen. Huom. vaatii vähintään 2 osumaa.
+### Kohteen koko (peruskohdeluku)
+**Pienikokoinen kohde (kääpiö)**: 10 (Puolustuskyvyton 5)
+**Normaalikokoinen kohde (ihminen)**: 8 (Puolustuskyvytön 4)
+**Suurikokoinen kohde (troggi)**: 6 (Puolustuskyvytön 3)
+
+### Kohteen nopeus
+**Liikkuva kohde:** Koko+2 tai Koko+Notku
+**Nopeasti liikkuva kohde (esim. ajoneuvo):** Koko+6.
+
+### Kohteen puolustautuminen
+**Onnistunut väistö**: Hyökkääjälle haitta.
+**Kriittinen väistö**: Hyökkäys menee ohi
+### Kantama
+**Normaali kantama:** Ei muutoksia
+**Pitkä kantama**: Hyökkääjälle Haitta.
+**Lähietäisyys**: Hyökkääjälle Etu.
+**Lähitaistelussa**: Ratkaistaan lähitaistelun. Ks. [Lahitaistelu](./Lahitaistelu.md)
+
+### Efektit
+- **Ylimääräinen osuma**: +1 osuma per 4 OM (oletus).
+- **Ylimääräinen kohde**: Saat vapaasti jakaa osumia myös toiseen kohteeseen. Huom. vaatii vähintään 2 osumaa.
 - **Yliläpäisyn kohde:** 2 OM. Mikäli käytetään [Yliläpäisy](Tulitaistelu.md#Yliläpäisy)-sääntöä, toissijainen kohde saa puolet ensisijaisen kohteen osumista.
 - **Tarkka osuma**: +/- 1 vammaheiton tulokseen per 4 OM.
 
-> [!abstract] Pahan Pekan tarina...
->
-> Paha Pekka herää sivukujalta, roskiksesta, jonne hänet on raahattu menetettyään tajuntansa pubissa. Hän huomaa makaavansa useiden ihmisruhojen ja rotan raatojen seassa, kuolemankatku sieraimissaan, kärpästen ympäröimänä. Pekka kömpii ulos ja tonkii ruhoja ja löytää sisälmysten keskeltä vanhan konepistoolin, sekä vähän ammuksia. Vihasta soikeana hän ryömii ulos ja suuntaa pubin etuovelle. Paha Pekka astuu sisälle pubiin, ja etsii motoristin, jolta sai hetki sitten turpaansa, aikeenaan teloittaa vihamiehensä siihen paikkaan. Motoristi huomaa Pekan, tämän ollessa vain muutaman metrin päässä, mutta tässä kohtaa Pekka painaa jo liipaisimen pohjaan. Pekka heittää aloitteen +2 muutoksella. ja saa tulokseksi 12, kun taas yllätetty motoristi saa vain 7. Pekka saa ensimmäisen vuoron...
-
 ## Kantama
 
-Aseen kantama määrittää hyökkäyksen perusvaikeusasteen. Kantama voidaan ilmoittaa muodossa `A/B-C` tai pelkkä `B-C`, jossa:
-`A` = minimikantama. Asetta on vaikea käyttää ja hyökkäyksen vaikeusaste on 14.
-`B` = Optimaalinen kantama.
-`C` = Maksimikantama. Yleensä 16x optimaalinen kantama. Tämän jälkeen vahinko puolitettaan.
+Aseen kantama määrittää hyökkäykseen edun tai haitan, tai muita vaikutuksia.
 
-| Kantama                | Etäisyys (korkeintaan)              | Vaikeusaste | 50m  |
-| ---------------------- | ----------------------------------- | ----------- | ---- |
-| Minimikantamalla       | Korkeintaan ilmoitettu minimkantama | 14          |      |
-| Lähietäisyys           | 1-2 metriä                          | 6           |      |
-| Lyhyt kantama          | ½ Optimi                            | 8           | 25m  |
-| Optimaalinen kantama   | Aseen ilmoitettu kantama            | 10           | 50m  |
-| Pitkä kantama          | 2x Optimi                           | 12          | 100m |
-| Erittäin pitkä kantama | 4x Optimi                           | 14          | 200m |
-| Äärimmäinen kantama    | 8x Optimi.                          | 16          | 400m |
-| Maksimikantama         | 16x Optimi.                         | 20          | 800m |
+| Kantama              | Etäisyys (korkeintaan)                | Vaikutus | Sarjatuli                 | Osumakerroin   |
+| -------------------- | ------------------------------------- | -------- | ------------------------- | -------------- |
+| Minimikantamalla     | Pienempi kuin ilmoitettu minimkantama | Haitta   |                           | Haitta         |
+| Lähietäisyys         | 1 metriä                              | Etu      | Isompi noppa              | x2             |
+| Lyhyt kantama        | ½ Normaali                            | -        | -                         | x2             |
+| Optimaalinen kantama | Aseen ilmoitettu kantama              | -        | Pienempi sarjatulinoppa   | x1, Etu        |
+| Pitkä kantama        | 4x Normaali                           | Haitta   | 2 pienempi sarjatulinoppa | x1, Ei haittaa |
 
-### Kantama v2
-
-Aseilla on yleensä merkitty kaksi kantamaa: **Minimikantama** ja **Optimaalinen Kantama**.
-- Jos kohde on lähempänä kuin Minimikantama, niin hyökkäyksen vaikeusaste on 12 ja kasvaa 4:llä per ylimääräinen askel minimikantamaa lähempänä
-- Jos kohde on minimikantaman ja optimaalisen kantaman välissä, niin hyökkäyksen vaikeusaste on 8.
-- Jos kohde on Optimaalisen kantaman ulkopuolella, niin vaikeusaste on 12 ja kasvaa 4:llä per askel.
-
-> Rynnäkkökiväärin kantama on L-P, eli Lyhyt-Pitkä. Jos kohde on 10-60 metrin päässä, niin hyökkäyksessä on vaikeusaste 8
-> Esim.1: Kohde on 80m päässä, eli se on Erittäin Pitkällä kantamalla. Rynnäkkökiväärin vaikeusaste on 12.
-> Esim. 2: Kohde on 2 metrin päässä, eli Lähitaistelussa. Rynnäkkökiväärin vaikeusaste on 16.
-> Esim. 3: Kohde on 800m päässä (Ä+2). Rynnäkkökiväärin hyökkäyksen vaikeusaste on 24.
-
-| Kantama                  | Lyhenne | Etäisyys   |
-| ------------------------ | ------- | ---------- |
-| Iholla                   | I       | 1 metri    |
-| Lähitaistelussa          | LT      | 3 metriä   |
-| Lähietäisyydellä         | LE      | 6 metriä   |
-| Lyhyellä kantamalla      | L       | 10 metriä  |
-| Kohtalaisella kantamalla | K       | 30 metriä  |
-| Pitkällä kantamalla      | P       | 60 metriä  |
-| Erittäin Pitkällä        | E       | 100 metriä |
-| Äärimmäinen + 0          | Ä+0     | 300 metriä |
-| Äärimmäinen + 1          | Ä+1     | 600m       |
-| Äärimmäinen + 2          | Ä+2     | 1km        |
-| Äärimmäinen + 3          | Ä+3     | 3km        |
-| Äärimmäinen + 4          | Ä+4     | 6km        |
-| Äärimmäinen + 5          | Ä+5     | 10km       |
-
-### Tarkentimet
-Aseissa voi olla tarkentimia, jotka antavat jonkinlaisen tarkennus-kertoimen. Tämä voi olla ilmaistu esim. muodossa `x5 tarkennin`. Tarkentimet mahdollistavat aseen käytön huomattavasti pidemmällä kantamalla, tarkentamalla kohdetta, mutta toisaalta pitkän kantaman päähän on silti vaikea ampua ja osua, kun pitää ottaa huomioon kaikenlaiset olosuhdetekijät.
-
-Tarkennin vaikuttaa aseen kantamaan seuraavasti: Kohteen etäisyys jaetaan tarkentimen kertoimella. Esim. x5 tarkennnin tarkoittaa, että etäisyys jaetaan 5:llä. Tämän etäisyyden perusteella kantama määritetään normaalisti. Esim. 100m etäisyys x5 tarkentimella tarkoittaa, että kantama lasektaan 20m mukaan (100/5). 100m olisi erittiäin pitkä kantama, kun taas 20m on kohtalainen kantama.
-
-
->[!example] Esimerkki
->Zodiac on linnoittautunut kerrostalon katolle tarkkuuskiväärin kanssa vaanimaan kohdetta, joka hänen tulee salamurhata. Tovin odoteltuaan Zodiac huomaa kohteensa, ja ottaa tämän jyvälle. Zodiacin SS-88 Sniper -kiväärissä on x5-kiikaritähtäin. Kohde on 1000 metrin päässä, mutta kiitos kiikaritähtäimen, etäisyys on 200m, mikä osuu Äärimmäinen+0 kantamalle. Kiväärin kantama on L-P, joten 200m etäisyys on 2 askelta yli optimaalisen kantaman, mistä tulee vaikeusaste 16. Zodiac tähtää 2 toimintopisteellä (+2), ja heittää neljällä nopalla ampumataitoa: 6, 7, 9, 19, ja lisää skarppinsa +5 ja aseen tarkkuuden +3, jolloin lopputulos on peräti 29. Zodiac osuu marginaalilla (29-16) 13. Kiväärin tulinopeus on 3 ja rekyyli 3, joten Zodiac valitsee ylimääräisen osuman ja 2x tarkka osuma, josta tulee +2 vammaheittoon. Kiväärin vahinko on hurja L7+1, ja Läpäisy 2. Kohteella on kuitenkin PL 5 panssari, mikä vähenee läpäisystä PL 3:een, ja vahinko vähenee L 4+1:een. Zodiac heittää 2D8+2 vahinkoa: 3, 5 = 8+2=10 vahinkoa. Aika paljon, mutta kohteella onkin Kestävyys 16, joten se ei riitä tappavaan osumaan, mutta on tarpeeksi vakavaan vammaan (raja 8). Hän heittää vakavan lävistävän vamman +2 muuttujalla: 8+2 = 10. Toinen luodeista osuu kohdetta suoraan kalloon, ja kallo räjähtää sirpaleiksi, värjäten katukivetyksen punaiseksi. Zodiac alkaa pakkailla kamoja, ennen kuin poliisipiirin partiot eksyvät paikalle...
 
 ## Puolustautuminen
 
 Tuliaseita vastaan on hankala puolustautua, ja vaihtoehtoja on käytännössä kaksi: **Väistöliikkeet** ja **Suojautuminen**.
 
 ### Väistöliikkeet
-Hahmo voi yrittää tehdä itsestään hankalamman kohteen käyttämällä 1 toimintopisteen ja testaamalla **Väistöliikkeet** -taitoa. Testin lopputulos on tällöin uusi vaikeusaste kaikille hyökkäyksille kohdetta vastaan, mutta vaikeusaste on kuitenkin *vähintään* kantaman mukainen perusvaikeusaste.
+*1 Toimintopiste*
+Hahmo voi yrittää tehdä itsestään hankalamman kohteen käyttämällä 1 toimintopisteen ja testaamalla **Väistöliikkeet** -taitoa. Testin **kohdeluku** **10**. Jos hahmo onnistuu, hän tekee itsestään vaikeamman kohteen ja hyökkääjä saa **Haitan** hyökkäykseensä. **Kriittinen Onnistuminen** väistössä välttää hyökkäyksen kokonaan.
 
-Väistöliikkeet on voimassa kunnes hahmo toimii seuraavaksi. Väistöliikkeitä voi tehdä myös **Reaktiona**, jolloin hahmo viivyttää seuraavaa vuoroaan puolustautumalla.
-
+Väistöliikkeet on voimassa aina siihen asti kunnes hahmo toimii seuraavaksi. Väistöliikkeitä voi tehdä myös **Reaktiona**, jolloin hahmo viivyttää seuraavaa vuoroaan puolustautumalla.
 ### Suojautuminen
-Paras tapa suojautua tuliaseilta on hakeutua suojaan. Suoja on kuitenkin parhaimmillaankin väliaikainen, mutta voi tarjota pienen hengähdyksen tiukan tulitaistelun keskellä.
+*1 toimintopiste*
+Paras tapa suojautua tuliaseilta on hakeutua suojaan. Suoja on kuitenkin parhaimmillaankin väliaikainen, mutta voi tarjota pienen hengähdyksen tiukan tulitaistelun keskellä. Suojautuminen vaatii 1 toimintopisteen, mutta hahmo saa automaattisesti käyttöönsä lähinnä olevan suojan.
 
 Kun hahmo pystyy hyödyntämään suojaa, hän saa tietyn määrän **Suojapisteitä**. Näiden merkitsemiseen kannattaa käyttää vaikka jotain sopivia pelimerkkejä.
 
-Suojapisteet **vähennetään** hahmoa kohtaan tehdyistä hyökkäyksistä. Mutta jos hyökkäys menee ohi, mutta olisi osunut ilman suojapisteitä, niin se osuu suojaan, jolloin hahmo menettää yhden **suojapisteen**. Suoja ei vahingoitu jos kohteeseen osutaan suojasta huolimatta.
+Jos hahmoa kohti ammutaan, niin kaikki osumat iskeytyvät oletuksena suojaan, eikä hahmoon. Hahmo ei siis kärsi lainkaan vahinkoa.
+
+Hyökkäyksen vahinko heitetään normaalisti, mutta PL = suojapisteet ja läpäisy lasketaan normaalisti. Jos yhtään vahinkoa tulee läpi, niin suoja *vahingoittuu* ja suojapisteet vähenevät yhdellä. Jos vahinkon on vähintään 2x suojapisteet, niin suoja ottaa *tuplavahingon*, eli pisteet vähenevät kahdella. Jos taas vahinko on yhtä kuin tai enemmän kuin 4x suojapisteet, niin suoja *tuhoutuu* välittömästi. Suoja tuhoutuu myös mikäli suojapisteet laskevat 0:aan.
+
+Jos hyökkäyksen läpäisy on enemmän kuin suojapisteet, niin hyökkäys läpäisee suojan ja kohde ottaa vahinkoa suojasta huolimatta, mutta efektiivinen läpäisy on $(läpäisy - suojapisteet - 1)$.
 
 Suojapisteet vaikuttavat ainoastaan hyökkäyksiin, jotka kohdistuvat suojan suuntaan, ja suojan voi kiertää jos pääsee selustaan. Jos hahmo on kokonaan suojan peitossa, niin hahmoon ei voi osua, ellei hyökkääjällä ole käytössään aseistusta, jolla pystyy läpäisemään suojan.
 
-| Suoja                    | Suojapisteet |
-| ------------------------ | ------------ |
-| Flipattu baaripöytä      | 3            |
-| Ohut, mutta korkea seinä | 2            |
-| Alumiiniroskis           | 1            |
-| Betoniporsas             | 4            |
-| Betonipylväs             | 5            |
-| Auton Ovi                | 2            |
-| Paksu metalliovi         | 6            |
+| Suoja                    | Suojapisteet | Tuplavahinko (x2) | Tuho (x4) | 
+| ------------------------ | ------------ | ------------ | --------- |
+| Flipattu baaripöytä      | 3            | 6            | 12        |
+| Ohut, mutta korkea seinä | 2            | 4            | 8         |
+| Alumiiniroskis           | 1            | 2            | 4         |
+| Betoniporsas             | 4            | 8            | 16        |
+| Betonipylväs             | 5            | 10           | 20        |
+| Auton Ovi                | 2            | 4            | 8         |
+| Paksu metalliovi         | 6            | 12           | 24        |
 
-
-## Tulinopeus
-
-Tulitaistelussa hyökkääjät räiskivät menemään yleensä niin paljon lyijyä kuin kykenevät. Hyökkäysten kannalta oleellista onkin aseiden **Tulinopeus**. Tulinopeus määritellään lukemalla, joka kertoo kuinka monta laukausta **sekunnissa** hahmo pystyy ampumaan. Teoreettinen tulinopeus, laukausta minuutissa voidaan siis helposti muuntaa peliin sopivaa muotoon jakamalla laukausta minuutissa luvulla 60, jos tällaisia nippelitietoja haikailee.
-
-*Tulinopeus* on eri kuin aseen toimintopisteet, jotka määrittävät kuinka paljon suhteellista aikaa yhden toiminnon tekemiseen menee, ja siihen otetaan huomioon mm. kuinka hankala asetta on käyttää. Yhden hyökkäyksen aikana hahmo pystyy siis ampumaan tulinopeuden verran luoteja.
-
-Hahmot saavat yleensä päättää montako ammusta aikovat ampua. Yleensä tämä on 1, tai maksimimäärä. Välimuodot harvemmin kannattavat, mutta hahmot voivat vapaasti toteuttaa itseään valitsemalla jotain siltä väliltä.
-
-Tulinopeuden perusteella hahmo saa bonuksen hyökkäykseen, joka on +1 per 5 tulinopeus, ja tosiaan `osumien maksimimäärä = tulinopeus`.
-
-| Tulinopeus      | 1    | 5    | 10    | 15   | 20   | 25   | 30   | 35   | 40   | 45   | 50+  |
-| --------------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| Hyökkäyksen Etu | 0    | +1   | +2   | +3   | +4   | +5   | +6   | +7   | +8   | +9   | +10  |
-
-### Minimitulinopeus
-
-Tulinopeus voidaan merkitä muodoss `[minimi]-[maksimi]`, mikä tarkoittaa, että aseella täytyy ampua vähintään merkityn määrän laukauksia. Esim. `5-30` tarkoittaa, että jokaisten hyökkäyksen tulinopeus on oltava vähintään 5.
-
-### Purskeet
-
-Joillakin aseilla voidaan ampua lyhyitä **Purskeita** korkealla tulinopeudella, mikä parantaa osumatarkkuutta ja vahinkopotentiaalia. Purskeita ei kuitenkaan voi ampua peräkkäin ihan yhtä paljon, mutta niillä on helpompi saada kohtalainen määrä osumia.
-
-Purskeet merkitään aseen minimitulinopeuden tavoin symbolilla `#` minimitulinopeuden kohdalle. Purske kuluttaa aina **kolminkertaisen** määrän ammuksia, mutta osumat tuplataan ja siitä saa +1 TRK normaalin tulinopeuden päälle. Pursketta ampuessa valitaan tulinopeus normaalisti, mutta maksimimäärä on indikoitu minitulinopeuden tavoin.
-
-> [!Example] Esimerkki
-> **Smichter P19 GT**:n tulinopeus on `2#-4`. Sillä voi ampua 1-2 pursketta, jolloin ase kuluttaa 3-6 ammusta, tai tehdä normaalin hyökkäyksen 1-4 ammuksella. 2 Pursketta antaa +1TRK purskeesta, mutta ei tarkkuutta tulinopeudesta, ja sillä voi saada 1-2 osumaa, jotka tuplataan, eli käytännössä 2 tai 4 osumaa. Aseen rekyyli on 1, joten neljään osumaan riittää OM 2.
-
-### Jatkuva Sarjatuli
-Jos hahmo ampuu täydellä tulinopeudella, on hänellä mahdollisuus jatkaa tulitusta maksamalla vain 1 toimintopiste. Kierroksen aikana voi ampua korkeintaan 4 täyttä sarjaa, mikä jatkuvalla sarjatulella tarkoittaisi aseen TP + 3 toimintopistettä.
-
-Jatkuva sarjatuli voi jatkua seuraavalle kierrokselle, mutta välissä ei voi tehdä muita toimintoja, muuten täytyy maksaa täydet toimintopisteet.
-
+> [!example] Esimerkki
+> David joutuu tiukan tulituksen alle ja hakeutuu läheisen betoniporsaan taakse suojaan, saaden 4 suojapistettä. Häntä vastaan hyökätään rynnäkkökivääreillä. Rynnäkkökiväärin vahinkoluokka on L5 ja läpäisy 1, joten betoniporsaan PL on 3, mikä vähentään kiväärin vahingon d4:ään. David ottaa 5 osumaa, jotka osuvat suojaan, ja tekevät siis 5d4 vahinkoa, eli yhteensä 10 pistettä. Tämä riittää tuplavahinkoon suojaan, joten davidin suojapisteet tippuvat 2:een.
+> Seuraava hyökkäys on 4 osumaa, mutta nyt Davidilla on enää 2 suojapistettä, josta saa PL 2, läpäisyn kanssa PL1 kivääriä vastaan, eli Davidin suoja ottaa 4d8 vahinkoa, josta tulee yhteensä 18 pistettä. 2 suojapisteellä tuhon raja on kuitenkin enää 8 pistettä, joten tämä riittää tuhoamaan suojan lopullisesti.
 ## Osumat
 
-Onnistunessa hyökkäyksessa osumien lukumäärään vaikuttaa **Onnistumisen Marginaali**, sekä aseen **Rekyyli.** Osumien lukumäärä on 1 + OM / Rekyyli. Eli ylimääräiseen osumaan tarvitaan rekyylin verran marginaalia.
+Onnistunessa hyökkäyksessa osumien lukumäärään vaikuttaa **Onnistumisen Marginaali**. Normaalisti ylimääräisen osumaan vaaditaan 2 OM, mutta tämä voi vaihdella.
 
 Jokainen osuma antaa oman vahinkonopan, jotka sitten lasketaan yhteen.
 
 > [!abstract] **Pahan Pekan tarina...**
 > 
 >
-> Paha Pekka lataa lippaan täydeltä konepistoolilla motoristia. Motoristi on 6 metrin päässä Pekasta, ja Konepistoolin kantama on 15 metriä, joten Pekka on Lyhyellä kantamalla ja heittää vaikeusastetta 6 vastaan. Konepistoolin tulinopeus on 15, ja Pekka vetää täyden sarjan. Hän saa +4 bonuksen hyökkäykseen tulinopeudesta. Pekalla on Ampumataito 3, joten hän heittää kolmea noppaa: 9,8,7, ja lisää Räplänsä +1, saaden kokonaistuloksen 14. Motoristi yrittää väistöliikkeitä kahdella nopalla ja -2 haitalla, mutta saa vain 3, joten vaikeusaste on edelleen 6. Pekka osuu ja saa OM 8. Konepistoolin rekyyli on 2, mutta Pekka on vahva kaveri, joten hänen Ruhonsa +2 alentaa rekyylin 1:een joten Pekka saa yhteensä 9 osumaa motoristiin! Motoristilla on nahkarotsiin ommeltu teräslevyjä, joista hän saa Panssariluokan 2 luoteja vastaan. Konepistoolin Vahinkoluokka on 3, joten jäljelle jää vahinkoluokka 1, josta tulee vain 1d2 vahinkoa. Pekka heittää siis 8D2 vahinkoa ja saa: 1, 2, 2, 2, 2, 2, 1, 1, 2 eli yhteensä 15 vahinkoa! Motoristi lentää seinään ja veri roiskuu. Pekka heittää Vakavan lävistävän vamman motoristille: 9! Osuma lävistää sydämen. Motoristi kuolee välittömästi.
+> Paha Pekka lataa lippaan täydeltä konepistoolilla motoristia. Motoristi on 6 metrin päässä Pekasta, ja Konepistoolin kantama on 15 metriä, joten Pekka on Lyhyellä kantamalla (8m). Kohde on keskikokoinen, joten vaikeusaste on 8 ja konepistoolin sarjatulinoppa on D12 eli aseen oletus. Pekalla on Ampumataito 3, joten hän heittää kolmea noppaa: 9,8,7, joista ottaa parhaan eli 9 ja lisää Skarppinsa +1, sekä sarjatulinopasta +6 saaden kokonaistuloksen 16. Motoristi yrittää väistöliikkeitä kahdella nopalla ja haitalla, mutta saa vain 3 ja siis epäonnistuu, joten vaikeusaste on edelleen 8. Pekka osuu ja saa OM 8. Konepistoolin hallintaluku on yhteensä 5 (perus 3 + Pekan Ruho 2), mutta sarjatulinopan 6 on suurempi kuin hallintaluku, joten sarja ei pysy kovin hyvin hallinnassa, jolloin lisäosuman marginaali on 2, eli Pekka saa yhteensä 5 osumaa. Motoristilla on nahkarotsiin ommeltu teräslevyjä, joista hän saa Panssariluokan 2 luoteja vastaan. Konepistoolin Vahinkoluokka on 3, joten jäljelle jää vahinkoluokka 1, josta tulee vain 1d2 vahinkoa. Pekka heittää siis 5D2 vahinkoa ja saa: 1, 2, 2, 2, 2 eli yhteensä 9 vahinkoa! Motoristi saa Vakavan lävistävän vamman: 9! Osuma lävistää sydämen. Motoristi kuolee välittömästi.
 
 ### Keskivahinko
 
@@ -158,23 +106,70 @@ Lopputulos on hyvin lähellä nopan keskiarvoa (jää vähän alle), mutta voi n
 
 > [!Example] Esimerkki
 >
-> Rat Bratz päästää 50 ammuksen sarjan Warrior-5 Minigun gatling-konekivääristään käytävää pitkin juokseviin vihollisiin ja saa 24 osumaa. Aseen Vahinkoluokka on L4+1 (Rat on modannut asettaan). Läpäisy 3 riittää läpäisemään kokonaan vihollisten panssarin, joten Rat tekee D8+1 vahinkoa per osuma. Rat jakaa 24 osumaansa 3 kohteen kesken, josta tulee 8 osumaa per kohde. Ratin pelaaja ei jaksa heitellä niin montaa noppaa, vaan käyttää keskivahinkoa: VL L4+1 keskivahinko on 5, joten jokainen kohde saa 5*8 = 40 vahinkoa. Eiköhän se ollut siinä...
+> Rat Bratz päästää 100 ammuksen sarjan Warrior-5 Minigun gatling-konekivääristään käytävää pitkin juokseviin vihollisiin ja saa 24 osumaa. Aseen Vahinkoluokka on L4+1 (Rat on modannut asettaan). Läpäisy 3 riittää läpäisemään kokonaan vihollisten panssarin, joten Rat tekee D8+1 vahinkoa per osuma. Rat jakaa 24 osumaansa 3 kohteen kesken, josta tulee 8 osumaa per kohde. Ratin pelaaja ei jaksa heitellä niin montaa noppaa, vaan käyttää keskivahinkoa: VL L4+1 keskivahinko on 5, joten jokainen kohde saa 5*8 = 40 vahinkoa. Eiköhän se ollut siinä...
 
-### Lähietäisyys ja Osumat
-**Lähietäisyydeltä** (1-2 metriä) käytettynä tuliaseet ovat murhaavan tehokkaita.
+### Osumakerroin
 
-Sarjatuliaseissa jokainen ylimääräinen osuma lasketaan kaksinkertaisena, mutta osumien määrä ei voi ylittää aseen normaalia tulinopeutta.
+Joissain aseissa on vahingon kohdalle merkitty osumakerroin `(Esim. x4)`, mikä yleensä kertoo, että sillä ammutaan kerralla iso määrä pieniä projektiileja, kuten esimerkiksi haulikoissa. Tämä indikoi osumien määrän normaalilla kantamalla; lähempänä osumakerroin kasvaa, kun taas kauempana se pienenee, mutta osumiseen saa edun, mikä kuvastaa suurempaa hajontaa ja sitä kautta syntyvää osumatarkkuutta. Jos aseessa on osumakerroin, niin kantaman vaikutus on seuraavanlainen (Kantaman normaalit vaikutukset on jo huomioitu):
 
-Jos aseessa on osumakerroin, esim. haulikossa, joka käytää suosiluoti-ammuksia (buckshot), niin osumakerroin on tällöin kaksinkertainen, mikä kuvastaa sitä, että koko lyijymassa on helppo saada osumaan yhteen kohteeseen.
+- **Lähietäisyys:** osumakerroin x2 ja Etu.
+- **Lyhyt Kantama**: osumakerroin x2, Ei etua.
+- **Optimaalinen kantama**: normaali osumakerroin ja Etu. Voit ottaa ylimääisen kohteen (1 ylimääräinen osuma).
+- **Pitkä kantama**: osumakerroin 1/2. Ei etua. Voit ottaa 2 ylimääräistä kohdetta (1-2 ylimääräistä osumaa).
+
+### Kriittiset osumat
+Jos aseella ei ammuta sarjatulta, niin kriittinen onnistumien aiheuttaa **kriittisiä osumia**. Sarjatulta ampuessa kriittinen onnistuminen aiheuttaa jo heti enemmän osumia, joten ylimääräistä etua siitä ei lasketa.
+
+Kriittisen osuman seurauksena vahinko kerrotaan **kriittisen kertoimella**. Eli jos sait triplakriittisen, niin teet triplavahingon, ja niin edelleen.
+
+## Sarjatuli
+Sarjatuli on arvaamatonta ja vaarallista. Siinä on hyvät ja huonot puolensa. Sopivalla kantamalla sarjatuliaseilla on helpompi osua johonkin, mutta sarjatulta voi olla vaikea hallita tehokkaasti. Sarjatuliaseet jaetaan neljään eri luokkaan tulinopeuden perusteella. Tulinopeus määrää ammusten kulutuksen ja vastaavasti **Sarjatulinopan** koon. Voit halutessasi ampua ilmoitettua pienemmän sarjan, jolloin vastaavasti käytät pienempää sarjatulinoppaa, mutta säästät ammuksia.
+
+Tulinopeus ilmoitetaan Erikoispiirteenä aseluettelossa. Tulinopeus määrittää lisäosuman hinnan *Onnistumismarginaalista*, ja se suhteutetaan aina hyökkäyksen kantamaan. Parhaimmillaan voit myös saada *osumakertoimen* tulinopeudesta.
+
+| Tulinopeus    | Lähietäisyys | Lyhyt   | Normaali | Pitkä kantama |
+| ------------- | ------------ | ------- | -------- | ------------- |
+| Pikatuli      | OM 2         | OM 3    | OM 4     | OM 4          |
+| Sarjatuli     | OM 1         | OM 2    | OM 3     | OM 4          |
+| Luotisade     | OM 1 X2      | OM 1    | OM 2     | OM 4          |
+| Metallimyrsky | OM 1 X3      | OM 1 X2 | OM 1     | OM 4          | 
+
+### Sarjatulen Hallinta
+Vertaa hyökkäyksen taitonoppaa aseen hallintalukuun, joka on: $Rekyyli-Ruho$. Jos Hallintaluku on pienempi kuin 0, niin sarjatuli pysyy aina hallinnassa. Jos taitonoppa on pienempi tai yhtä suuri kuin hallintaluku, niin sarjatuli ei pysy hallinnassa. Heitä D6 seuraukset. Lisäosumien OM on tällöin vakio 6, eli sarjatuliaseesta on enemmän haittaa kuin hyötyä.
+
+| D6  | Seuraus                                                                   |
+| --- | ------------------------------------------------------------------------- |
+| 1   | D6 sivullista uhria                                                       |
+| 2   | Kaadut maahan                                                             |
+| 3   | Liipasin jää pohjaan: kulutat 3x määrän ammuksia                          |
+| 4   | Osut kaveriin kohteen sijasta                                             |
+| 5   | Kaadut maahan ja ase lentää kädestäsi                                     |
+| 6   | Ase riistäytyy käsistä ja pudotat sen, mutta otat myös nahkaasi D6 osumaa |
+
+
+> [! example] Esimerkki
+> Spurgul on pubin vessassa asioimassa, eikä osaa aavistaa, että joku nilkki on päättänyt yrittää ryöstää hänet wc:ssä. Ryöstön välineenä on konepistooli, jolla ryöstäjä pyrkii maalaamaan spurgulin seinälle.
+> Hyökkääjällä on MP-3 Micro SMG, joka sinkoaa *sarjatulta*. He ovat lähietäisyydellä ja Nilkki heittää 2 noppaa edulla, koska on huumepäissään plus sarjatulinopan: 9, 8, joten lopputulos on 9+8 = 15 + 0 (skarppi). Spurgul on kääpiö, joten häneen on vaikea osua (Kohdeluku 10), mutta koska hän ei lainkaan huomaa hyökkäystä, on hän puolustuskyvytön (Kohdeluku 5). Hyökkäys osuu ja marginaalilla 10. Aseen hallintaluku on 6, mutta se pysyy hallinnassa. OM 10 Sarjatulella lähitetäisyydeltä tarkoittaa 10 osumaa. Spurgulilla on kuitenkin PL 2, mikä saattaa pelastaa hänet, mutta hän ottaa silti 10d2 osumaa... Ei näytä hyvältä!
+
+### Purskeet
+
+Joillakin aseilla voidaan ampua lyhyitä **Purskeita** korkealla tulinopeudella, mikä parantaa osumatarkkuutta ja vahinkopotentiaalia. Purskeita mahtuu kuitenkin vain yksi per toiminto. Purskeet on hyvä tapa säästää ammuksia, mutta kuitenkin aiheuttaa merkittävää vahinkoa.
+
+Purske on useimmmiten 2-5 ammusta, aseesta riippuen. Se antaa **Edun** hyökkäykseen **lyhyellä kantamalla** tai **lähietäisyydeltä**. Purske pysyy aina hallinnassa ja ylimääräisten osumien marginaali on normaali eli OM 2, mutta et voi tehdä enempää kuin yhden Purskeen per hyökkäys. Purskeita voi tähdätä, mutta ne voi kohdistaa vain yhteen kohteeseen kerralla.
 
 > [!Example] Esimerkki
-> Spurgul on (taas) humaltuneena joutunut kärhämään paikallisten motoristien kanssa. Baarin pöydät on flipattu ja lyijykuuroja sataa joka suuntaan, ja meno on melko intensiivistä. Spurgul ei jaksa kykkiä pöydän takana, vaan päätää pinkaista baaritiskille, jonka takana kykkivä baarimikko harmillisesti sulki kaljahanat tulitaistelun alettua, ja Spurgulia janottaa. Spurgul ryntää baaritiskille, suoraan baarimikon iholle ja lasauttaa katkaistulla 3-piippuisella haulikollaan kaikki piiput tyhjäksi lähietäisyydeltä. Baarimikko on hämillään eikä osannut odottaa tätä. Spurgul heittää osumisen ja saa tulokseksi 9. Sehän riittää lähietäisyydeltä. Susihaulien x4 osumakerroin muuttuu lähietäisyydellä x8 osumaksi, ja kaiken lisäksi triplapiippu -erikoispiirre kolminkertaistaa osumat, joten Spurgul saa yhteensä 24(!!) osumaa. Baarimikolla on yllään Kriegerin BD-400 luotiliivit, joissa on PL 4, ja harmillisesti susihauleissa on -1 Läpäisy, jolloin PL nousee 5:een. Haulien VL 3 vähenee siis -2:een, josta tulee 1/4 vahinkoa. Siitä huolimatta 1/4 vahingollakin 24 osumaa tekee silti 6 haavapistettä vahinkoa. Baarimikon Kestävyys on 12, joten tämä riittää vakavaan vammaan, mutta koska panssari suodatti kaiken vahingon, muuttuu vahinkotyyppi Murskaavaksi: 4 -> Osuma selkään, selkäranka vaurioituu ja kohde on pökertynyt. 
+> **Smichter P19 GT**:llä on erikoispiirre **Purske-3**, eli sillä voi ampua 3 ammuksen Purskeita. Neo on ostanut parin näitä ja testailee niitä KharmaCorpin kätyreihin. Neo räiskäyttää kahdella aseella Purskeen ja heittää 2d (Etu) kummallekin aseelle: 7+8=15 ja 16+6 = 22. Kohde on yllätetty, joten lasketaan puolustuskyvyttömäksi, eli Kohdeluku on vain 4. Neo tarvitsee 6 marginaalia 3 osumaan, joten kumpikin hyökkäys saa maksimiosumat. Lisäksi Neo tähtää kohdetta päähän, eli oottaa 1. aseelle +1 tähtäyksen ja toiselle +3 tähtäyksen.
+
+### Jatkuva Sarjatuli
+Jos hahmo ampuu täydellä tulinopeudella, on hänellä mahdollisuus jatkaa tulitusta maksamalla vain 1 toimintopiste. Kierroksen aikana voi ampua korkeintaan 4 täyttä sarjaa, mikä jatkuvalla sarjatulella tarkoittaisi aseen TP + 3 toimintopistettä.
+
+Jatkuva sarjatuli voi jatkua seuraavalle kierrokselle, mutta välissä ei voi tehdä muita toimintoja, muuten täytyy maksaa täydet toimintopisteet.
 
 ## Harhaluodit
 
 Harhaluodit voivat aiheuttaa sivullisia kuolemia, tai viedä hahmot tahtomattaan harmin tielle. Harhaluodit tarkistetaan joka hyökkäyksen jälkeen, mikäli vähintään yksi projektiili meni ohi kohteesta. Jos kaikki projektiilit osuivat kohteeseensa, ei harhaluoteja tarvitse tarkistaa.
 
-Jokainen kohde, joka on harhaluotien määrittämällä osuma-alueella on riskinä ottaa harhaluodista. Laske suurpiirteinen ohi menneiden ammusten lukumärää, ja tämän perusteella määrittele kuinka monta harhaluotinoppaa pitää heittää. Osumia ei tarvitse laskea, eikä harhaluotinoppia muuttaa.
+Jokainen kohde, joka on harhaluotien määrittämällä osuma-alueella on riskinä ottaa harhaluodista. Laske **suurpiirteinen** ohi menneiden ammusten lukumärää, ja tämän perusteella määrittele kuinka monta harhaluotinoppaa pitää heittää. Osumia ei tarvitse laskea, eikä harhaluotinoppia muuttaa.
 
 | Harhaluotien lkm | Harhaluotinopat |
 | ---------------- | --------------- |
@@ -208,24 +203,23 @@ Hahmot, jotka ovat **suojassa** ovat automaattisesti turvassa harhaluodeilta.
 > 
 > Koska sinijäänarkkari juokse Neon perään, niin tämäkin ottaa samanmoiset osumat: 10, 10, 6, 7, 1 - eli neljä (4) osumaa. Ilman panssaria tästä tulee 4D6 vahinkoa: PJ heittää 14 vahinkoa, mikä riittää vakavaan vammaan (Sinijää nostaa kestävyyttä melkoisesti). Narkkari ottaa osumaa polvilumpioon, ja tipahtaa, mutta jatkaa silti suu vaahdossa ryömien eteenpäin.
 
-## Rekyyli
-
-Mikäli aseessa on rekyyli suurempi kuin 1, sitä voi alentaa mikäli asetta käytetään tukevasti tuettuna, esimerkiksi jalustalta, tai hahmo on tarpeeksi voimakas. Tuki ja voimakkuus eivät päde saman aikaan, vaan ainoastaan paras etu lasketaan.
-
-- Välttävästi tuettu ase: -1 rekyyli
-- Hyvin tuetty ase: -2 rekyyli
-- Voimakas Ruho: -1 rekyyli per +2 Ruho.
-
-
-## Kriittiset osumat
-Jos aseella ei ammuta sarjatulta, eli käytetään tulinopeutta 1-4, niin kriittinen onnistumien aiheuttaa **kriittisiä osumia**. Sarjatulta ampuessa kriittinen onnistuminen aiheuttaa jo heti enemmän osumia, joten ylimääräistä etua siitä ei lasketa.
-
-Kriittisen osuman seurauksena vahinko kerrotaan **kriittisen kertoimella**. Eli jos sait triplakriittisen, niin teet triplavahingon, ja niin edelleen.
-
 ## Tähtäys
 Hahmo voi käyttää 1-5 toimintopistettä tähtäykseen, jolloin hän saa +1 per toimintopiste välittömästi tähtäystä seuraavaan hyökkäykseen. Hän kuitenkin viivyttää vuoroaan tähtäyksen aikan, joten jos joku ehtii toimimaan häiritsevästi tässä välissä, hahmo menettää tähtäyksen edun. Varsinainen hyökkäys voi venyä seuraavalle kierrokselle, mutta hahmo joutuu kuitenkin päättämään heti kuinka monta pistettä aikoo käyttää tähtäykseen.
 
 Kannattaa käyttää vaikka noppa (D6 toimii tähän hyvin) merkitsemään muistiin paljonko toimintopisteitä olit jo käyttänyt tähtäykseen. Jos hahmo haluaa ampua ennen kuin on käyttäny kaikki aikomansa pisteet, tulee hänen tehdä Vaikea **Taisteluvalmius**-testi, jossa onnistuessaan hän saa muuttaa suunnitelmiaan.
+
+## Tarkka-ammunta
+Tarkka-ammuntaa voidaan käyttää ampumaan etäisyyksille, jotka ylittävät aseen Pitkän kantaman. Jos aseessa on Tarkennin, niin. Tarkennin määrittää tarkka-ammunnassa käytettävän normaalikantaman. Esim. `x4 tarkennin` tarkoittaa, että asetta voidaan käyttään tarkka-ammuntaan ja tarkka-ammunnan normaalikantama on 4x aseen kantama. Pitkä kantama on siis $Normaali kantama * Tarkennin * 2$, ja siitä tulee haitta hyökkäykseen kuten yleensä.
+
+Ainoastaan kiväärit soveltuvat pitkille matkoille ja pienemmistä kaliipereista loppuu auttamatta teho kesken. Tarkkuuskiväärillä voidaan tarkka-ammunnassa ampua myös yli pitkän kantaman, jolloin hyökkäykseen tulee Haitta, ja lisäksi vahinko puolitetaan. Maksimikantama tarkka-ammunnassa on 2x pitkä kantama.
+
+Hyökkäyksen kohdeluku lasketaan normaalisti, mutta se on kaksinkertainen ja ampujalta odotetaan vähintään yhden kierroksen valmistautumista ja tähtäämistä. Hyökkäys jaetaan kahteen osaan: **Tähtäys** (Taktiikka) ja **Ampuminen** (Ampumataito). Jos tähtäys epäonnistuu, niin hyökkäykseen tulee Haitta. Hyökkäykseen voi saada edun, jos Tähtäys onnistuu kriittisesti.
+
+Jokainen ylimääräinen tähtäämiseen käytetty kierros vähentää ampumisen vaikeusastetta yhdellä. Hahmo voi kuitenkin tähdätä korkeintaan puolet ampumataitonsa taitoasteesta. Eli ampumataito 10 mahdollistaisi 5 kierroksen tähtäilyn.
+
+
+>[!example] Esimerkki
+>Zodiac on linnoittautunut kerrostalon katolle tarkkuuskiväärin kanssa vaanimaan kohdetta, joka hänen tulee salamurhata. Tovin odoteltuaan Zodiac huomaa kohteensa, ja ottaa tämän jyvälle. Kohde on keskikokoinen humanoidi, joka liikkuu hitaasti, joten hyökkäyksen vaikeusaste on 16. Zodiacin SS-88 Sniper -kiväärissä on x5-kiikaritähtäin, joten hänen normaalikantamansa tarkka-ammunassa on 250 metriä. Kohde on kuitenkin 1000 metrin päässä, mikä on aivan Zodiacin maksimikantamalla! Zodiac tähtää 2 kierrosta, joten vaikeusaste laskee 14:a ja heittää neljällä nopalla ampumataitoa. Hänellä on 1 haitta (pitkä kantama) ja 1 etu (Erikoistuminen), joten toiminto ratkaistaan normaalisti: 6, 7, 9, 19 = 19 ja lisää skarppinsa +5. Lopputulos on 24, eli Zodiac osuu ja saa 10 pisteen marginaalin! Hän ostaa 1 lisäosuman (2 OM) ja 2 tähtäystä (+2 vammaan, 8 OM) Kiväärin vahinko on hurja L8, ja Läpäisy 1. Kohteella on kuitenkin PL 5 panssari, mikä vähenee läpäisystä PL 4:een, ja vahinko vähenee L 4:ään. Zodiac heittää 2D8 vahinkoa: 6+4 = 10 vahinkoa. Aika paljon, mutta kohteella onkin Kestävyys 16, joten se ei riitä tappavaan osumaan, mutta on tarpeeksi vakavaan vammaan (raja 8). Hän heittää vakavan viiltohaavan ja saa tuloksen 8+2 (tähtäys x2) =10. Luoti osuu kohdetta kalloon ja kallo räjähtää kappaleiksi. Kohde tipahtaa maahan maalaa katukivetyksen punaiseksi. Zodiac alkaa pakkailla kamoja, ennen kuin poliisipiirin partiot eksyvät paikalle...
 
 ## Kriittinen Tähtäys
 Hahmo voi yrittää tähdätä heikkoihin kohtiin kohteessa. Tämä on mahdollista vain, jos hahmo ampuu kertatulta, eli käyttää tulinopeutta 1, mutta myös jos hän ampuu [Purskeita](Tulitaistelu.md#Purskeet). Tähdätessään heikkoihin kohtiin, Pelinjohtaja määrää muutoksen vaikeusasteeseen, riippuen siitä kuinka vaikea kyseiseen kohtaan on tähdätä.
