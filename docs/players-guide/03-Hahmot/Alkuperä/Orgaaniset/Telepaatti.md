@@ -25,4 +25,4 @@ Suuryhtiöiden propagandan ansionsta telepaatteja pelätään ja vieroksutaan, j
 - **Vainottu:** Telepaattilainsäädäntö rajoittaa telepaatin elämää. Telepaatin on käytettävä valvontaranneketta ja oltava rekisterissä, tai altistua Etsijöiden jahtaamaksi. Pelaaja voi valita.
 - 3 **Erikoisuuspistettä**
 
-[Psyykkiset voimat](../../../Psyykkiset%20voimat.md)
+[05-Psyykkiset voimat](../../../05-Psyykkiset%20voimat.md)
