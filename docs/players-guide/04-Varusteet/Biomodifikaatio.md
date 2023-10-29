@@ -24,7 +24,7 @@ Yleisesti ottaen biomodifikaatioiden TEK-taso on 4
 | Piirteiden muutos, kohtalainen        | Muuttaa kasvon piirteitä max. 30% erilaiseksi. Muutos on selkeä ja hahmoa on vaikea tunnistaa. | 6,000      |
 | Piirteiden muutos, merkittävä         | Muuttaa kasvon piirteitä max. 60% erilaiseksi. Muutos on erittäin selkeä, ja hahmoa on todella vaikea tunnistaa. | 20,000     |
 | Piirteiden muutos, täydellinen        | Muuttaa kasvon piirteet täysin erilaisiksi. Mahdoton tunnistaa. | 100,000    |
-| Geenien optimointi                    | Nosta lahjakkuutta valitsemassasi kyvyssä yhdellä. Kyvyn arvo nousee heti +1:llä. Lahjakkuus ei voi olla parempi kuin Ylivertainen. | 120,000    |
+| Geenien optimointi                    | Nosta lahjakkuutta valitsemassasi kyvyssä yhdellä. Kyvyn arvo nousee heti +1:llä. Saman kyvyn lahjakkuuden lisäminen on erityisen vaikeaa ja hinta kaksinkertaistuu jokaisen samaan kykyyn kohdistuvan operaation jälkeen. | 120,000    |
 | Geneettinen ominaisuus, tavallinen    | Lisää jonkin melko tavallisen luonnollisen ominaisuuden, esim. Tiheä karvoitus | 25,000     |
 | Geneettinen ominaisuus, epätavallinen | Lisää epätavallisen tai harvinaisen luonnollisen ominaisuuden, esim. Molempikätisyys tai valokuvamuisti. | 150,000    |
 | Geneettinen ominaisuus, erikoinen     | Lisää jonkin erikoisen ja ihmiselle luonnottoman ominaisuuden, esim. Yönäkö | 500,000    |
