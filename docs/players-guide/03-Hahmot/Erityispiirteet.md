@@ -53,7 +53,7 @@ Olet hionut taitojasi pitkään ja hartaasti, ja se näkyy!
 Rakastat erilaisia vempaimia ja kaikenlaista teknologiaa ylipäänsä, ja oletkin käyttänyt merkittävän paljon aikaa haaliaksesi kasaan kontakteja ja yhteyksiä erilaisen teknologian hankkimiseen. Saat +1 TEK-tasoosi.
 
 ### Molempikätinen (1p)
-Pystyt käyttämään kumpaakin kättäsi luontevasti ilman haittaa ei-hallitsevasta kädestä. Ilman molempikätisyyttä saat -4 haitan käyttäessäsi ei-hallitsevaa kättäsi esim. aseella ampumiseen, tai johonkin muuhun merkitykselliseen.
+Pystyt käyttämään kumpaakin kättäsi luontevasti ilman haittoja. Kahdella aseella taistellessa joudut silti puolittamaan taitonopat, mutta et sentään saa haittaa hyökkäykseen ja teet ei-hallitsevalla kädelläsi tavallisen vahingon.
 
 ### Raivo Härkä (2p)
 Kun kello kilahtaa ja taistelu alkaa, sinut valtaa sokea raivohulluus, ja suu vaahdossa ryntäät kohti vihollista sen enempää ajattelematta. Saat aina +3 edun aloitteeseen, ja +1 toimintopisteen, ja teet lähitaistelussa **tuplavahingon**, mutta Peruspuolustuksesi on aina 0, etkä voi koskaan yrittää puolustautua.

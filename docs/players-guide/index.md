@@ -13,7 +13,7 @@ Tervetuloa lukemaan Utopia-roolipelin Pelaajan Opasta. Pelaajan opas on käsikir
 
 ## Sisältö
 
-1. [Alustus](./01-Intro.md)
+1. [Alustus](./01-Intro/index.md)
 
 2. [Mekaniikka](./02-Mekaniikka/index.md)
 

@@ -3,14 +3,11 @@ share: true
 ---
 # Stressi
 
-Stressillä mitataan hahmon mielentilaa ja tasapainoa. Jokaisella hahmolla on **stressimittari** ja stressiä voi kertyä joutumalla kiperiin tilanteisiin, kuten tulitaisteluihin, tai sosiaaliseen ahdinkoon.
+Stressillä mitataan hahmon mielentilaa ja tasapainoa.
 
-Stressitilanteet vaihtelevat vakavuudeltaan ja tilanteen vakavuus määritelläänkin sen mukaan, paljonko stressiä tilanteesta tulee. Esim. 1-pisteen tilanne on melko lievä, kun taas 6 pisteen tilanne vastaisi kuolemanvakavaa lähes varmaa paniikkitilannetta.
+Stressitilanteet vaihtelevat vakavuudeltaan ja tilanteen vakavuus määrittää **kohdeluvun** stressin vastustamiselle. Kun hahmo joutuu stressitilanteeseen, pitää hänen testata `Itsekuri + Psyko`, jolloin kohdeluku riippuu tilanteen vakavuudesta, yleensä 10.
 
-Kun joutuu stressitilanteeseen, pitää hänen testata `Itsekuri + Psyko`, vaikeusasteella 10. Onnistuessaan hahmo saa vain puolet tilanteen stressaavudesta. Kriittisesti onnistuessaan hahmo ei ota lainkaan stressiä, eikä hänen tarvitse koko *tilanteen* aikana heittää uudestaan.
-
-Jos hahmo on ottanut yhteensä 5 stressipistettä stressimittariin, hän saa **Paniikkireaktion**. 
-
+Jos hahmo epäonnistuu, niin hän saa yhden **kuormituspisteen**. Onnistuessaan hän säilyttää hermonsa ja kriittisellä onnistumisella hänen ei tarvitse koko kohtauksen aikana murehtia stressistä enää. Kuormituspisteet voivat puolestaan aiheuttaa *paniikkireaktioita* sressitilanteessa.
 ## Paniikkireaktiot
 
 Paniikkireaktiot ovat äkillisiä irrationaalisia reaktioita. Hahmot menettävät hallinnan itsestään ja reagoivat primitiivisten vaistojensa varassa uhkaavaan tai stressaavaan tilanteeseen.

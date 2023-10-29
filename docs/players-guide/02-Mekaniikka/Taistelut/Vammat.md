@@ -20,8 +20,10 @@ Jos hahmo saa vamman, hän heittää nopalla vahinkotyypin mukaisesta taulukosta
 > Pekalla on Kestävyys 16 (mikä on tosi hyvä!), joten hänen lievän vamman raja on 4 vahinkoa, ja vakavan 8. Motoristi osui Pekkaan tehden 6 pistettä vahinkoa, mikä ylittää lievän vamman rajan. Pekka heittää D10 vammastaan: 8. Pekka saa kovan iskun päähän ja menettää vähän vähäistä älyään (1 piste vauriota Dataan) ja on 1 kierroksen pökerryksissä. Tämä ei näytä hyvältä. Lähteeköhän kohta henki?
 
 ## Vaikutukset
-Vammoilla on erilaisia vaikutuksia.
+Vammoilla on erilaisia vaikutuksia. Vamma itsessään on kivulias ja hankala, mutta jos siitä ei tule mitään mainittavia erikoisia vaikutuksia, niin sen vaikutukset jäävät esteettisiksi. Hoitamaton vamma kuitenkin altistaa hahmon uusille vammoille ja jokaisesta olemassaolevasta vammasta tulee +1 vammaheittoon samantyyppisiä vammoja vastaan. Samantyyppiseksi vammaksi lasketaan sellainen vamma, jossa on a) sama vahinkotyyppi ja b) sama vakavuus. Eli jos hahmo saa yhden lievän palovamman, niin se ei vaikuta vakavien palovammojen vakavuuteen, mutta toinen lievä palovamma on helposti pahempi.
 
+### Kipu
+Jos hahmon on **Kivuissaan**, kärsiin hän taistelun ulkopuolella Haitan kaikkiin fyysisiin ja älyllisiin toimiin. Jos hahmo on **Tuskissaan**, niin haitta pätee myös taistelussa. Kipua voi pyrkiä turruttamaan esim. lääkkeillä. Merkitse kipu rastittamalla asianmukainen laatikko hahmolomakkeessa.
 ### Pökertyminen
 Pökertynyt hahmo saa -4 kaikkiin toimiinsa, ja hänellä on vain puolet Toimintopisteistä käytössä, ja hän voi ainoastaan yrittään liikkua, tai puolustautua edellämainituilla haitoilla. Lähitaistelussa pökertyneen kohteen Peruspuolustus puolitetaan.
 
@@ -33,16 +35,14 @@ Merkitse kyvyn kohdalle 1 piste kykyvauriota (9 pisteen ruudukko). Kykyvaurio v�
 
 ## Murtumat
 
-Murtumien taulukko.
+Tylpät aseet, nyrkiniskut, taklaukset ja erilaiset murskaukset voivat aiheuttaa Murtumia. Murtumat eivät yleensä ole yhtä hengenvaarallisia kuin vaikka viiltohaavat, mutta ovat silti kaikenkaikkiaan ikäviä.
 
-Lievä murtuma antaa aina -1 kivusta, ja vakava murtuma -2 kivusta.
-
-| D10 | Lievä Murtuma (-1)                                                    | Vakava Murtuma (-2)                                                                             |
+| D10 | Lievä Murtuma                                                         | Vakava Murtuma                                                                                  |
 | --- | --------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
-| 1   | Ai, sattuu! 1d4 ylimääräistä vahinkoa.                                | Kivulias osuma, mutta mitään ei tainnut mennä rikki? Kärsit 1d10 vahinkoa. -1 kivusta.          |
+| 1   | Ai, sattuu! 1d4 ylimääräistä vahinkoa.                                | Kivulias osuma, mutta mitään ei tainnut mennä rikki? Kärsit 1d10 vahinkoa.                      |
 | 2   | Osuma jalkaan. -1 Notku.                                              | Toinen jalka murtuu pirstaleiksi. -3 Notku.                                                     |
 | 3   | Osuma käteen. -1 Ruho.                                                | Käsi murskautuu ja on käyttökelvoton. -3 Ruho.                                                  |
-| 4   | Osuma selkään. Nyt meni hermoon! -1 Spiidi.                           | Selkäranka vaurioituu. -3 Spiidi. 1 Kierros pökertynyt.  |
+| 4   | Osuma selkään. Nyt meni hermoon! -1 Spiidi.                           | Selkäranka vaurioituu. -3 Spiidi. 1 Kierros pökertynyt.                                         |
 | 5   | Kova tälli korvia pitkin. -1 Skarppi.                                 | Tärykalvot puhkeavat iskun voimasta. -3 Skarppi. 1 Kierros pökertynyt.                          |
 | 6   | No nyt osui nenään! Naama ei ole entisensä. -1 Karuus.                | Kasvot ruhjoutuvat tunnistamattomiksi. Karuus -3, Psyko -2. 1 Kierros pökertynyt.               |
 | 7   | Isku palleaan vie ilmat pihalle. Hahmo on 1 kierroksen pökerryksissä. | Kova isku keskiruumiseen. Kuolet 1D6 minuutissa sisäiseen verenvuotoon. 3 Kierrosta pökertynyt. |
@@ -50,13 +50,11 @@ Lievä murtuma antaa aina -1 kivusta, ja vakava murtuma -2 kivusta.
 | 9   | Suoraan silmään. Näkökyky menee 1D6 kierrokseksi.                     | Nenä survoutuu aivoihin. Menetät tajunnan ja kuolet 1D6 kierroksessa.                           |
 | 10  | Kova isku kalloon. Testaa Karaistuminen VA15, tai menetät tajunnan.   | Osuma kalloon. Kallo menee murskaksi ja aivot roiskuvat pitkin katukivetystä.                   |
 
-## Lävistykset
+## Viiltohaavat
 
-Lävistysten taulukko. Jos panssari vähentää vahinkotyypin 0:aan tai pienemmäksi, niin lävistävä vahinko muuttuu **Murskaavaksi**. Panssari ei päästä mitään läpi, ja vauriot koostuvat kovan osuman aiheuttamasta voimasta.
+Viiltävä ja Lävistävä vahinko voi aiheuttaa Viiltohaavoja.
 
-Lievä Lävistys antaa aina -1 kivusta, ja vakava Lävistys -2 kivusta.
-
-| D10 | Lievä Lävistys (-1)                                                                                   | Vakava Lävistys (-2)                                                                                      |
+| D10 | Lievä Viiltohaava                                                                                     | Vakava Viiltohaava                                                                                        | 
 | --- | ----------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
 | 1   | Pelkkä lihasvamma! Ota 1 HP vahinkoa.                                                                 | Osuma välttää pahimmat kohdat, mutta sattuu pirusti! Ota 1D4 vahinkoa.                                    |
 | 2   | Ikävä viilto raajaan. Ota 1D4 lisää vahinkoa.                                                         | Osuma selkään. Spiidi -2.                                                                                 |
@@ -73,20 +71,18 @@ Lievä Lävistys antaa aina -1 kivusta, ja vakava Lävistys -2 kivusta.
 
 Palovammojen taulukko
 
-Lievä palovamma antaa aina -1 kivusta, ja vakava palovamma -2 kivusta.
-
-| D10  | Lievä Palovamma (-1)                                         | Vakava Palovamma (-2)                                        |
-| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 1    | Polttaa! Ota 1D2 vahinkoa.                                   | Olet tuskissasi. Ota 1D10 vahinkoa ja -2 kivusta.            |
-| 2    | Poltat kätesi. -1 Ruho.                                      | Tuli polttaa hermojasi. Lamaannut kivusta 1D4 kierrokseksi ja otat 1D10 vahinkoa ja -2 kivusta. |
-| 3    | Poltat jalkasi. -1 Notku.                                    | Jalkasi palaa karrelle. -2 Notku, 1D6 vahinkoa.              |
-| 4    | Poltat kasvosi. -1 Karuus.                                   | Kätesi palaa karrelle. -2 Ruho, 1D6 vahinkoa.               |
-| 5    | Sokeudut. -2 Skarppi. Et näe mitään, ja tarvitset välitöntä ensiapua. | Keskiruumis palaa karrelle. -2 Ruho ja -2 Psyko. 1D6 vahinkoa. |
-| 6    | Lahje syttyy tuleen. Ota 1 vahinko joka kierros, kunnes saat tulen sammumaan. Ota 1D4 vahinkoa. | Poltat kasvosi pahasti. Et ole enää entisensä. -2 Psyko ja -2 Karuus. 1D8 vahinkoa. |
-| 7    | Hiha syttyy tuleen. Ota 1 vahinko joka kierros, kunnes saat tulen sammumaan. Ota 1D4 vahinkoa. | Menetät molemmat silmäsi. -4 Skarppi ja -2 psyko. Et näe mitään. 1D8 vahinkoa. |
-| 8    | Saat ikäviä palovammoja keskiruumiseen. Ota 1D6 vahinkoa. Ruho -1. | Tuli polttaa sisuskalujasi. Lyyhistyt ja huudat kivusta. Kuolet 1D10 kierroksessa, mutta jatkat huutamista koko tämän ajan. |
-| 9    | Erittäin kivuliaita vammoja. Ota 1D10 vahinkoa. -1 kaikkiin toimiin kivusta. | Raajasi sulaa kuumuudesta, ja siitä jää jäljelle hiiltynyt luuranko. Olet tuskissasi. Ota 1D12 vahinkoa, ja -4 kivusta. |
-| 10   | Leimahdat kunnolla liekkeihin! Ota 1D4 vahinkoa joka kierros, kunnes liekit on tukahdutettu. -2 kaikkiin toimiin kivusta. | Leimahdat liekkeihin ja hetken päästä sinusta jää hiiltynyt, kuollut kasa lihaa ja luita. Lähialueiden kannibaalit valmistautuvat grillijuhlaan. |
+| D10 | Lievä Palovamma                                                                                                           | Vakava Palovamma                                                                                                                                 |
+| --- | ------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Polttaa! Ota 1D2 vahinkoa.                                                                                                | Olet tuskissasi. Ota 1D10 vahinkoa.                                                                                                |
+| 2   | Poltat kätesi. -1 Ruho.                                                                                                   | Tuli polttaa hermojasi. Lamaannut kivusta 1D4 kierrokseksi ja otat 2D6 vahinkoa.                                                  |
+| 3   | Poltat jalkasi. -1 Notku.                                                                                                 | Jalkasi palaa karrelle. -2 Notku, 1D6 vahinkoa.                                                                                                  |
+| 4   | Poltat kasvosi. -1 Karuus.                                                                                                | Kätesi palaa karrelle. -2 Ruho, 1D6 vahinkoa.                                                                                                    |
+| 5   | Sokeudut. -2 Skarppi. Et näe mitään, ja tarvitset välitöntä ensiapua.                                                     | Keskiruumis palaa karrelle. -2 Ruho ja -2 Psyko. 1D6 vahinkoa.                                                                                   |
+| 6   | Lahje syttyy tuleen. Ota 1 vahinko joka kierros, kunnes saat tulen sammumaan. Ota 1D4 vahinkoa.                           | Poltat kasvosi pahasti. Et ole enää entisensä. -2 Psyko ja -2 Karuus. 1D8 vahinkoa.                                                              |
+| 7   | Hiha syttyy tuleen. Ota 1 vahinko joka kierros, kunnes saat tulen sammumaan. Ota 1D4 vahinkoa.                            | Menetät molemmat silmäsi. -4 Skarppi ja -2 psyko. Et näe mitään. 1D8 vahinkoa.                                                                   |
+| 8   | Saat ikäviä palovammoja keskiruumiseen. Ota 1D6 vahinkoa. Ruho -1.                                                        | Tuli polttaa sisuskalujasi. Lyyhistyt ja huudat kivusta. Kuolet 1D10 kierroksessa, mutta jatkat huutamista koko tämän ajan.                      |
+| 9   | Erittäin kivuliaita vammoja. Ota 1D10 vahinkoa. -1 kaikkiin toimiin kivusta.                                              | Raajasi sulaa kuumuudesta, ja siitä jää jäljelle hiiltynyt luuranko. Olet tuskissasi. Ota 2D12 vahinkoa.                          |
+| 10  | Leimahdat kunnolla liekkeihin! Ota 1D4 vahinkoa joka kierros, kunnes liekit on tukahdutettu. -2 kaikkiin toimiin kivusta. | Leimahdat liekkeihin ja hetken päästä sinusta jää hiiltynyt, kuollut kasa lihaa ja luita. Lähialueiden kannibaalit valmistautuvat grillijuhlaan. |
 
 ## Paraneminen
 
@@ -127,11 +123,11 @@ Kykyvaurioita voi yrittää parannella hankkiutumalla asiantuntevaan hoitoon, mu
 | Hoidon laatu   | Kykyvaurion korjaaminen                                | TEK | Hinta | Toipumisaika |
 | -------------- | ------------------------------------------------------ | --- | ----- | ------------ |
 | Lihanleikkaaja | Kyky paranee 1d4-2 pisteellä. Se voi siis myös laskea! | 0   | 500   | 3d10 vrk     |
-| Amatööri | Kyky paranee 1d4-1 pistettä.                           | 1   | 1000  | 3d8 vrk      |
+| Amatööri       | Kyky paranee 1d4-1 pistettä.                           | 1   | 1000  | 3d8 vrk      |
 | Ammattilainen  | Kyky paranee 1d6 pistettä                              | 2   | 2000  | 3d6 vrk      |
 | Laadukas       | Kyky paranee 2d4 pistettä                              | 3   | 4000  | 3d4 vrk      |
 | Eliitti        | Kyky paranee 2d6 pistettä                              | 4   | 5000  | 2d6 vrk      |
-| Huippulaatua   | Parantaa kaikki kykyvauriot                            | 5   | 6000 | 1d6 vrk      | 
+| Huippulaatua   | Parantaa kaikki kykyvauriot                            | 5   | 6000  | 1d6 vrk      |
 
 ### Nanolääketiede
 Voit ostaa minkä tahansa operaation **Nanolääketieteellisenä** hoitona, jossa nanobotit hoitavat vaurioiden korjauksen, mutta näissä hinta on **nelinkertainen** ja **TEK 4**, mutta toipumisaika on ilmoitetun ajan **minimiaika**. Eli toipumisaika 3d8 vrk olisi vain 3 vrk.
