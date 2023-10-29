@@ -26,14 +26,15 @@ Androideilla ei oletuksena ole taustaa, kuten ihmisillä, koska he ovat keinotek
 - Ei **erikoisuuspisteitä**.
 
 ## Tyypillisiä Androidi-malleja
-Vahva kyky = `+`, Ylivertainen kyky = `++`.
-| Malli                     | Valmistaja | Ruho | Notku | Spiidi | Pärstä | Psyko | Data | Skarppi | Karuus |
-| ------------------------- | ---------- | ---- | ----- | ------ | ------ | ----- | ---- | ------- | ------ |
-| CH-13 Sotilas-androidi    | Megatech   | +    | +     | +      |        | +     |      | ++      |        |
-| CH-3 Rakentaja-androidi   | Megatech   | ++   | +     | +      |        | ++    | +    | +       |        |
-| CH-9 Palvelija-androidi   | Megatech   |      | +     | +      | +      |       | ++   | +       | ++     |
-| ZSU-23 Seuralais-androidi | Zerotech   |      | ++    | +      | ++     | +     |      | +       | +      |
-| ZSU-48 Urheilija-androidi | Zerotech   | +    | ++    | ++     | +      | +     |      | +       |        |
+ja niiden kyvyt.
+
+| Malli                     | Valmistaja | Ruho | Notku | Spiidi | Psyko | Data | Skarppi | Karuus |
+| ------------------------- | ---------- | ---- | ----- | ------ | ----- | ---- | ------- | ------ |
+| CH-13 Sotilas-androidi    | Megatech   | +1   | +1    | +2     | +1    |      | +2      |        |
+| CH-3 Rakentaja-androidi   | Megatech   | +2   | +1    | +1     | +2    | +1   | +1      |        |
+| CH-9 Palvelija-androidi   | Megatech   |      | +1    | +1     |       | +2   | +1      | +2     | 
+| ZSU-23 Seuralais-androidi | Zerotech   |      | +2    | +1     | +1    |      | +1      | +1     |
+| ZSU-48 Urheilija-androidi | Zerotech   | +1   | +2    | +2     | +1    |      | +1      |        |
 
 ## Rajoite
 
