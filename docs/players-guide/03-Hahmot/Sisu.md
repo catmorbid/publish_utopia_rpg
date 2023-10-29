@@ -11,12 +11,4 @@ Hahmolla voi olla 0-5 sisupistettä, jotka kuvastavat hahmon tahdonvoimaa ja ep�
 
 Hahmo saa takaisin yhden sisupisteen jokaisen pelikerran alussa. Pitkä lepojakso, suvantovaihe, tai harppaus ajassa eteenpäin palauttaa kaikki käytetyt sisupisteet.
 
-Sisupisteitään voi pyrkiä kasvattamaan pelin aikana, mutta tämä tulee melko kalliiksi. Mitä enemmän sisupisteitä hahmolla on sitä kalliimmaksi se tulee.
-
-| Nykyiset sisupisteet | Sisupisteen hinta (kokemuspistettä) |
-| -------------------- | ----------------------------------- |
-| 0                    | 20                                  |
-| 1                    | 40                                  |
-| 2                    | 60                                  |
-| 3                    | 80                                  |
-| 4                    | 100                                 |
+Sisupisteet riippuvat hahmon [Karmasta](./Karma.md), ja suuremmalla karmalla saakin enemmän Sisupisteitä.
