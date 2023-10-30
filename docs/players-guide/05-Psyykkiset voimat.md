@@ -2,7 +2,7 @@
 category: player-guide
 share: true
 ---
-# Psyykkiset voimat
+# 05 Psyykkiset voimat
 
 Voit ostaa Psyykkisiä voimia vain mikäli Alkuperäsi mahdollistaa sen. Hahmon täytyy ensin pystyä hallitsemaan sopivaa PSI-kykyä.
 
